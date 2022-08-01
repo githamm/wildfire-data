@@ -1,0 +1,30 @@
+name: Get wildfire API data
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *"
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out this repo
+        uses: actions/checkout@v2
+      - name: Fetch latest data
+        run: |-
+          # Get map data
+          curl -k -X GET "https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/Current_WildlandFire_Locations/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson" -H "accept: application/json" | jq '.'  > map_data.json
+      - name: Fetch lastest data
+        run: |-
+          # Get table data
+          curl -k -X GET "https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/CY_WildlandFire_Locations_ToDate/FeatureServer/0/query?where=IncidentTypeCategory%20%3D%20'WF'%20AND%20POOState%20%3D%20'US-CO'&outFields=FireCause,FireDiscoveryDateTime,IncidentName,IncidentTypeCategory,PercentContained,POOCounty,DailyAcres,&outSR=4326&f=json" -H "accept: application/json" | jq '.'  > table_data.json
+      - name: Commit and push if changed
+        run: |-
+          git config user.name "Automated"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          timestamp=$(date -u)
+          git commit -m "Latest data: ${timestamp}" || exit 0
+          git push
