@@ -5,5 +5,87 @@
     "isSystemMaintained": true
   },
   "globalIdFieldName": "GlobalID",
-  "features": []
+  "geometryType": "esriGeometryPoint",
+  "spatialReference": {
+    "wkid": 4326,
+    "latestWkid": 4326
+  },
+  "fields": [
+    {
+      "name": "FireCause",
+      "type": "esriFieldTypeString",
+      "alias": "Fire Cause",
+      "sqlType": "sqlTypeOther",
+      "length": 15,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "FireDiscoveryDateTime",
+      "type": "esriFieldTypeDate",
+      "alias": "Fire Discovery Date Time",
+      "sqlType": "sqlTypeOther",
+      "length": 8,
+      "domain": null,
+      "defaultValue": "-2209161600000"
+    },
+    {
+      "name": "IncidentName",
+      "type": "esriFieldTypeString",
+      "alias": "Incident Name",
+      "sqlType": "sqlTypeOther",
+      "length": 50,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "IncidentTypeCategory",
+      "type": "esriFieldTypeString",
+      "alias": "Incident Type Category",
+      "sqlType": "sqlTypeOther",
+      "length": 2,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "PercentContained",
+      "type": "esriFieldTypeDouble",
+      "alias": "Percent Contained",
+      "sqlType": "sqlTypeOther",
+      "domain": null
+    },
+    {
+      "name": "POOCounty",
+      "type": "esriFieldTypeString",
+      "alias": "POO County",
+      "sqlType": "sqlTypeOther",
+      "length": 100,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "DailyAcres",
+      "type": "esriFieldTypeDouble",
+      "alias": "Incident Size",
+      "sqlType": "sqlTypeOther",
+      "domain": null
+    }
+  ],
+  "features": [
+    {
+      "attributes": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1673629920000,
+        "IncidentName": "ST CHARLES",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Custer",
+        "DailyAcres": 0.1
+      },
+      "geometry": {
+        "x": -105.09300994618947,
+        "y": 38.03810617244946
+      }
+    }
+  ]
 }
