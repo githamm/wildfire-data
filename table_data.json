@@ -1,10 +1,551 @@
 {
-  "error": {
-    "code": 499,
-    "message": "Token Required",
-    "messageCode": "GWM_0003",
-    "details": [
-      "Token Required"
-    ]
-  }
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.093009946189,
+          38.0381061724495
+        ]
+      },
+      "properties": {
+        "IncidentSize": 0.1,
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1673629920000,
+        "IncidentName": "ST CHARLES",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Custer",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.469710202804,
+          39.6009863667354
+        ]
+      },
+      "properties": {
+        "IncidentSize": 0.1,
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1676899294000,
+        "IncidentName": "Yankee",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Clear Creek",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.554709259444,
+          37.053636181442
+        ]
+      },
+      "properties": {
+        "IncidentSize": 0.1,
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1677011580000,
+        "IncidentName": "County Road F ",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Baca",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.18901020952,
+          40.2037064684093
+        ]
+      },
+      "properties": {
+        "IncidentSize": 3,
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1677012863000,
+        "IncidentName": "Ute Highway ",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Boulder",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.481910186331,
+          39.4336463429528
+        ]
+      },
+      "properties": {
+        "IncidentSize": 1.5,
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1677017862000,
+        "IncidentName": "Crow Valley",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Park",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.868088356075,
+          37.2945172000043
+        ]
+      },
+      "properties": {
+        "IncidentSize": 10.5,
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1677535620000,
+        "IncidentName": "BACA CR X",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Baca",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.670910755441,
+          38.2080559607355
+        ]
+      },
+      "properties": {
+        "IncidentSize": 0.1,
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1677955680000,
+        "IncidentName": "Cutoff",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Montrose",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.187309502871,
+          38.0296462920246
+        ]
+      },
+      "properties": {
+        "IncidentSize": 501,
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1678042200000,
+        "IncidentName": "County Road DD",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 100,
+        "POOCounty": "Bent",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.444910134727,
+          39.0510362926019
+        ]
+      },
+      "properties": {
+        "IncidentSize": 0.1,
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1678376760000,
+        "IncidentName": "Badger Gulch",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Park",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.027309872652,
+          37.4540160917744
+        ]
+      },
+      "properties": {
+        "IncidentSize": 31.4,
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1678475657000,
+        "IncidentName": "Profile",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Huerfano",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.638110374655,
+          40.7042865030109
+        ]
+      },
+      "properties": {
+        "IncidentSize": 15,
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1679247360000,
+        "IncidentName": "Arrowhead",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Larimer",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.509210109757,
+          40.681636581606
+        ]
+      },
+      "properties": {
+        "IncidentSize": 1.69,
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1679441340000,
+        "IncidentName": "Wildhorse",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Weld",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.446809333815,
+          38.0969463484252
+        ]
+      },
+      "properties": {
+        "IncidentSize": 1897,
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1679522400000,
+        "IncidentName": "Manvel",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 100,
+        "POOCounty": "Prowers",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.252610085,
+          38.9990262983181
+        ]
+      },
+      "properties": {
+        "IncidentSize": 0.1,
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1680031980000,
+        "IncidentName": "110 Needlecreek Rd",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Teller",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.90241009791,
+          39.821946436434
+        ]
+      },
+      "properties": {
+        "IncidentSize": 8.5,
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1680181200000,
+        "IncidentName": "Mozzarella",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Adams",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.380010099932,
+          38.8700062717245
+        ]
+      },
+      "properties": {
+        "IncidentSize": 1518,
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1680195840000,
+        "IncidentName": "403",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 76,
+        "POOCounty": "Park",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.119409833133,
+          39.0922563873639
+        ]
+      },
+      "properties": {
+        "IncidentSize": 851,
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1680211980000,
+        "IncidentName": "125",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 100,
+        "POOCounty": "El Paso",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.198710150624,
+          39.6873763973624
+        ]
+      },
+      "properties": {
+        "IncidentSize": 44,
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1680295860000,
+        "IncidentName": "Hogback",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Jefferson",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.674909603507,
+          37.8906262407128
+        ]
+      },
+      "properties": {
+        "IncidentSize": 100,
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1680296520000,
+        "IncidentName": "350",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Otero",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.389910314051,
+          40.6769065174294
+        ]
+      },
+      "properties": {
+        "IncidentSize": 33,
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1680368460000,
+        "IncidentName": "Stove Prairie",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Larimer",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.272010177927,
+          39.7768964045301
+        ]
+      },
+      "properties": {
+        "IncidentSize": 7,
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1680397161000,
+        "IncidentName": "Golden Gate",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Jefferson",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.09760996403,
+          38.2008161955321
+        ]
+      },
+      "properties": {
+        "IncidentSize": 1,
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1680640380000,
+        "IncidentName": "CR 389",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Custer",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.299010212296,
+          40.01531643511
+        ]
+      },
+      "properties": {
+        "IncidentSize": 0.25,
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1681093740000,
+        "IncidentName": "Settlers",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Boulder",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.02171004376,
+          39.1051563287191
+        ]
+      },
+      "properties": {
+        "IncidentSize": 0.1,
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1681150993000,
+        "IncidentName": "ICE CAVE CREEK",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "El Paso",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.572010408294,
+          37.1383558872726
+        ]
+      },
+      "properties": {
+        "IncidentSize": 5,
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1681151760000,
+        "IncidentName": "334 Command",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "La Plata",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.819109816595,
+          37.3666860918578
+        ]
+      },
+      "properties": {
+        "IncidentSize": 68,
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1681169100000,
+        "IncidentName": "Trujillo Creek",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Las Animas",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.005510025268,
+          38.9715063110457
+        ]
+      },
+      "properties": {
+        "IncidentSize": 10,
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1681244940000,
+        "IncidentName": "Rampart",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "El Paso",
+        "POOState": "US-CO"
+      }
+    }
+  ]
 }
