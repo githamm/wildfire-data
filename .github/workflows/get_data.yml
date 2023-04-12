@@ -15,7 +15,7 @@ jobs:
       - name: Fetch latest data
         run: |-
           # Get map data
-          curl -k -X GET "https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/Current_WildlandFire_Locations/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson" -H "accept: application/json" | jq '.'  > map_data.json
+          curl -k -X GET "https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Incident_Locations_Current/FeatureServer/0/query?where=1%3D1&outFields=FireCause,FireDiscoveryDateTime,IncidentName,IncidentTypeCategory,PercentContained,POOCounty,POOLandownerCategory,POOState,TotalIncidentPersonnel,IncidentSize,ModifiedOnDateTime_dt,FireMgmtComplexity,POOCity&outSR=4326&f=geojson" -H "accept: application/json" | jq '.'  > map_data.json
       - name: Fetch lastest data
         run: |-
           # Get table data
