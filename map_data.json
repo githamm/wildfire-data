@@ -6712,56 +6712,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.355512192505,
-          33.8866348314119
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1681188652000,
-        "IncidentName": "LAC-120654",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1681189968770,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.276276820497,
-          33.7049719254545
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1681191899000,
-        "IncidentName": "CORAL MOUNTAIN APT LAQ",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Riverside",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1681192456920,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -117.221623004159,
           33.9393649007241
         ]
@@ -11596,15 +11546,15 @@
         "FireDiscoveryDateTime": 1681358400000,
         "IncidentName": "Powerhouse",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 50,
         "POOCounty": "Polk",
         "POOLandownerCategory": "USFS",
         "POOState": "US-TN",
-        "TotalIncidentPersonnel": null,
+        "TotalIncidentPersonnel": 29,
         "IncidentSize": 230,
-        "ModifiedOnDateTime_dt": 1681447543280,
-        "FireMgmtComplexity": null,
-        "POOCity": null
+        "ModifiedOnDateTime_dt": 1681450693247,
+        "FireMgmtComplexity": "Type 4 Incident",
+        "POOCity": "Apalachia"
       }
     },
     {
@@ -12776,8 +12726,8 @@
         "POOLandownerCategory": "Private",
         "POOState": "US-KY",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 2,
-        "ModifiedOnDateTime_dt": 1681434632597,
+        "IncidentSize": 18,
+        "ModifiedOnDateTime_dt": 1681450627790,
         "FireMgmtComplexity": "Type 5 Incident",
         "POOCity": null
       }
@@ -12953,6 +12903,31 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1681444489087,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.219512802162,
+          33.5982719157698
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1681447352000,
+        "IncidentName": "62ND",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Riverside",
+        "POOLandownerCategory": "BIA",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.01,
+        "ModifiedOnDateTime_dt": 1681451877123,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
