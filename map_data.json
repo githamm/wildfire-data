@@ -4102,7 +4102,7 @@
         "POOState": "US-NC",
         "TotalIncidentPersonnel": 206,
         "IncidentSize": 32400,
-        "ModifiedOnDateTime_dt": 1682541395867,
+        "ModifiedOnDateTime_dt": 1682562201683,
         "FireMgmtComplexity": "Type 1 Incident",
         "POOCity": "New Bern"
       }
@@ -8671,15 +8671,15 @@
         "FireDiscoveryDateTime": 1682529360000,
         "IncidentName": "NOB",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 5,
         "POOCounty": "San Bernardino",
         "POOLandownerCategory": "USFS",
         "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
+        "TotalIncidentPersonnel": 192,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1682557066563,
-        "FireMgmtComplexity": null,
-        "POOCity": null
+        "ModifiedOnDateTime_dt": 1682560237877,
+        "FireMgmtComplexity": "Type 3 Incident",
+        "POOCity": "LYTLE CREEK"
       }
     },
     {
@@ -8887,31 +8887,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.517814374434,
-          45.8849956057548
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1682539380000,
-        "IncidentName": "WHITE SALMON RIVER",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Klickitat",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-WA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 1.5,
-        "ModifiedOnDateTime_dt": 1682554271340,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -112.128066837656,
           35.9461165440198
         ]
@@ -9092,9 +9067,9 @@
         ]
       },
       "properties": {
-        "FireCause": "Human",
+        "FireCause": "Undetermined",
         "FireDiscoveryDateTime": 1682545730000,
-        "IncidentName": "WANAPUM",
+        "IncidentName": "NS 1139",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
         "POOCounty": "Okanogan",
@@ -9102,7 +9077,7 @@
         "POOState": "US-WA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1682555839913,
+        "ModifiedOnDateTime_dt": 1682560086573,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -9187,6 +9162,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -116.68421384993,
+          47.3808362069346
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1682549400000,
+        "IncidentName": "Garnet",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Kootenai",
+        "POOLandownerCategory": "BIA",
+        "POOState": "US-ID",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 3,
+        "ModifiedOnDateTime_dt": 1682560420257,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -120.992636195026,
           39.3877541860109
         ]
@@ -9201,8 +9201,8 @@
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1682550680360,
+        "IncidentSize": 1,
+        "ModifiedOnDateTime_dt": 1682560390340,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -9262,23 +9262,98 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.6924641760277,
-          36.7443170852287
+          -117.414003042694,
+          34.0067268976615
         ]
       },
       "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1682554620000,
-        "IncidentName": "Harbell Road",
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1682557787000,
+        "IncidentName": "LA CANADA DR / MARY ELLEN DR",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 100,
-        "POOCounty": "Bell",
+        "PercentContained": null,
+        "POOCounty": "Riverside",
         "POOLandownerCategory": "Private",
-        "POOState": "US-KY",
+        "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 1,
-        "ModifiedOnDateTime_dt": 1682555099363,
-        "FireMgmtComplexity": "Type 5 Incident",
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1682559373823,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.54138226776,
+          34.4225248793901
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1682558380000,
+        "IncidentName": "LAC-139589",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1682558569930,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.626811648357,
+          36.576555032417
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1682558980000,
+        "IncidentName": "HWY 99 ACCESS RAMP  / FLORAL AVE",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Fresno",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1682559499037,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.702742142944,
+          34.6164649496242
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1682562079000,
+        "IncidentName": "LAC-139654",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1682562409317,
+        "FireMgmtComplexity": null,
         "POOCity": null
       }
     }
