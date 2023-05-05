@@ -262,6 +262,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -116.714411897631,
+          33.7066749017031
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1675030641000,
+        "IncidentName": "SJRD PROGRAMMATIC PILE RX BURN",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": null,
+        "POOCounty": "Riverside",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 1,
+        "ModifiedOnDateTime_dt": 1683309426737,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -103.764510408893,
           44.1061670823884
         ]
@@ -927,7 +952,7 @@
         "POOState": "US-NM",
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1683299590920,
+        "ModifiedOnDateTime_dt": 1683308550600,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -3662,37 +3687,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -80.2243032085441,
-          37.8306244467126
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1682454919000,
-        "IncidentName": "Brushy RX Units 2 4 6",
-        "IncidentTypeCategory": "RX",
-        "PercentContained": null,
-        "POOCounty": "Greenbrier",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-WV",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 140,
-        "ModifiedOnDateTime_dt": 1683031100567,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -109.941257624532,
           33.8815472897208
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Human",
         "FireDiscoveryDateTime": 1682472840000,
         "IncidentName": "Fish Hatchery Rd",
         "IncidentTypeCategory": "WF",
@@ -3702,7 +3702,7 @@
         "POOState": "US-AZ",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1683305834153,
+        "ModifiedOnDateTime_dt": 1683306917580,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -4921,13 +4921,13 @@
         "FireDiscoveryDateTime": 1682885649000,
         "IncidentName": "Berg",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 80,
+        "PercentContained": 85,
         "POOCounty": "Marshall",
         "POOLandownerCategory": "USFWS",
         "POOState": "US-MN",
-        "TotalIncidentPersonnel": 43,
+        "TotalIncidentPersonnel": 10,
         "IncidentSize": 1728,
-        "ModifiedOnDateTime_dt": 1683156873447,
+        "ModifiedOnDateTime_dt": 1683307099867,
         "FireMgmtComplexity": "Type 3 Incident",
         "POOCity": "Thief River Falls"
       }
@@ -5428,31 +5428,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1683214468100,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.5221327734383,
-          25.6507846481577
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1682976000000,
-        "IncidentName": "124",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Miami-Dade",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-FL",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 5,
-        "ModifiedOnDateTime_dt": 1683049149973,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -6153,31 +6128,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1683067930117,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -113.344711365307,
-          34.7285352162668
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1683050196000,
-        "IncidentName": "Goodwin Mesa RX",
-        "IncidentTypeCategory": "RX",
-        "PercentContained": null,
-        "POOCounty": "Mohave",
-        "POOLandownerCategory": "BLM",
-        "POOState": "US-AZ",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1683050578700,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -8951,8 +8901,8 @@
         "POOLandownerCategory": "Private",
         "POOState": "US-NM",
         "TotalIncidentPersonnel": 82,
-        "IncidentSize": 3000,
-        "ModifiedOnDateTime_dt": 1683304687777,
+        "IncidentSize": 3500,
+        "ModifiedOnDateTime_dt": 1683308470900,
         "FireMgmtComplexity": "Type 4 Incident",
         "POOCity": null
       }
@@ -9762,8 +9712,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.900009663946,
-          35.4686725006424
+          -104.900009663941,
+          35.4686169006338
         ]
       },
       "properties": {
@@ -9771,13 +9721,13 @@
         "FireDiscoveryDateTime": 1683181800000,
         "IncidentName": "Big Tank",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 30,
+        "PercentContained": 40,
         "POOCounty": "San Miguel",
         "POOLandownerCategory": "Private",
         "POOState": "US-NM",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 900,
-        "ModifiedOnDateTime_dt": 1683218319787,
+        "IncidentSize": 1181,
+        "ModifiedOnDateTime_dt": 1683309452087,
         "FireMgmtComplexity": "Type 4 Incident",
         "POOCity": "Las Vegas"
       }
@@ -10612,31 +10562,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.382414128029,
-          48.011656177283
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1683231493000,
-        "IncidentName": "FRANTZ",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Spokane",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-WA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1683235064857,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -92.6350024181772,
           47.5238980760732
         ]
@@ -11302,7 +11227,7 @@
         "POOState": "US-AZ",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1683296101507,
+        "ModifiedOnDateTime_dt": 1683307101637,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -11317,7 +11242,7 @@
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Human",
         "FireDiscoveryDateTime": 1683254340000,
         "IncidentName": "CEMETERY",
         "IncidentTypeCategory": "WF",
@@ -11327,7 +11252,7 @@
         "POOState": "US-WA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 2,
-        "ModifiedOnDateTime_dt": 1683304844450,
+        "ModifiedOnDateTime_dt": 1683307024707,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -11653,6 +11578,131 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1683305127563,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.912808672987,
+          47.8771082694645
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1683306960000,
+        "IncidentName": "RL 059",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Beltrami",
+        "POOLandownerCategory": "BIA",
+        "POOState": "US-MN",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1683307449327,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.366682921961,
+          37.9825051120065
+        ]
+      },
+      "properties": {
+        "FireCause": null,
+        "FireDiscoveryDateTime": 1683307800000,
+        "IncidentName": "STF RX NON WCSL",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Tuolumne",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1683308167820,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.8491086560612,
+          47.8857082755501
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1683309252000,
+        "IncidentName": "23",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Beltrami",
+        "POOLandownerCategory": "BIA",
+        "POOState": "US-MN",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1683309306407,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.246937005458,
+          33.9011408949199
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1683309426000,
+        "IncidentName": "MARB COMMISSARY MOVA",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Riverside",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1683309962080,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.8045086432129,
+          47.8860082790709
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1683309880000,
+        "IncidentName": "15",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Beltrami",
+        "POOLandownerCategory": "BIA",
+        "POOState": "US-MN",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1683310168420,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
