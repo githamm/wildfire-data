@@ -2362,6 +2362,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -84.3727843815419,
+          36.8322470742241
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1684939500000,
+        "IncidentName": "STR - Laurel Fork",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "McCreary",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-KY",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1686581001683,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -123.176180947884,
           42.2286722125827
         ]
@@ -2976,8 +3001,8 @@
         "POOLandownerCategory": "USFS",
         "POOState": "US-AZ",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 22,
-        "ModifiedOnDateTime_dt": 1686496946700,
+        "IncidentSize": 54,
+        "ModifiedOnDateTime_dt": 1686582347063,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -3051,8 +3076,8 @@
         "POOLandownerCategory": "USFS",
         "POOState": "US-AZ",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 38,
-        "ModifiedOnDateTime_dt": 1686362254357,
+        "IncidentSize": 93,
+        "ModifiedOnDateTime_dt": 1686582394930,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -3312,31 +3337,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -93.2662679073143,
-          46.0666181491662
-        ]
-      },
-      "properties": {
-        "FireCause": null,
-        "FireDiscoveryDateTime": 1686152634000,
-        "IncidentName": "000050",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Kanabec",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-MN",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1686321623490,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -123.023660972255,
           42.5127982452331
         ]
@@ -3378,31 +3378,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1686512166687,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -109.213177835962,
-          37.8838388818287
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1686169159000,
-        "IncidentName": "False Alarm Boulder",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "San Juan",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-UT",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1686320460437,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -3728,56 +3703,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
         "ModifiedOnDateTime_dt": 1686334939627,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.889841166623,
-          46.3242915423992
-        ]
-      },
-      "properties": {
-        "FireCause": null,
-        "FireDiscoveryDateTime": 1686289215000,
-        "IncidentName": "Scotch Pine Fire",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Pine",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-MN",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1686322367217,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.383401037859,
-          34.0119138999712
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1686319003000,
-        "IncidentName": "MARKET ST / VIA CERRO",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Riverside",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1686319992637,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -4446,14 +4371,14 @@
         "FireDiscoveryDateTime": 1686364131000,
         "IncidentName": "LS Mesa",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 60,
         "POOCounty": "Grant",
         "POOLandownerCategory": "State",
         "POOState": "US-NM",
-        "TotalIncidentPersonnel": null,
+        "TotalIncidentPersonnel": 64,
         "IncidentSize": 132,
-        "ModifiedOnDateTime_dt": 1686575611737,
-        "FireMgmtComplexity": null,
+        "ModifiedOnDateTime_dt": 1686582486513,
+        "FireMgmtComplexity": "Type 4 Incident",
         "POOCity": null
       }
     },
@@ -5662,6 +5587,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -115.83481393961,
+          48.4685563742995
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1686500100000,
+        "IncidentName": "Surprise",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Lincoln",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-MT",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.5,
+        "ModifiedOnDateTime_dt": 1686579953613,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -110.52901066944,
           32.8570051125872
         ]
@@ -6377,7 +6327,7 @@
         "POOState": "US-CO",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1686547226663,
+        "ModifiedOnDateTime_dt": 1686580219927,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -6403,6 +6353,31 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
         "ModifiedOnDateTime_dt": 1686536313840,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.742788370093,
+          36.4163946043674
+        ]
+      },
+      "properties": {
+        "FireCause": null,
+        "FireDiscoveryDateTime": 1686535221000,
+        "IncidentName": "Tocito Wash",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "San Juan",
+        "POOLandownerCategory": "BIA",
+        "POOState": "US-NM",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.5,
+        "ModifiedOnDateTime_dt": 1686580349627,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -6678,6 +6653,31 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1686571686683,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.375244009769,
+          33.6770418620533
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1686579701000,
+        "IncidentName": "FLANNERY ST / LINCOLN ST",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Riverside",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1686580522213,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
