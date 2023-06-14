@@ -477,7 +477,7 @@
         "POOState": "US-NM",
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1686747232497,
+        "ModifiedOnDateTime_dt": 1686748529387,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -2419,7 +2419,7 @@
       "properties": {
         "FireCause": "Undetermined",
         "FireDiscoveryDateTime": 1686591056000,
-        "IncidentName": "Wild Bill NE/E RX",
+        "IncidentName": "Horseshoe/Wild Bill NE/E RX",
         "IncidentTypeCategory": "RX",
         "PercentContained": null,
         "POOCounty": "Coconino",
@@ -2427,7 +2427,7 @@
         "POOState": "US-AZ",
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1686612161863,
+        "ModifiedOnDateTime_dt": 1686751114380,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -2537,8 +2537,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.109878943734,
-          41.9893871485282
+          -99.1100089437756,
+          41.9894515485284
         ]
       },
       "properties": {
@@ -2546,15 +2546,15 @@
         "FireDiscoveryDateTime": 1681242120000,
         "IncidentName": "Lowery",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 100,
         "POOCounty": "Garfield",
         "POOLandownerCategory": "Private",
         "POOState": "US-NE",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 4691,
-        "ModifiedOnDateTime_dt": 1686007026717,
-        "FireMgmtComplexity": null,
-        "POOCity": null
+        "ModifiedOnDateTime_dt": 1686751010993,
+        "FireMgmtComplexity": "Type 4 Incident",
+        "POOCity": "Burwell"
       }
     },
     {
@@ -7001,8 +7001,8 @@
         "POOLandownerCategory": "Private",
         "POOState": "US-WA",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 10,
-        "ModifiedOnDateTime_dt": 1686716257520,
+        "IncidentSize": 27.9,
+        "ModifiedOnDateTime_dt": 1686748551500,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -7512,6 +7512,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -123.410681347112,
+          45.7695887030639
+        ]
+      },
+      "properties": {
+        "FireCause": null,
+        "FireDiscoveryDateTime": 1686733860000,
+        "IncidentName": "Salmonberry Pit",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Tillamook",
+        "POOLandownerCategory": "State",
+        "POOState": "US-OR",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1686749767670,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -117.391520038758,
           34.0057838988163
         ]
@@ -7528,31 +7553,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1686745415337,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.549878294672,
-          39.483023149725
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1686747059000,
-        "IncidentName": "VIRGINIA",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Butte",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1686747754303,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
