@@ -612,31 +612,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.142213623823,
-          46.8266162218434
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1684373084000,
-        "IncidentName": "RX Upper Basin - PALRD",
-        "IncidentTypeCategory": "RX",
-        "PercentContained": null,
-        "POOCounty": "Clearwater",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-ID",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 62,
-        "ModifiedOnDateTime_dt": 1686928604107,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -92.5924163409833,
           31.0804055667611
         ]
@@ -1204,31 +1179,6 @@
         "IncidentSize": 130,
         "ModifiedOnDateTime_dt": 1687527117820,
         "FireMgmtComplexity": "Type 1 Prescribed Fire",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -107.247510339696,
-          37.1600729107223
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1687273532000,
-        "IncidentName": "Archuleta Creek RX",
-        "IncidentTypeCategory": "RX",
-        "PercentContained": null,
-        "POOCounty": "Archuleta",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-CO",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1687360399637,
-        "FireMgmtComplexity": null,
         "POOCity": null
       }
     },
@@ -3328,31 +3278,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1687377158040,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -112.00417788682,
-          31.7170048790204
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1687352880000,
-        "IncidentName": "ALVAREZ 2",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Pima",
-        "POOLandownerCategory": "BIA",
-        "POOState": "US-AZ",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 25,
-        "ModifiedOnDateTime_dt": 1687372213440,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -6837,8 +6762,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.769146821238,
-          45.4567228559884
+          -118.769180521234,
+          45.4566725559815
         ]
       },
       "properties": {
@@ -6846,15 +6771,15 @@
         "FireDiscoveryDateTime": 1687557634000,
         "IncidentName": "Stewart Creek.",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 100,
         "POOCounty": "Umatilla",
         "POOLandownerCategory": "Private",
         "POOState": "US-OR",
-        "TotalIncidentPersonnel": null,
+        "TotalIncidentPersonnel": 44,
         "IncidentSize": 375,
-        "ModifiedOnDateTime_dt": 1687572844550,
-        "FireMgmtComplexity": null,
-        "POOCity": null
+        "ModifiedOnDateTime_dt": 1687621751337,
+        "FireMgmtComplexity": "Type 4 Incident",
+        "POOCity": "Pilot Rock"
       }
     },
     {
@@ -6901,8 +6826,8 @@
         "POOLandownerCategory": "USFS",
         "POOState": "US-OR",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 5,
-        "ModifiedOnDateTime_dt": 1687575853890,
+        "IncidentSize": 20,
+        "ModifiedOnDateTime_dt": 1687621428520,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -7612,6 +7537,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -119.687112543608,
+          35.410674913313
+        ]
+      },
+      "properties": {
+        "FireCause": null,
+        "FireDiscoveryDateTime": 1687615680000,
+        "IncidentName": "LAST",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Kern",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1687620197620,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -118.209772171033,
           33.9231948436222
         ]
@@ -7653,6 +7603,31 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
         "ModifiedOnDateTime_dt": 1687619091423,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.143443505716,
+          31.5364129363861
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1687619133000,
+        "IncidentName": "FA 517",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Cochise",
+        "POOLandownerCategory": "BLM",
+        "POOState": "US-AZ",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1687623097167,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
