@@ -3862,6 +3862,81 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -118.664562290309,
+          34.446924874848
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1690031982000,
+        "IncidentName": "LAC-244485",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1690032290120,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.585742084923,
+          37.7405600020057
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1690032307000,
+        "IncidentName": "GRANT",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Alameda",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.01,
+        "ModifiedOnDateTime_dt": 1690032474820,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.579547766938,
+          37.7409071468054
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1690034311000,
+        "IncidentName": "KEEPING",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Mariposa",
+        "POOLandownerCategory": "NPS",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1690034469670,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -108.074177460036,
           39.390839456342
         ]
@@ -4493,7 +4568,7 @@
       },
       "properties": {
         "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1689999344000,
+        "FireDiscoveryDateTime": 1689999300000,
         "IncidentName": "D1 Beauty Creek",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
@@ -4502,7 +4577,7 @@
         "POOState": "US-ID",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.5,
-        "ModifiedOnDateTime_dt": 1690009218443,
+        "ModifiedOnDateTime_dt": 1690033789480,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -4901,8 +4976,8 @@
         "POOLandownerCategory": "USFS",
         "POOState": "US-MT",
         "TotalIncidentPersonnel": 0,
-        "IncidentSize": 450,
-        "ModifiedOnDateTime_dt": 1689989405373,
+        "IncidentSize": 1400,
+        "ModifiedOnDateTime_dt": 1690033879477,
         "FireMgmtComplexity": "Type 3 Incident",
         "POOCity": null
       }
@@ -5527,7 +5602,7 @@
         "POOState": "US-NM",
         "TotalIncidentPersonnel": 6,
         "IncidentSize": 945,
-        "ModifiedOnDateTime_dt": 1689975486193,
+        "ModifiedOnDateTime_dt": 1690034030027,
         "FireMgmtComplexity": "Type 3 Incident",
         "POOCity": "Reserve"
       }
@@ -5577,7 +5652,7 @@
         "POOState": "US-NM",
         "TotalIncidentPersonnel": 70,
         "IncidentSize": 3641,
-        "ModifiedOnDateTime_dt": 1689983663957,
+        "ModifiedOnDateTime_dt": 1690033968043,
         "FireMgmtComplexity": "Type 3 Incident",
         "POOCity": null
       }
@@ -5612,8 +5687,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -108.604754249469,
-          32.4987031526639
+          -108.604732449459,
+          32.4986162526517
         ]
       },
       "properties": {
@@ -5621,13 +5696,13 @@
         "FireDiscoveryDateTime": 1689370260000,
         "IncidentName": "Jackson",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 85,
+        "PercentContained": 100,
         "POOCounty": "Hidalgo",
         "POOLandownerCategory": "State",
         "POOState": "US-NM",
-        "TotalIncidentPersonnel": 9,
+        "TotalIncidentPersonnel": 0,
         "IncidentSize": 1114,
-        "ModifiedOnDateTime_dt": 1689796591500,
+        "ModifiedOnDateTime_dt": 1690032596063,
         "FireMgmtComplexity": "Type 4 Incident",
         "POOCity": "Lorsburg"
       }
@@ -5677,7 +5752,7 @@
         "POOState": "US-NM",
         "TotalIncidentPersonnel": 74,
         "IncidentSize": 4900,
-        "ModifiedOnDateTime_dt": 1689978292620,
+        "ModifiedOnDateTime_dt": 1690033889310,
         "FireMgmtComplexity": "Type 3 Incident",
         "POOCity": "Reserve"
       }
@@ -6427,7 +6502,7 @@
         "POOState": "US-OR",
         "TotalIncidentPersonnel": 1040,
         "IncidentSize": 15283,
-        "ModifiedOnDateTime_dt": 1689982305743,
+        "ModifiedOnDateTime_dt": 1690034735460,
         "FireMgmtComplexity": "Type 2 Incident",
         "POOCity": "Gold Beach"
       }
@@ -7312,31 +7387,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -109.135594134008,
-          40.5607892255076
-        ]
-      },
-      "properties": {
-        "FireCause": "Natural",
-        "FireDiscoveryDateTime": 1689972930000,
-        "IncidentName": "Limekiln Draw",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Uintah",
-        "POOLandownerCategory": "BLM",
-        "POOState": "US-UT",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.5,
-        "ModifiedOnDateTime_dt": 1689985645630,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -109.95417818781,
           39.6060060484217
         ]
@@ -8079,31 +8129,6 @@
         "IncidentSize": 730,
         "ModifiedOnDateTime_dt": 1689611113103,
         "FireMgmtComplexity": "Type 3 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -105.7416610206,
-          44.9422240176049
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1689713760000,
-        "IncidentName": "SAWMILL DAM",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Campbell",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-WY",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 5,
-        "ModifiedOnDateTime_dt": 1689772740187,
-        "FireMgmtComplexity": null,
         "POOCity": null
       }
     },
