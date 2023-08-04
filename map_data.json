@@ -987,6 +987,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -92.9437007250119,
+          35.868728495344
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1691153498000,
+        "IncidentName": "RX-Bearcat Fields",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": null,
+        "POOCounty": "Searcy",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-AR",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1691153893237,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -118.928712375862,
           34.9283049103389
         ]
@@ -3677,7 +3702,7 @@
         "POOState": "US-AZ",
         "TotalIncidentPersonnel": 310,
         "IncidentSize": 345,
-        "ModifiedOnDateTime_dt": 1691104055487,
+        "ModifiedOnDateTime_dt": 1691154525040,
         "FireMgmtComplexity": "Type 2 Incident",
         "POOCity": "Show Low"
       }
@@ -5812,31 +5837,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.1795805927028,
-          41.6304328357103
-        ]
-      },
-      "properties": {
-        "FireCause": null,
-        "FireDiscoveryDateTime": 1690490746000,
-        "IncidentName": "PLF Firepit",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Porter",
-        "POOLandownerCategory": "NPS",
-        "POOState": "US-IN",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1690894133337,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -117.952846704757,
           45.6007889477065
         ]
@@ -6071,13 +6071,13 @@
         "FireDiscoveryDateTime": 1690494730000,
         "IncidentName": "BONNY",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 95,
+        "PercentContained": 98,
         "POOCounty": "Riverside",
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
         "TotalIncidentPersonnel": 481,
         "IncidentSize": 2322,
-        "ModifiedOnDateTime_dt": 1691109528320,
+        "ModifiedOnDateTime_dt": 1691152899233,
         "FireMgmtComplexity": "Type 3 Incident",
         "POOCity": "Aguanga"
       }
@@ -6496,15 +6496,40 @@
         "FireDiscoveryDateTime": 1690571340000,
         "IncidentName": "YORK",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 65,
+        "PercentContained": 85,
         "POOCounty": "San Bernardino",
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
         "TotalIncidentPersonnel": 423,
-        "IncidentSize": 93084,
-        "ModifiedOnDateTime_dt": 1691110419363,
+        "IncidentSize": 93078,
+        "ModifiedOnDateTime_dt": 1691153679627,
         "FireMgmtComplexity": "Type 2 Incident",
         "POOCity": "CIMA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.299960387124,
+          37.5213389578344
+        ]
+      },
+      "properties": {
+        "FireCause": "Natural",
+        "FireDiscoveryDateTime": 1690573440000,
+        "IncidentName": "Bear Creek",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Hinsdale",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-CO",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.25,
+        "ModifiedOnDateTime_dt": 1691153443210,
+        "FireMgmtComplexity": null,
+        "POOCity": null
       }
     },
     {
@@ -8055,31 +8080,6 @@
         "ModifiedOnDateTime_dt": 1691099153217,
         "FireMgmtComplexity": "Type 4 Incident",
         "POOCity": "Winston"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -144.363376061393,
-          64.9421853494406
-        ]
-      },
-      "properties": {
-        "FireCause": "Natural",
-        "FireDiscoveryDateTime": 1690788401000,
-        "IncidentName": "Lost Creek",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Fairbanks North Star",
-        "POOLandownerCategory": "State",
-        "POOState": "US-AK",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1690894363583,
-        "FireMgmtComplexity": null,
-        "POOCity": null
       }
     },
     {
@@ -13992,7 +13992,7 @@
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Natural",
         "FireDiscoveryDateTime": 1691112528000,
         "IncidentName": "Jerry Spring",
         "IncidentTypeCategory": "WF",
@@ -14002,7 +14002,7 @@
         "POOState": "US-OR",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1691119644927,
+        "ModifiedOnDateTime_dt": 1691154302350,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
