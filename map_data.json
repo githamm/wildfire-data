@@ -75,9 +75,9 @@
         "POOCounty": "Greenlee",
         "POOLandownerCategory": "USFS",
         "POOState": "US-AZ",
-        "TotalIncidentPersonnel": 214,
+        "TotalIncidentPersonnel": 145,
         "IncidentSize": 2357,
-        "ModifiedOnDateTime_dt": 1691890195743,
+        "ModifiedOnDateTime_dt": 1692061134193,
         "FireMgmtComplexity": "Type 3 Incident",
         "POOCity": "Alpine"
       }
@@ -802,7 +802,7 @@
         "POOState": "US-ID",
         "TotalIncidentPersonnel": 28,
         "IncidentSize": 179,
-        "ModifiedOnDateTime_dt": 1691977965653,
+        "ModifiedOnDateTime_dt": 1692062371923,
         "FireMgmtComplexity": "Type 4 Incident",
         "POOCity": null
       }
@@ -821,13 +821,13 @@
         "FireDiscoveryDateTime": 1689198461000,
         "IncidentName": "Corduroy",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 92,
+        "PercentContained": 98,
         "POOCounty": "Greenlee",
         "POOLandownerCategory": "USFS",
         "POOState": "US-AZ",
         "TotalIncidentPersonnel": 34,
         "IncidentSize": 1027,
-        "ModifiedOnDateTime_dt": 1691890197570,
+        "ModifiedOnDateTime_dt": 1692061136280,
         "FireMgmtComplexity": "Type 4 Incident",
         "POOCity": null
       }
@@ -1862,6 +1862,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -117.372063818378,
+          46.653386083349
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1690257720000,
+        "IncidentName": "WAWAWAI",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 99,
+        "POOCounty": "Whitman",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-WA",
+        "TotalIncidentPersonnel": 153,
+        "IncidentSize": 526,
+        "ModifiedOnDateTime_dt": 1692061806003,
+        "FireMgmtComplexity": "Type 3 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -145.61614259115,
           64.4052851630393
         ]
@@ -2777,7 +2802,7 @@
         "POOState": "US-AZ",
         "TotalIncidentPersonnel": 72,
         "IncidentSize": 929,
-        "ModifiedOnDateTime_dt": 1691890202137,
+        "ModifiedOnDateTime_dt": 1692061141320,
         "FireMgmtComplexity": "Type 4 Incident",
         "POOCity": null
       }
@@ -2821,13 +2846,13 @@
         "FireDiscoveryDateTime": 1690496640000,
         "IncidentName": "Willow",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 23,
+        "PercentContained": 63,
         "POOCounty": "Greenlee",
         "POOLandownerCategory": "USFS",
         "POOState": "US-AZ",
         "TotalIncidentPersonnel": 7,
         "IncidentSize": 401,
-        "ModifiedOnDateTime_dt": 1691890206877,
+        "ModifiedOnDateTime_dt": 1692061145707,
         "FireMgmtComplexity": "Type 4 Incident",
         "POOCity": null
       }
@@ -4167,7 +4192,7 @@
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Natural",
         "FireDiscoveryDateTime": 1690982085000,
         "IncidentName": "Heavens Peak",
         "IncidentTypeCategory": "WF",
@@ -4177,7 +4202,7 @@
         "POOState": "US-MT",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1692051540997,
+        "ModifiedOnDateTime_dt": 1692063320423,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -5052,7 +5077,7 @@
         "POOState": "US-ID",
         "TotalIncidentPersonnel": 1,
         "IncidentSize": 0.5,
-        "ModifiedOnDateTime_dt": 1692060495160,
+        "ModifiedOnDateTime_dt": 1692061967590,
         "FireMgmtComplexity": "Type 4 Incident",
         "POOCity": null
       }
@@ -5987,31 +6012,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -111.486010984109,
-          34.492005290541
-        ]
-      },
-      "properties": {
-        "FireCause": "Natural",
-        "FireDiscoveryDateTime": 1691708350000,
-        "IncidentName": "Sand Rock",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Coconino",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-AZ",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 1.6,
-        "ModifiedOnDateTime_dt": 1691798796123,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -111.551811881964,
           42.2712892298044
         ]
@@ -6301,8 +6301,8 @@
         "POOLandownerCategory": "BLM",
         "POOState": "US-OR",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 125,
-        "ModifiedOnDateTime_dt": 1691883176907,
+        "IncidentSize": 133,
+        "ModifiedOnDateTime_dt": 1692062124213,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -6312,8 +6312,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.607680655521,
-          44.7563388206298
+          -118.607791455551,
+          44.7563947206233
         ]
       },
       "properties": {
@@ -6325,60 +6325,10 @@
         "POOCounty": "Grant",
         "POOLandownerCategory": "USFS",
         "POOState": "US-OR",
-        "TotalIncidentPersonnel": 80,
-        "IncidentSize": 40,
-        "ModifiedOnDateTime_dt": 1692019548513,
+        "TotalIncidentPersonnel": 102,
+        "IncidentSize": 95,
+        "ModifiedOnDateTime_dt": 1692062317310,
         "FireMgmtComplexity": "Type 4 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.043380997933,
-          42.6475882522498
-        ]
-      },
-      "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1691793000000,
-        "IncidentName": "Elderberry Flats",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Jackson",
-        "POOLandownerCategory": "BLM",
-        "POOState": "US-OR",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1691799012520,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.502236542214,
-          46.4236168542766
-        ]
-      },
-      "properties": {
-        "FireCause": null,
-        "FireDiscoveryDateTime": 1691794260000,
-        "IncidentName": "LATERAL B & MCDONALD",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Yakima",
-        "POOLandownerCategory": "BIA",
-        "POOState": "US-WA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1691800073337,
-        "FireMgmtComplexity": null,
         "POOCity": null
       }
     },
@@ -6478,31 +6428,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.25,
         "ModifiedOnDateTime_dt": 1691849909083,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.35261219582,
-          33.9337748367811
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1691798590000,
-        "IncidentName": "LAC-271156",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1691799297063,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -7254,31 +7179,6 @@
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1691878042423,
         "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -98.4925079499912,
-          32.6266938552564
-        ]
-      },
-      "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1691877567000,
-        "IncidentName": "Walnut Creek",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 90,
-        "POOCounty": "Palo Pinto",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-TX",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 31.6,
-        "ModifiedOnDateTime_dt": 1692051632657,
-        "FireMgmtComplexity": "Type 4 Incident",
         "POOCity": null
       }
     },
@@ -8637,31 +8537,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.494180741907,
-          47.9171733704272
-        ]
-      },
-      "properties": {
-        "FireCause": "Natural",
-        "FireDiscoveryDateTime": 1691958648000,
-        "IncidentName": "Silver Butte Pass",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Lincoln",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-MT",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.5,
-        "ModifiedOnDateTime_dt": 1692026593197,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -109.567376455838,
           32.5970021214463
         ]
@@ -8787,31 +8662,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.635057507362,
-          40.9092162543728
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1691962856000,
-        "IncidentName": "ENERGY",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Shasta",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1691968008173,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -121.002380804355,
           35.9556798822022
         ]
@@ -8826,8 +8676,8 @@
         "POOLandownerCategory": "BLM",
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 4.63,
-        "ModifiedOnDateTime_dt": 1692046977800,
+        "IncidentSize": 0.01,
+        "ModifiedOnDateTime_dt": 1692062200163,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -9004,31 +8854,6 @@
         "IncidentSize": 100,
         "ModifiedOnDateTime_dt": 1692052248183,
         "FireMgmtComplexity": "Type 5 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -109.124344098626,
-          40.303973195026
-        ]
-      },
-      "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1691968026000,
-        "IncidentName": "Miners Draw",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Uintah",
-        "POOLandownerCategory": "BLM",
-        "POOState": "US-UT",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 5,
-        "ModifiedOnDateTime_dt": 1692059687467,
-        "FireMgmtComplexity": null,
         "POOCity": null
       }
     },
@@ -9767,7 +9592,7 @@
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Human",
         "FireDiscoveryDateTime": 1692024077000,
         "IncidentName": "UPPER DRY",
         "IncidentTypeCategory": "WF",
@@ -9777,7 +9602,7 @@
         "POOState": "US-WA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1692060569253,
+        "ModifiedOnDateTime_dt": 1692061330237,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -9803,31 +9628,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
         "ModifiedOnDateTime_dt": 1692036613980,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.782512628176,
-          37.6793381978768
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1692034500000,
-        "IncidentName": "PIT",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Mono",
-        "POOLandownerCategory": "BLM",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1692035005707,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -10071,13 +9871,13 @@
         "FireDiscoveryDateTime": 1692040320000,
         "IncidentName": "Ghost Branch",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 30,
+        "PercentContained": 75,
         "POOCounty": "Trinity",
         "POOLandownerCategory": "Private",
         "POOState": "US-TX",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 250,
-        "ModifiedOnDateTime_dt": 1692058042527,
+        "ModifiedOnDateTime_dt": 1692062664633,
         "FireMgmtComplexity": "Type 4 Incident",
         "POOCity": null
       }
@@ -10118,7 +9918,7 @@
       },
       "properties": {
         "FireCause": "Human",
-        "FireDiscoveryDateTime": 1692043447000,
+        "FireDiscoveryDateTime": 1692043440000,
         "IncidentName": "SKULL SPRINGS",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
@@ -10127,7 +9927,7 @@
         "POOState": "US-WA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 2,
-        "ModifiedOnDateTime_dt": 1692060218300,
+        "ModifiedOnDateTime_dt": 1692062925857,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -10312,6 +10112,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -122.375915181441,
+          48.7317856687208
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1692047824000,
+        "IncidentName": "LOUISE",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Whatcom",
+        "POOLandownerCategory": "State",
+        "POOState": "US-WA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1692061364737,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -143.06692646488,
           65.4049225500342
         ]
@@ -10402,7 +10227,7 @@
         "POOState": "US-WA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.5,
-        "ModifiedOnDateTime_dt": 1692056303260,
+        "ModifiedOnDateTime_dt": 1692063280993,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -10412,8 +10237,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -112.640511607407,
-          38.5376727271692
+          -112.639594607064,
+          38.5362557270686
         ]
       },
       "properties": {
@@ -10427,7 +10252,7 @@
         "POOState": "US-UT",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 1,
-        "ModifiedOnDateTime_dt": 1692058157363,
+        "ModifiedOnDateTime_dt": 1692062257607,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -10471,13 +10296,13 @@
         "FireDiscoveryDateTime": 1692052460000,
         "IncidentName": "Pleasent Grove",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
+        "PercentContained": 10,
         "POOCounty": "Mills",
         "POOLandownerCategory": "Private",
         "POOState": "US-TX",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 400,
-        "ModifiedOnDateTime_dt": 1692058427720,
+        "ModifiedOnDateTime_dt": 1692061460707,
         "FireMgmtComplexity": "Type 4 Incident",
         "POOCity": null
       }
@@ -10527,7 +10352,7 @@
         "POOState": "US-WA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 10,
-        "ModifiedOnDateTime_dt": 1692057555867,
+        "ModifiedOnDateTime_dt": 1692062710680,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -10618,7 +10443,7 @@
       },
       "properties": {
         "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1692054640000,
+        "FireDiscoveryDateTime": 1692054600000,
         "IncidentName": "Hinkle",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
@@ -10627,7 +10452,7 @@
         "POOState": "US-ID",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1692059809290,
+        "ModifiedOnDateTime_dt": 1692061979130,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -10637,8 +10462,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -96.7525987364148,
-          29.1167072597993
+          -96.7925573373563,
+          29.1378540227946
         ]
       },
       "properties": {
@@ -10652,7 +10477,7 @@
         "POOState": "US-TX",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 8,
-        "ModifiedOnDateTime_dt": 1692060505213,
+        "ModifiedOnDateTime_dt": 1692061833083,
         "FireMgmtComplexity": "Type 5 Incident",
         "POOCity": null
       }
@@ -10669,7 +10494,7 @@
       "properties": {
         "FireCause": "Undetermined",
         "FireDiscoveryDateTime": 1692056129000,
-        "IncidentName": "GRANITE",
+        "IncidentName": "TNF-GRANITE",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
         "POOCounty": "Nevada",
@@ -10677,7 +10502,32 @@
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1692058752297,
+        "ModifiedOnDateTime_dt": 1692061356153,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.246930057868,
+          39.2473882325381
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1692056294000,
+        "IncidentName": "POLL",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Placer",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1692063644020,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -10692,7 +10542,7 @@
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Human",
         "FireDiscoveryDateTime": 1692056400000,
         "IncidentName": "EAST GIBBS",
         "IncidentTypeCategory": "WF",
@@ -10702,7 +10552,7 @@
         "POOState": "US-WA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 4,
-        "ModifiedOnDateTime_dt": 1692058749573,
+        "ModifiedOnDateTime_dt": 1692062696827,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -10717,7 +10567,7 @@
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Natural",
         "FireDiscoveryDateTime": 1692056400000,
         "IncidentName": "Indian Canyon",
         "IncidentTypeCategory": "WF",
@@ -10727,7 +10577,32 @@
         "POOState": "US-UT",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1692060322543,
+        "ModifiedOnDateTime_dt": 1692061259973,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.402062844364,
+          38.6443882435376
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1692057150000,
+        "IncidentName": "East Side",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Douglas",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-NV",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1692063345220,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -10762,31 +10637,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.752392451092,
-          40.3950042051789
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1692057284000,
-        "IncidentName": "LINE",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Tehama",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1692057474077,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -117.997652148105,
           34.0807348730881
         ]
@@ -10803,6 +10653,31 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1692057537267,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.084473989989,
+          42.5640652430057
+        ]
+      },
+      "properties": {
+        "FireCause": null,
+        "FireDiscoveryDateTime": 1692058620000,
+        "IncidentName": "E. Evans Creek 13699",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Jackson",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-OR",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1692062202137,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -10853,6 +10728,56 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1692060537850,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.016192150948,
+          34.0772048716454
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1692060621000,
+        "IncidentName": "LAC-275205",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1692060897483,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.195027598296,
+          39.892381048557
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1692061890000,
+        "IncidentName": "BLUENOSE RIDGE COVELO",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Mendocino",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.01,
+        "ModifiedOnDateTime_dt": 1692061950743,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
