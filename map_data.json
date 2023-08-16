@@ -496,13 +496,13 @@
         "FireDiscoveryDateTime": 1690241620000,
         "IncidentName": "Pogo Mine Road",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 1,
+        "PercentContained": 0,
         "POOCounty": "Southeast Fairbanks",
         "POOLandownerCategory": "State",
         "POOState": "US-AK",
-        "TotalIncidentPersonnel": 96,
+        "TotalIncidentPersonnel": 106,
         "IncidentSize": 48888.2,
-        "ModifiedOnDateTime_dt": 1692151872157,
+        "ModifiedOnDateTime_dt": 1692166709323,
         "FireMgmtComplexity": "Type 3 Incident",
         "POOCity": null
       }
@@ -1627,7 +1627,7 @@
         "POOState": "US-AK",
         "TotalIncidentPersonnel": 90,
         "IncidentSize": 7085,
-        "ModifiedOnDateTime_dt": 1692078123983,
+        "ModifiedOnDateTime_dt": 1692166755643,
         "FireMgmtComplexity": "Type 3 Incident",
         "POOCity": null
       }
@@ -2702,7 +2702,7 @@
         "POOState": "US-AZ",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1692055597430,
+        "ModifiedOnDateTime_dt": 1692113514473,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -2987,6 +2987,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -109.594410434203,
+          32.1840650585334
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1692154740000,
+        "IncidentName": "PHILADELPHIA CANYON",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Cochise",
+        "POOLandownerCategory": "State",
+        "POOState": "US-AZ",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 1,
+        "ModifiedOnDateTime_dt": 1692167605260,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -118.322851291282,
           35.1097479662706
         ]
@@ -3228,56 +3253,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
         "ModifiedOnDateTime_dt": 1691984515303,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.972072171639,
-          34.4160349117378
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1691907889000,
-        "IncidentName": "WALTER",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1691908219900,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.513002258792,
-          34.3723348756046
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1691908894000,
-        "IncidentName": "HENRI",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1691909305383,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -4637,31 +4612,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.451346115029,
-          39.4343382325575
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1692064635000,
-        "IncidentName": "MEADOW",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Nevada",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1692065718473,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -118.378112228194,
           34.2760348729148
         ]
@@ -4812,31 +4762,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -123.860583845097,
-          40.9350450657694
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1692081618000,
-        "IncidentName": "ELLIS 2",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Humboldt",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1692081738727,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -123.676953835669,
           41.0491750893233
         ]
@@ -4877,7 +4802,7 @@
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1692108796447,
+        "ModifiedOnDateTime_dt": 1692167234410,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -4952,7 +4877,7 @@
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1692139289757,
+        "ModifiedOnDateTime_dt": 1692168885667,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -5178,31 +5103,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.02,
         "ModifiedOnDateTime_dt": 1692152312140,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.635346765737,
-          40.6190050634805
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1692108702000,
-        "IncidentName": "FDPA3",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Humboldt",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1692108762780,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -5462,31 +5362,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.406588734911,
-          41.6240662400538
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1692113573000,
-        "IncidentName": "SPRING",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Siskiyou",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1692115527600,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -123.286225859005,
           41.5732191589263
         ]
@@ -5527,7 +5402,7 @@
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1692115011560,
+        "ModifiedOnDateTime_dt": 1692117111007,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -6402,7 +6277,7 @@
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1692159484707,
+        "ModifiedOnDateTime_dt": 1692167286177,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -7403,31 +7278,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1692156176593,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.692581705365,
-          40.140394025332
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1692161115000,
-        "IncidentName": "BARNUM",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Humboldt",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 20,
-        "ModifiedOnDateTime_dt": 1692164374510,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
