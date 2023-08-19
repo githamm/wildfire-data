@@ -9662,31 +9662,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.691263452446,
-          46.4300062368119
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1692224760000,
-        "IncidentName": "Musselshell",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Clearwater",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-ID",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1692234443913,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -109.113344004173,
           36.4791723702069
         ]
@@ -11348,11 +11323,11 @@
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
         "POOCounty": "Socorro",
-        "POOLandownerCategory": "Private",
+        "POOLandownerCategory": "USFS",
         "POOState": "US-NM",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 9.6,
-        "ModifiedOnDateTime_dt": 1692323074743,
+        "ModifiedOnDateTime_dt": 1692371823773,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -11378,6 +11353,31 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
         "ModifiedOnDateTime_dt": 1692308255037,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.372538627884,
+          35.527255494631
+        ]
+      },
+      "properties": {
+        "FireCause": null,
+        "FireDiscoveryDateTime": 1692308359000,
+        "IncidentName": "CALNIMPTEWA",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Navajo",
+        "POOLandownerCategory": "BIA",
+        "POOState": "US-AZ",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 3,
+        "ModifiedOnDateTime_dt": 1692371553750,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -11602,7 +11602,7 @@
         "POOState": "US-ID",
         "TotalIncidentPersonnel": 1,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1692320016480,
+        "ModifiedOnDateTime_dt": 1692371562823,
         "FireMgmtComplexity": "Type 4 Incident",
         "POOCity": null
       }
@@ -13912,8 +13912,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.800513961328,
-          46.9457060599585
+          -117.800569561367,
+          46.9458393599621
         ]
       },
       "properties": {
@@ -13921,15 +13921,15 @@
         "FireDiscoveryDateTime": 1692401290000,
         "IncidentName": "WINONA",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 0,
         "POOCounty": "Whitman",
         "POOLandownerCategory": "Private",
         "POOState": "US-WA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 1500,
-        "ModifiedOnDateTime_dt": 1692401935303,
-        "FireMgmtComplexity": null,
-        "POOCity": null
+        "TotalIncidentPersonnel": 65,
+        "IncidentSize": 3000,
+        "ModifiedOnDateTime_dt": 1692428399400,
+        "FireMgmtComplexity": "Type 3 Incident",
+        "POOCity": "Winona"
       }
     },
     {
@@ -14346,13 +14346,13 @@
         "FireDiscoveryDateTime": 1692417379000,
         "IncidentName": "San Jacinto 3332",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
+        "PercentContained": 30,
         "POOCounty": "San Jacinto",
         "POOLandownerCategory": "Private",
         "POOState": "US-TX",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 30,
-        "ModifiedOnDateTime_dt": 1692425411800,
+        "IncidentSize": 50,
+        "ModifiedOnDateTime_dt": 1692428720053,
         "FireMgmtComplexity": "Type 5 Incident",
         "POOCity": null
       }
@@ -14387,22 +14387,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.182568988367,
-          33.8260868898486
+          -118.107012149998,
+          33.8764548441697
         ]
       },
       "properties": {
         "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1692422866000,
-        "IncidentName": "SIERRA VISTA ELEMENTARY SCH NUEV",
+        "FireDiscoveryDateTime": 1692426434000,
+        "IncidentName": "LAC-280819",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
-        "POOCounty": "Riverside",
+        "POOCounty": "Los Angeles",
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1692423506557,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1692427017340,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
