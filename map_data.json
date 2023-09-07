@@ -9892,7 +9892,7 @@
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Human",
         "FireDiscoveryDateTime": 1694038680000,
         "IncidentName": "Cattle Drive",
         "IncidentTypeCategory": "WF",
@@ -9901,8 +9901,8 @@
         "POOLandownerCategory": "Private",
         "POOState": "US-OR",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 5,
-        "ModifiedOnDateTime_dt": 1694056246803,
+        "IncidentSize": 4.35,
+        "ModifiedOnDateTime_dt": 1694056376560,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -10096,13 +10096,13 @@
         "FireDiscoveryDateTime": 1694050381000,
         "IncidentName": "Devils Pond",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
+        "PercentContained": 5,
         "POOCounty": "Palo Pinto",
         "POOLandownerCategory": "Private",
         "POOState": "US-TX",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 5,
-        "ModifiedOnDateTime_dt": 1694056070550,
+        "IncidentSize": 0.5,
+        "ModifiedOnDateTime_dt": 1694058498630,
         "FireMgmtComplexity": "Type 5 Incident",
         "POOCity": null
       }
@@ -10112,8 +10112,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.467346128951,
-          42.9400557825691
+          -117.460657128965,
+          42.9473317837863
         ]
       },
       "properties": {
@@ -10127,7 +10127,57 @@
         "POOState": "US-OR",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 50,
-        "ModifiedOnDateTime_dt": 1694056045793,
+        "ModifiedOnDateTime_dt": 1694057556177,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.488347675283,
+          46.5397279729725
+        ]
+      },
+      "properties": {
+        "FireCause": null,
+        "FireDiscoveryDateTime": 1694052540000,
+        "IncidentName": "4508 MAIN ST",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Yakima",
+        "POOLandownerCategory": "BIA",
+        "POOState": "US-WA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1694059049870,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.407792931828,
+          34.6235555882302
+        ]
+      },
+      "properties": {
+        "FireCause": null,
+        "FireDiscoveryDateTime": 1694056560000,
+        "IncidentName": "Box Canyon",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Torrance",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-NM",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1694056777127,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
