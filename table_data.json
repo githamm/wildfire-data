@@ -4377,7 +4377,7 @@
         ]
       },
       "properties": {
-        "IncidentSize": 0.1,
+        "IncidentSize": 2,
         "FireCause": "Undetermined",
         "FireDiscoveryDateTime": 1689537986000,
         "IncidentName": "Silver Springs",
@@ -13432,13 +13432,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -108.65451086408,
-          39.2068060916468
+          -108.656727864852,
+          39.2093390918148
         ]
       },
       "properties": {
-        "IncidentSize": 20,
-        "FireCause": "Undetermined",
+        "IncidentSize": 32.9,
+        "FireCause": "Human",
         "FireDiscoveryDateTime": 1694993454000,
         "IncidentName": "Adobe Creek",
         "IncidentTypeCategory": "WF",
@@ -13452,18 +13452,58 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -108.652564864144,
-          39.2109400923138
+          -108.652127864705,
+          39.216556093064
         ]
       },
       "properties": {
-        "IncidentSize": 2,
-        "FireCause": "Undetermined",
+        "IncidentSize": 5.9,
+        "FireCause": "Human",
         "FireDiscoveryDateTime": 1694999640000,
         "IncidentName": "Adobe Creek 2",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
         "POOCounty": "Mesa",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.408177611744,
+          37.3705388660034
+        ]
+      },
+      "properties": {
+        "IncidentSize": 0.1,
+        "FireCause": "Natural",
+        "FireDiscoveryDateTime": 1695051079000,
+        "IncidentName": "Cedar Mesa",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Montezuma",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.802710706842,
+          37.478505855076
+        ]
+      },
+      "properties": {
+        "IncidentSize": 0.1,
+        "FireCause": "Natural",
+        "FireDiscoveryDateTime": 1695052370000,
+        "IncidentName": "Woods Canyon",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Montezuma",
         "POOState": "US-CO"
       }
     }
