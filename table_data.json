@@ -13997,12 +13997,12 @@
         ]
       },
       "properties": {
-        "IncidentSize": 1500,
+        "IncidentSize": 1192,
         "FireCause": "Natural",
         "FireDiscoveryDateTime": 1695273240000,
         "IncidentName": "Border",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 0,
         "POOCounty": "Mesa",
         "POOState": "US-CO"
       }
@@ -14058,12 +14058,32 @@
       },
       "properties": {
         "IncidentSize": 0.25,
-        "FireCause": "Undetermined",
+        "FireCause": "Natural",
         "FireDiscoveryDateTime": 1695326108000,
         "IncidentName": "Horse Pasture",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
         "POOCounty": "Garfield",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.682633527086,
+          38.0671330078163
+        ]
+      },
+      "properties": {
+        "IncidentSize": 0.25,
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1695330065000,
+        "IncidentName": "Dexter",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Ouray",
         "POOState": "US-CO"
       }
     }
