@@ -112,6 +112,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -78.1105583822611,
+          34.4586178093473
+        ]
+      },
+      "properties": {
+        "FireCause": null,
+        "FireDiscoveryDateTime": 1677943121000,
+        "IncidentName": "Savanna Unit FY23 RX",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": null,
+        "POOCounty": "Pender",
+        "POOLandownerCategory": "NPS",
+        "POOState": "US-NC",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 9,
+        "ModifiedOnDateTime_dt": 1695742790660,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -80.8237261636868,
           33.8295865792629
         ]
@@ -128,31 +153,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 352,
         "ModifiedOnDateTime_dt": 1694713748570,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.523896795809,
-          48.4321318609526
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1680104989000,
-        "IncidentName": "HORSE CAMP PILES RX",
-        "IncidentTypeCategory": "RX",
-        "PercentContained": null,
-        "POOCounty": "Okanogan",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-WA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 5,
-        "ModifiedOnDateTime_dt": 1695483651813,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -537,31 +537,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -113.660213078888,
-          46.5746064506836
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1684336874000,
-        "IncidentName": "RX D3 Ranch Creek Pile Burn",
-        "IncidentTypeCategory": "RX",
-        "PercentContained": null,
-        "POOCounty": "Granite",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-MT",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 5,
-        "ModifiedOnDateTime_dt": 1695482652870,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -116.02641332799,
           45.5016361296943
         ]
@@ -912,31 +887,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.211313574001,
-          47.4253563628007
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1687560730000,
-        "IncidentName": "RX D7 Green Breen B07 / B08",
-        "IncidentTypeCategory": "RX",
-        "PercentContained": null,
-        "POOCounty": "Mineral",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-MT",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1695482500297,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -81.3191730594158,
           27.5587661058611
         ]
@@ -1012,31 +962,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.892791099726,
-          46.446395217864
-        ]
-      },
-      "properties": {
-        "FireCause": "Natural",
-        "FireDiscoveryDateTime": 1688414220000,
-        "IncidentName": "Little Bear",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 90,
-        "POOCounty": "Idaho",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-ID",
-        "TotalIncidentPersonnel": 1,
-        "IncidentSize": 1221,
-        "ModifiedOnDateTime_dt": 1695331528940,
-        "FireMgmtComplexity": "Type 4 Incident",
-        "POOCity": "Powell"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -121.013348075593,
           48.0141724835354
         ]
@@ -1105,31 +1030,6 @@
         "ModifiedOnDateTime_dt": 1695696215267,
         "FireMgmtComplexity": "Type 2 Incident",
         "POOCity": "Gold Beach"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.975646328169,
-          46.504273314288
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1689645385000,
-        "IncidentName": "West Fork",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 90,
-        "POOCounty": "Idaho",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-ID",
-        "TotalIncidentPersonnel": 1,
-        "IncidentSize": 1262,
-        "ModifiedOnDateTime_dt": 1695331249080,
-        "FireMgmtComplexity": "Type 4 Incident",
-        "POOCity": "Powell"
       }
     },
     {
@@ -2127,7 +2027,7 @@
         "POOState": "US-OR",
         "TotalIncidentPersonnel": 610,
         "IncidentSize": 25751,
-        "ModifiedOnDateTime_dt": 1695700038080,
+        "ModifiedOnDateTime_dt": 1695741608240,
         "FireMgmtComplexity": "Type 1 Incident",
         "POOCity": "McKenzie Bridge"
       }
@@ -2280,31 +2180,6 @@
         "ModifiedOnDateTime_dt": 1695597843373,
         "FireMgmtComplexity": "Type 5 Incident",
         "POOCity": "Leesville"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -115.388624162357,
-          44.7508394284518
-        ]
-      },
-      "properties": {
-        "FireCause": "Natural",
-        "FireDiscoveryDateTime": 1691788440000,
-        "IncidentName": "Chilcoot",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 95,
-        "POOCounty": "Valley",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-ID",
-        "TotalIncidentPersonnel": 1,
-        "IncidentSize": 685,
-        "ModifiedOnDateTime_dt": 1695394406370,
-        "FireMgmtComplexity": "Type 5 Incident",
-        "POOCity": null
       }
     },
     {
@@ -6212,31 +6087,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -108.823843840258,
-          38.6813390121456
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1695061065000,
-        "IncidentName": "Cow Creek Rx",
-        "IncidentTypeCategory": "RX",
-        "PercentContained": null,
-        "POOCounty": "Mesa",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-CO",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1695481693040,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -94.8977849552832,
           34.6352839716755
         ]
@@ -6962,22 +6812,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -113.664596156502,
-          46.9394394808505
+          -72.0450387386131,
+          42.4358206654692
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1695332311000,
-        "IncidentName": "RX BLM Lower Blackfoot Corridor T1",
+        "FireCause": null,
+        "FireDiscoveryDateTime": 1695310318000,
+        "IncidentName": "DCR- RX -BarreUnitG",
         "IncidentTypeCategory": "RX",
         "PercentContained": null,
-        "POOCounty": "Missoula",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-MT",
+        "POOCounty": "Worcester",
+        "POOLandownerCategory": "State",
+        "POOState": "US-MA",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 7,
-        "ModifiedOnDateTime_dt": 1695483188787,
+        "IncidentSize": 2.5,
+        "ModifiedOnDateTime_dt": 1695742690883,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -8802,7 +8652,7 @@
         "POOState": "US-CO",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1695678430383,
+        "ModifiedOnDateTime_dt": 1695741496257,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -9778,6 +9628,106 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 1,
         "ModifiedOnDateTime_dt": 1695738346837,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.151180227719,
+          46.8088394214282
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1695738718000,
+        "IncidentName": "365",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Missoula",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-MT",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1695742432973,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.826982164739,
+          34.6239149431539
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1695741117000,
+        "IncidentName": "LAC-330032",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1695741768840,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.602512968174,
+          47.0902565993777
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1695743176000,
+        "IncidentName": "Indian Meadows Piles RX",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": null,
+        "POOCounty": "Lewis and Clark",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-MT",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1695744672513,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.365446625734,
+          39.9103050359095
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1695743205000,
+        "IncidentName": "BALD SIX",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Mendocino",
+        "POOLandownerCategory": "BIA",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.01,
+        "ModifiedOnDateTime_dt": 1695743254893,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
