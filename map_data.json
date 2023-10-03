@@ -725,9 +725,9 @@
         "POOCounty": "Lane",
         "POOLandownerCategory": "USFS",
         "POOState": "US-OR",
-        "TotalIncidentPersonnel": 18,
+        "TotalIncidentPersonnel": 16,
         "IncidentSize": 31590,
-        "ModifiedOnDateTime_dt": 1696214990500,
+        "ModifiedOnDateTime_dt": 1696299020140,
         "FireMgmtComplexity": "Type 2 Incident",
         "POOCity": "Lowell"
       }
@@ -1250,9 +1250,9 @@
         "POOCounty": "Lane",
         "POOLandownerCategory": "USFS",
         "POOState": "US-OR",
-        "TotalIncidentPersonnel": 419,
+        "TotalIncidentPersonnel": 361,
         "IncidentSize": 25751,
-        "ModifiedOnDateTime_dt": 1696293129863,
+        "ModifiedOnDateTime_dt": 1696299068727,
         "FireMgmtComplexity": "Type 2 Incident",
         "POOCity": "McKenzie Bridge"
       }
@@ -2952,7 +2952,7 @@
         "POOState": "US-OR",
         "TotalIncidentPersonnel": 73,
         "IncidentSize": 3254,
-        "ModifiedOnDateTime_dt": 1696215060560,
+        "ModifiedOnDateTime_dt": 1696299121993,
         "FireMgmtComplexity": "Type 2 Incident",
         "POOCity": null
       }
@@ -5512,31 +5512,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.678545388349,
-          35.5190549875057
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1696033390000,
-        "IncidentName": "WILLOW",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Kern",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1696037473473,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -118.170212239892,
           34.8204749443339
         ]
@@ -7687,31 +7662,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -91.3087053670242,
-          37.0179427896778
-        ]
-      },
-      "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1696284682000,
-        "IncidentName": "Marie",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Shannon",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-MO",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 7.68,
-        "ModifiedOnDateTime_dt": 1696290737863,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -106.882135184144,
           44.3225268496104
         ]
@@ -7812,6 +7762,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -109.177460807653,
+          37.6862558582006
+        ]
+      },
+      "properties": {
+        "FireCause": "Natural",
+        "FireDiscoveryDateTime": 1696291253000,
+        "IncidentName": "Big Water",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "San Juan",
+        "POOLandownerCategory": "BLM",
+        "POOState": "US-UT",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.01,
+        "ModifiedOnDateTime_dt": 1696298725333,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -117.755592105259,
           34.0584948842865
         ]
@@ -7837,23 +7812,48 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.566991359841,
-          38.7891410147947
+          -94.2636259030469,
+          33.2992859456529
         ]
       },
       "properties": {
         "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1696292431000,
-        "IncidentName": "SHELL",
+        "FireDiscoveryDateTime": 1696291620000,
+        "IncidentName": "Bowie 4301",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Lake",
+        "PercentContained": 0,
+        "POOCounty": "Bowie",
         "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
+        "POOState": "US-TX",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1696292571853,
-        "FireMgmtComplexity": null,
+        "IncidentSize": 3,
+        "ModifiedOnDateTime_dt": 1696298298210,
+        "FireMgmtComplexity": "Type 5 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.373190159571,
+          31.4900889139745
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1696293120000,
+        "IncidentName": "Nacogdoches 4302",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 0,
+        "POOCounty": "Nacogdoches",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-TX",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 2,
+        "ModifiedOnDateTime_dt": 1696298077400,
+        "FireMgmtComplexity": "Type 5 Incident",
         "POOCity": null
       }
     },
@@ -7937,47 +7937,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.279778999503,
-          33.7551318762954
+          -117.820712115672,
+          34.0504948797118
         ]
       },
       "properties": {
         "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1696297439000,
-        "IncidentName": "SPRING ST  LELS",
+        "FireDiscoveryDateTime": 1696298062000,
+        "IncidentName": "CAMPUS",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
-        "POOCounty": "Riverside",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1696297499920,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.162025998509,
-          33.9969559106772
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1696297824000,
-        "IncidentName": "MOV292",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Riverside",
+        "POOCounty": "Los Angeles",
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1696297861013,
+        "ModifiedOnDateTime_dt": 1696298576263,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
