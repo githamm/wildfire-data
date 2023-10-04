@@ -787,6 +787,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -117.359431016185,
+          47.5513391482285
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1687476120000,
+        "IncidentName": "FREYA CHAPEL",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Spokane",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-WA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.5,
+        "ModifiedOnDateTime_dt": 1696444515133,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -146.466425906269,
           64.7263119978318
         ]
@@ -4076,8 +4101,8 @@
         "POOLandownerCategory": "USFS",
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 23.7,
-        "ModifiedOnDateTime_dt": 1695920222030,
+        "IncidentSize": 28,
+        "ModifiedOnDateTime_dt": 1696444251640,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -4105,6 +4130,31 @@
         "ModifiedOnDateTime_dt": 1695397746357,
         "FireMgmtComplexity": "Type 5 Incident",
         "POOCity": "Monticello"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.93851288194,
+          38.2280051656162
+        ]
+      },
+      "properties": {
+        "FireCause": "Natural",
+        "FireDiscoveryDateTime": 1694452860000,
+        "IncidentName": "PEAK",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Tuolumne",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 18,
+        "ModifiedOnDateTime_dt": 1696444258817,
+        "FireMgmtComplexity": null,
+        "POOCity": null
       }
     },
     {
@@ -5967,7 +6017,7 @@
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Natural",
         "FireDiscoveryDateTime": 1696111607000,
         "IncidentName": "RABBIT",
         "IncidentTypeCategory": "WF",
@@ -5977,7 +6027,7 @@
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1696442890827,
+        "ModifiedOnDateTime_dt": 1696444380983,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -6178,31 +6228,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
         "ModifiedOnDateTime_dt": 1696344654517,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.430854962532,
-          36.8513959352317
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1696184026000,
-        "IncidentName": "RIVER",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "San Benito",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1696185310960,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -7262,8 +7287,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.9865074554219,
-          34.8863394663698
+          -95.9863963553972,
+          34.8863950663854
         ]
       },
       "properties": {
@@ -7271,14 +7296,14 @@
         "FireDiscoveryDateTime": 1696271400000,
         "IncidentName": "Powerline Fire",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 20,
+        "PercentContained": 60,
         "POOCounty": "Pittsburg",
         "POOLandownerCategory": "State",
         "POOState": "US-OK",
         "TotalIncidentPersonnel": 7,
         "IncidentSize": 585,
-        "ModifiedOnDateTime_dt": 1696340572990,
-        "FireMgmtComplexity": "Type 4 Incident",
+        "ModifiedOnDateTime_dt": 1696445991143,
+        "FireMgmtComplexity": "Type 5 Incident",
         "POOCity": null
       }
     },
@@ -7426,8 +7451,8 @@
         "POOLandownerCategory": "USFS",
         "POOState": "US-MT",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 35,
-        "ModifiedOnDateTime_dt": 1696439728053,
+        "IncidentSize": 39,
+        "ModifiedOnDateTime_dt": 1696444439253,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -9237,8 +9262,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.9473394121952,
-          46.7117586061567
+          -87.947387412225,
+          46.7118686061699
         ]
       },
       "properties": {
@@ -9248,11 +9273,11 @@
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
         "POOCounty": "Marquette",
-        "POOLandownerCategory": "Private",
+        "POOLandownerCategory": "USFS",
         "POOState": "US-MI",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 35,
-        "ModifiedOnDateTime_dt": 1696442764770,
+        "ModifiedOnDateTime_dt": 1696444460443,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -9312,8 +9337,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.700806885732,
-          33.5844508880356
+          -122.424480946364,
+          42.8961723259868
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1696439344000,
+        "IncidentName": "Ville",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Jackson",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-OR",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1696446036743,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.700812885556,
+          33.5821698877659
         ]
       },
       "properties": {
@@ -9326,8 +9376,8 @@
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1696442012960,
+        "IncidentSize": 1.7,
+        "ModifiedOnDateTime_dt": 1696445846180,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -9353,6 +9403,56 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 290,
         "ModifiedOnDateTime_dt": 1696441605030,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.7430064220778,
+          31.8886227270799
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1696441899000,
+        "IncidentName": "Wolf Creek",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Winn",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-LA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1696444282910,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.605274698707,
+          35.5042378648123
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1696445991000,
+        "IncidentName": "KINGS",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "San Luis Obispo",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.01,
+        "ModifiedOnDateTime_dt": 1696446369297,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
