@@ -802,7 +802,7 @@
         "POOState": "US-OR",
         "TotalIncidentPersonnel": 51,
         "IncidentSize": 34242,
-        "ModifiedOnDateTime_dt": 1696478354657,
+        "ModifiedOnDateTime_dt": 1696558842060,
         "FireMgmtComplexity": "Type 3 Incident",
         "POOCity": "Gold Beach"
       }
@@ -2825,9 +2825,9 @@
         "POOCounty": "Curry",
         "POOLandownerCategory": "USFS",
         "POOState": "US-OR",
-        "TotalIncidentPersonnel": 926,
+        "TotalIncidentPersonnel": 847,
         "IncidentSize": 22170,
-        "ModifiedOnDateTime_dt": 1696548710570,
+        "ModifiedOnDateTime_dt": 1696558946207,
         "FireMgmtComplexity": "Type 1 Incident",
         "POOCity": "Port Orford"
       }
@@ -3271,13 +3271,38 @@
         "FireDiscoveryDateTime": 1693580400000,
         "IncidentName": "Low Divide",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
+        "PercentContained": 100,
         "POOCounty": "Jefferson",
         "POOLandownerCategory": "NPS",
         "POOState": "US-WA",
-        "TotalIncidentPersonnel": 18,
+        "TotalIncidentPersonnel": 0,
         "IncidentSize": 341,
-        "ModifiedOnDateTime_dt": 1695861359993,
+        "ModifiedOnDateTime_dt": 1696561204067,
+        "FireMgmtComplexity": "Type 3 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.31918178294,
+          47.7452833147784
+        ]
+      },
+      "properties": {
+        "FireCause": "Natural",
+        "FireDiscoveryDateTime": 1693592606000,
+        "IncidentName": "Diamond Mtn",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 100,
+        "POOCounty": "Jefferson",
+        "POOLandownerCategory": "NPS",
+        "POOState": "US-WA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 30,
+        "ModifiedOnDateTime_dt": 1696559564177,
         "FireMgmtComplexity": "Type 3 Incident",
         "POOCity": null
       }
@@ -3321,13 +3346,13 @@
         "FireDiscoveryDateTime": 1693602832000,
         "IncidentName": "Delabarre",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
+        "PercentContained": 100,
         "POOCounty": "Jefferson",
         "POOLandownerCategory": "NPS",
         "POOState": "US-WA",
-        "TotalIncidentPersonnel": 13,
+        "TotalIncidentPersonnel": 0,
         "IncidentSize": 4168,
-        "ModifiedOnDateTime_dt": 1695861549290,
+        "ModifiedOnDateTime_dt": 1696558649530,
         "FireMgmtComplexity": "Type 3 Incident",
         "POOCity": null
       }
@@ -9378,6 +9403,81 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1696555374640,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.846329505821,
+          40.7936387254318
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1696554240000,
+        "IncidentName": "Heguy",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Elko",
+        "POOLandownerCategory": "BLM",
+        "POOState": "US-NV",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1696561185827,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.57028983108,
+          33.5219492335858
+        ]
+      },
+      "properties": {
+        "FireCause": null,
+        "FireDiscoveryDateTime": 1696559460000,
+        "IncidentName": "Recycling",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Orange",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1696559627460,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.361982197156,
+          33.9309248359406
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1696559728000,
+        "IncidentName": "LAC-341801",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1696559997707,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
