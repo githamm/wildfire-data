@@ -4787,31 +4787,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -94.2054069876832,
-          34.840006242477
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1696258577000,
-        "IncidentName": "RX Denton Creek Site Prep",
-        "IncidentTypeCategory": "RX",
-        "PercentContained": null,
-        "POOCounty": "Scott",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-AR",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 25,
-        "ModifiedOnDateTime_dt": 1696338909100,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -120.04915198103,
           38.8940612169386
         ]
@@ -5887,31 +5862,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.344742194276,
-          33.9309548369115
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1696770703000,
-        "IncidentName": "LAC-344798",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1696770957360,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -81.3778859990361,
           24.7015043888391
         ]
@@ -6952,8 +6902,33 @@
         "POOState": "US-MT",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 275,
-        "ModifiedOnDateTime_dt": 1696946069293,
+        "ModifiedOnDateTime_dt": 1697033301060,
         "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.2344514657088,
+          30.9680610066952
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1696861800000,
+        "IncidentName": "Rx Trinity 4317",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": 0,
+        "POOCounty": "Trinity",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-TX",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 54.4,
+        "ModifiedOnDateTime_dt": 1697033000440,
+        "FireMgmtComplexity": "Type 1 Prescribed Fire",
         "POOCity": null
       }
     },
@@ -7287,6 +7262,56 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -90.9035058769624,
+          30.8283385740369
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1696883400000,
+        "IncidentName": "Lower CC",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 85,
+        "POOCounty": "East Feliciana",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-LA",
+        "TotalIncidentPersonnel": 17,
+        "IncidentSize": 129,
+        "ModifiedOnDateTime_dt": 1697032809300,
+        "FireMgmtComplexity": "Type 4 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.5950057886405,
+          30.7222277621547
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1696884540000,
+        "IncidentName": "Opal Bennett",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 95,
+        "POOCounty": "St. Helena",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-LA",
+        "TotalIncidentPersonnel": 18,
+        "IncidentSize": 34.1,
+        "ModifiedOnDateTime_dt": 1697033259990,
+        "FireMgmtComplexity": "Type 4 Incident",
+        "POOCity": "Montpelier"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -117.511305057432,
           33.9827458894725
         ]
@@ -7379,31 +7404,6 @@
         "IncidentSize": 0.2,
         "ModifiedOnDateTime_dt": 1696958081250,
         "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -94.4654235488531,
-          31.965055675297
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1696889400000,
-        "IncidentName": "Shelby 4321",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 95,
-        "POOCounty": "Shelby",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-TX",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 1,
-        "ModifiedOnDateTime_dt": 1696896928717,
-        "FireMgmtComplexity": "Type 5 Incident",
         "POOCity": null
       }
     },
@@ -7519,7 +7519,7 @@
       "properties": {
         "FireCause": "Human",
         "FireDiscoveryDateTime": 1696899508000,
-        "IncidentName": "Tin Cup Road",
+        "IncidentName": "CFS - Tin Cup Road",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
         "POOCounty": "Ravalli",
@@ -7527,7 +7527,7 @@
         "POOState": "US-MT",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.75,
-        "ModifiedOnDateTime_dt": 1697029481733,
+        "ModifiedOnDateTime_dt": 1697032875557,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -8087,56 +8087,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -90.9035058769624,
-          30.8283385740369
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1696962046000,
-        "IncidentName": "Lower CC",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "East Feliciana",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-LA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1696962284727,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -90.5903387872745,
-          30.7200055618414
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1696962056000,
-        "IncidentName": "Opal Bennett",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "St. Helena",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-LA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1696962520653,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -111.675288880029,
           35.1863942724735
         ]
@@ -8262,6 +8212,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -88.4730608089565,
+          30.7383389378296
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1696969800000,
+        "IncidentName": "George Tannertown Rd",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 100,
+        "POOCounty": "George",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-MS",
+        "TotalIncidentPersonnel": 3,
+        "IncidentSize": 2,
+        "ModifiedOnDateTime_dt": 1697032416083,
+        "FireMgmtComplexity": "Type 5 Incident",
+        "POOCity": "Lucedale"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -120.974735725018,
           41.7116720723065
         ]
@@ -8346,13 +8321,13 @@
         "FireDiscoveryDateTime": 1696973331000,
         "IncidentName": "N 287 Complex",
         "IncidentTypeCategory": "CX",
-        "PercentContained": 0,
+        "PercentContained": 90,
         "POOCounty": "Potter",
         "POOLandownerCategory": "Private",
         "POOState": "US-TX",
         "TotalIncidentPersonnel": 4,
         "IncidentSize": 409,
-        "ModifiedOnDateTime_dt": 1696987980487,
+        "ModifiedOnDateTime_dt": 1697031847213,
         "FireMgmtComplexity": "Type 5 Incident",
         "POOCity": null
       }
@@ -8378,6 +8353,31 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 1,
         "ModifiedOnDateTime_dt": 1696977977077,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.852882555918,
+          43.2400738774348
+        ]
+      },
+      "properties": {
+        "FireCause": null,
+        "FireDiscoveryDateTime": 1696973600000,
+        "IncidentName": "North Hill",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Todd",
+        "POOLandownerCategory": "BIA",
+        "POOState": "US-SD",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1697031077120,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
