@@ -825,9 +825,9 @@
         "POOCounty": "Curry",
         "POOLandownerCategory": "USFS",
         "POOState": "US-OR",
-        "TotalIncidentPersonnel": 32,
+        "TotalIncidentPersonnel": 64,
         "IncidentSize": 34242,
-        "ModifiedOnDateTime_dt": 1697077316247,
+        "ModifiedOnDateTime_dt": 1697158952277,
         "FireMgmtComplexity": "Type 2 Incident",
         "POOCity": "Gold Beach"
       }
@@ -2546,13 +2546,13 @@
         "FireDiscoveryDateTime": 1692989816000,
         "IncidentName": "Petes Lake",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 79,
+        "PercentContained": 100,
         "POOCounty": "Lane",
         "POOLandownerCategory": "USFS",
         "POOState": "US-OR",
         "TotalIncidentPersonnel": 4,
         "IncidentSize": 3254,
-        "ModifiedOnDateTime_dt": 1697077890443,
+        "ModifiedOnDateTime_dt": 1697160955857,
         "FireMgmtComplexity": "Type 2 Incident",
         "POOCity": null
       }
@@ -2675,9 +2675,9 @@
         "POOCounty": "Curry",
         "POOLandownerCategory": "USFS",
         "POOState": "US-OR",
-        "TotalIncidentPersonnel": 512,
+        "TotalIncidentPersonnel": 343,
         "IncidentSize": 22170,
-        "ModifiedOnDateTime_dt": 1697077465567,
+        "ModifiedOnDateTime_dt": 1697159100903,
         "FireMgmtComplexity": "Type 2 Incident",
         "POOCity": "Port Orford"
       }
@@ -5737,31 +5737,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -89.0180253503492,
-          30.5421415768172
-        ]
-      },
-      "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1696881997000,
-        "IncidentName": "3 Rivers",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Harrison",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-MS",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.25,
-        "ModifiedOnDateTime_dt": 1696899133117,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -90.9035058769624,
           30.8283385740369
         ]
@@ -5853,31 +5828,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 1.7,
         "ModifiedOnDateTime_dt": 1696951309047,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.496948879417,
-          33.9577919432665
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1696895970000,
-        "IncidentName": "DESERT VIEW AV / MESQUITE AV",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Riverside",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1696896643100,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -6127,7 +6077,7 @@
         "POOState": "US-TN",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 2,
-        "ModifiedOnDateTime_dt": 1697130968897,
+        "ModifiedOnDateTime_dt": 1697158827173,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -7887,31 +7837,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.617852385525,
-          38.9319690220553
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1697102205000,
-        "IncidentName": "DAM",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Lake",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1697103557563,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -118.102832207643,
           34.5795849220894
         ]
@@ -8367,7 +8292,7 @@
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Natural",
         "FireDiscoveryDateTime": 1697153444000,
         "IncidentName": "Bootlegger",
         "IncidentTypeCategory": "WF",
@@ -8377,8 +8302,33 @@
         "POOState": "US-AZ",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.25,
-        "ModifiedOnDateTime_dt": 1697158062950,
+        "ModifiedOnDateTime_dt": 1697159556743,
         "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.279978851337,
+          35.8673260643521
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1697154921000,
+        "IncidentName": "Moore Dam",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 60,
+        "POOCounty": "Hutchinson",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-TX",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 5,
+        "ModifiedOnDateTime_dt": 1697160140520,
+        "FireMgmtComplexity": "Type 5 Incident",
         "POOCity": null
       }
     },
@@ -8403,6 +8353,56 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1697156427193,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.844417379559,
+          38.6173659800007
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1697160210000,
+        "IncidentName": "MCDONOUGH",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Sonoma",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.01,
+        "ModifiedOnDateTime_dt": 1697160367433,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.100939968653,
+          33.7552628861604
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1697160901000,
+        "IncidentName": "FALCON VIEW LN  GREE",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Riverside",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.01,
+        "ModifiedOnDateTime_dt": 1697161013453,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
