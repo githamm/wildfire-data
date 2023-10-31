@@ -1751,8 +1751,8 @@
         "POOLandownerCategory": "USFS",
         "POOState": "US-ID",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 40,
-        "ModifiedOnDateTime_dt": 1698174891587,
+        "IncidentSize": 70,
+        "ModifiedOnDateTime_dt": 1698788472900,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -3100,9 +3100,9 @@
         "POOCounty": "Pueblo",
         "POOLandownerCategory": "USFS",
         "POOState": "US-CO",
-        "TotalIncidentPersonnel": 330,
+        "TotalIncidentPersonnel": 257,
         "IncidentSize": 492,
-        "ModifiedOnDateTime_dt": 1698708103967,
+        "ModifiedOnDateTime_dt": 1698789640837,
         "FireMgmtComplexity": "Type 1 Incident",
         "POOCity": "Rye Colorado"
       }
@@ -4052,7 +4052,7 @@
         "POOState": "US-MT",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 15,
-        "ModifiedOnDateTime_dt": 1698702684750,
+        "ModifiedOnDateTime_dt": 1698789060990,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -4687,31 +4687,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.314212575579,
-          34.6545047991338
-        ]
-      },
-      "properties": {
-        "FireCause": null,
-        "FireDiscoveryDateTime": 1698526500000,
-        "IncidentName": "FARM",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Santa Barbara",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1698530062977,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -118.98334574884,
           35.6250049792978
         ]
@@ -4753,31 +4728,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 140,
         "ModifiedOnDateTime_dt": 1698704348750,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.102412149211,
-          33.8763048444098
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1698529553000,
-        "IncidentName": "LAC-369841",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1698529729273,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -6452,7 +6402,7 @@
         "POOState": "US-HI",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 5,
-        "ModifiedOnDateTime_dt": 1698771881537,
+        "ModifiedOnDateTime_dt": 1698788006260,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -7876,8 +7826,8 @@
         "POOLandownerCategory": "USFS",
         "POOState": "US-MS",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 20,
-        "ModifiedOnDateTime_dt": 1698775063427,
+        "IncidentSize": 53,
+        "ModifiedOnDateTime_dt": 1698788595203,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -7892,7 +7842,7 @@
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Human",
         "FireDiscoveryDateTime": 1698770511000,
         "IncidentName": "Canal",
         "IncidentTypeCategory": "WF",
@@ -7902,7 +7852,7 @@
         "POOState": "US-AZ",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.22,
-        "ModifiedOnDateTime_dt": 1698776796180,
+        "ModifiedOnDateTime_dt": 1698788275743,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -8162,6 +8112,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -116.42920060851,
+          46.4992631678833
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1698782280000,
+        "IncidentName": "Trick Or Treat",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Clearwater",
+        "POOLandownerCategory": "Tribal",
+        "POOState": "US-ID",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1698787925913,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -117.460358047755,
           33.9709808909901
         ]
@@ -8187,22 +8162,122 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.09831156482,
-          36.6056640707483
+          -113.780611486138,
+          35.1712152465108
         ]
       },
       "properties": {
         "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1698784850000,
-        "IncidentName": "WOOD",
+        "FireDiscoveryDateTime": 1698783420000,
+        "IncidentName": "Rubber",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
-        "POOCounty": "Tulare",
+        "POOCounty": "Mohave",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-AZ",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1698789521290,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.435739696966,
+          42.3284423770177
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1698784140000,
+        "IncidentName": "Horse",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Klamath",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-OR",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.5,
+        "ModifiedOnDateTime_dt": 1698788615840,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.233013101245,
+          46.118889355872
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1698784663000,
+        "IncidentName": "West Side Landing Piles RX",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": null,
+        "POOCounty": "Ravalli",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-MT",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 4,
+        "ModifiedOnDateTime_dt": 1698789148990,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.760567692771,
+          33.893615965433
+        ]
+      },
+      "properties": {
+        "FireCause": null,
+        "FireDiscoveryDateTime": 1698787620000,
+        "IncidentName": "La Roca",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Orange",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1698788748897,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.275292499782,
+          40.1721241448799
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1698789680000,
+        "IncidentName": "WILDER",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Tehama",
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1698785315623,
+        "ModifiedOnDateTime_dt": 1698789905387,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
