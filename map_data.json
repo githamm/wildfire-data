@@ -412,6 +412,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -123.118246406033,
+          38.5059879504206
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1684517589000,
+        "IncidentName": "POLE MTN RX",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": null,
+        "POOCounty": "Sonoma",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 3.5,
+        "ModifiedOnDateTime_dt": 1698715081717,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -119.866912824697,
           37.8370051350547
         ]
@@ -955,31 +980,6 @@
         "ModifiedOnDateTime_dt": 1698275401480,
         "FireMgmtComplexity": "Type 3 Incident",
         "POOCity": "Kamuela, Hi"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -156.678070048116,
-          20.8700034331733
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1691560800000,
-        "IncidentName": "Lahaina",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 100,
-        "POOCounty": "Maui",
-        "POOLandownerCategory": "State",
-        "POOState": "US-HI",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 2170,
-        "ModifiedOnDateTime_dt": 1697502592630,
-        "FireMgmtComplexity": "Type 1 Incident",
-        "POOCity": "Lahaina"
       }
     },
     {
@@ -2176,8 +2176,8 @@
         "POOLandownerCategory": "USFS",
         "POOState": "US-CA",
         "TotalIncidentPersonnel": 5,
-        "IncidentSize": 220,
-        "ModifiedOnDateTime_dt": 1698690824470,
+        "IncidentSize": 250,
+        "ModifiedOnDateTime_dt": 1698714952523,
         "FireMgmtComplexity": "Type 5 Incident",
         "POOCity": "PInecrest"
       }
@@ -4687,31 +4687,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.07896677445,
-          33.5620329190087
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1698453800000,
-        "IncidentName": "LINCOLN",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Riverside",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1698454804233,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -116.613379896545,
           33.9163919319245
         ]
@@ -5828,31 +5803,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1698612288690,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.326001593437,
-          35.227335220937
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1698614819000,
-        "IncidentName": "Mahone",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Mohave",
-        "POOLandownerCategory": "BLM",
-        "POOState": "US-AZ",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1698616770727,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -7262,33 +7212,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.171469464379,
-          40.0313081426885
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1698693901000,
-        "IncidentName": "RODEO",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Tehama",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1698695684760,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.823081895812,
-          33.4382118641659
+          -116.823067495819,
+          33.4383381641816
         ]
       },
       "properties": {
@@ -7296,15 +7221,15 @@
         "FireDiscoveryDateTime": 1698694792000,
         "IncidentName": "HIGHLAND",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 0,
         "POOCounty": "Riverside",
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
+        "TotalIncidentPersonnel": 235,
         "IncidentSize": 500,
-        "ModifiedOnDateTime_dt": 1698713764030,
-        "FireMgmtComplexity": null,
-        "POOCity": null
+        "ModifiedOnDateTime_dt": 1698716652413,
+        "FireMgmtComplexity": "Type 4 Incident",
+        "POOCity": "Aguanga"
       }
     },
     {
@@ -7452,7 +7377,7 @@
         "POOState": "US-WA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 2,
-        "ModifiedOnDateTime_dt": 1698712781200,
+        "ModifiedOnDateTime_dt": 1698714141200,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -7462,22 +7387,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.020619541913,
-          36.5076200661938
+          -122.225984535663,
+          40.4781681720341
         ]
       },
       "properties": {
         "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1698705619000,
-        "IncidentName": "VULTURE",
+        "FireDiscoveryDateTime": 1698710868000,
+        "IncidentName": "DERSH",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
-        "POOCounty": "Tulare",
+        "POOCounty": "Shasta",
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.73,
-        "ModifiedOnDateTime_dt": 1698709299920,
+        "IncidentSize": 0.01,
+        "ModifiedOnDateTime_dt": 1698714484540,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -7502,7 +7427,32 @@
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1698713123843,
+        "ModifiedOnDateTime_dt": 1698714337077,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.048229965556,
+          33.8313918978978
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1698711689000,
+        "IncidentName": "RAMONA",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Riverside",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1698714065903,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -7551,8 +7501,8 @@
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.5,
-        "ModifiedOnDateTime_dt": 1698713569177,
+        "IncidentSize": 0.01,
+        "ModifiedOnDateTime_dt": 1698713902947,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -7578,6 +7528,131 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1698713568957,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.899683744192,
+          40.2040750125557
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1698714468000,
+        "IncidentName": "THOMAS",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Humboldt",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.01,
+        "ModifiedOnDateTime_dt": 1698716940740,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.394063039322,
+          34.007357898853
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1698714945000,
+        "IncidentName": "28TH ST / DEMETER PL",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Riverside",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1698715663090,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.094582215101,
+          34.6823049337977
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1698715061000,
+        "IncidentName": "LAC-372680",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1698715249240,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.089632201058,
+          34.5286349172831
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1698716714000,
+        "IncidentName": "LAC-372716",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1698717049283,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.699750100013,
+          37.7198159919593
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1698716719000,
+        "IncidentName": "ALTAMONT PASS RD  ALTAMONT",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Alameda",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.01,
+        "ModifiedOnDateTime_dt": 1698716922220,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
