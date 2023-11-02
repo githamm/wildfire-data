@@ -276,8 +276,8 @@
         "POOLandownerCategory": "USFS",
         "POOState": "US-NM",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 8,
-        "ModifiedOnDateTime_dt": 1698953836823,
+        "IncidentSize": 250,
+        "ModifiedOnDateTime_dt": 1698960107870,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -1000,9 +1000,9 @@
         "POOCounty": "Bear Lake",
         "POOLandownerCategory": "USFS",
         "POOState": "US-ID",
-        "TotalIncidentPersonnel": 4,
+        "TotalIncidentPersonnel": 1,
         "IncidentSize": 457,
-        "ModifiedOnDateTime_dt": 1698346455297,
+        "ModifiedOnDateTime_dt": 1698959942730,
         "FireMgmtComplexity": "Type 5 Incident",
         "POOCity": null
       }
@@ -2000,9 +2000,9 @@
         "POOCounty": "Franklin",
         "POOLandownerCategory": "USFS",
         "POOState": "US-ID",
-        "TotalIncidentPersonnel": 2,
+        "TotalIncidentPersonnel": 1,
         "IncidentSize": 2980,
-        "ModifiedOnDateTime_dt": 1698346583300,
+        "ModifiedOnDateTime_dt": 1698960204633,
         "FireMgmtComplexity": "Type 4 Incident",
         "POOCity": null
       }
@@ -3362,6 +3362,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -116.30651331237,
+          45.1497960740462
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1697562954000,
+        "IncidentName": "Too Smokey RX",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": null,
+        "POOCounty": "Adams",
+        "POOLandownerCategory": "BLM",
+        "POOState": "US-ID",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 7,
+        "ModifiedOnDateTime_dt": 1698962650720,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -90.1266723186053,
           29.7444497665757
         ]
@@ -3825,9 +3850,9 @@
         "POOCounty": "Cherokee",
         "POOLandownerCategory": "USFS",
         "POOState": "US-NC",
-        "TotalIncidentPersonnel": 70,
+        "TotalIncidentPersonnel": 77,
         "IncidentSize": 90,
-        "ModifiedOnDateTime_dt": 1698954338747,
+        "ModifiedOnDateTime_dt": 1698961251767,
         "FireMgmtComplexity": "Type 3 Incident",
         "POOCity": "Andrews"
       }
@@ -4326,8 +4351,8 @@
         "POOLandownerCategory": "USFS",
         "POOState": "US-MT",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 23,
-        "ModifiedOnDateTime_dt": 1698858709460,
+        "IncidentSize": 28,
+        "ModifiedOnDateTime_dt": 1698959774687,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -4926,8 +4951,8 @@
         "POOLandownerCategory": "BLM",
         "POOState": "US-ID",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1698771156520,
+        "IncidentSize": 75,
+        "ModifiedOnDateTime_dt": 1698959498620,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -5252,7 +5277,7 @@
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1698869725490,
+        "ModifiedOnDateTime_dt": 1698962611700,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -5901,8 +5926,8 @@
         "POOLandownerCategory": "USFS",
         "POOState": "US-MT",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 15,
-        "ModifiedOnDateTime_dt": 1698948122283,
+        "IncidentSize": 10,
+        "ModifiedOnDateTime_dt": 1698959734240,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -7687,31 +7712,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.640207299749,
-          40.5627333108378
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1698886392000,
-        "IncidentName": "WIILLOW",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Lassen",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1698893588303,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -117.75228210615,
           34.0763148864763
         ]
@@ -8152,7 +8152,7 @@
         "POOState": "US-TN",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 400,
-        "ModifiedOnDateTime_dt": 1698941686437,
+        "ModifiedOnDateTime_dt": 1698960955500,
         "FireMgmtComplexity": "Type 1 Prescribed Fire",
         "POOCity": null
       }
@@ -8412,81 +8412,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.9254755089431,
-          35.7046231104279
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1698953960000,
-        "IncidentName": "HIGHWAY 30",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Roger Mills",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-OK",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 1,
-        "ModifiedOnDateTime_dt": 1698956909517,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -94.2654585491644,
-          30.218195789096
-        ]
-      },
-      "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1698954540000,
-        "IncidentName": "Hardin 4409",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
-        "POOCounty": "Hardin",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-TX",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 2,
-        "ModifiedOnDateTime_dt": 1698958632433,
-        "FireMgmtComplexity": "Type 5 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -85.4932546291282,
-          35.6125234504248
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1698954900000,
-        "IncidentName": "Van Buren - Covenant Farms West Road",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
-        "POOCounty": "Van Buren",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-TN",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 2,
-        "ModifiedOnDateTime_dt": 1698956326183,
-        "FireMgmtComplexity": "Type 5 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -119.504271698589,
           37.2378731045246
         ]
@@ -8571,13 +8496,13 @@
         "FireDiscoveryDateTime": 1698956220000,
         "IncidentName": "Rockhouse Fork",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
+        "PercentContained": 100,
         "POOCounty": "Perry",
         "POOLandownerCategory": "Private",
         "POOState": "US-KY",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 1,
-        "ModifiedOnDateTime_dt": 1698959045260,
+        "ModifiedOnDateTime_dt": 1698962157870,
         "FireMgmtComplexity": "Type 5 Incident",
         "POOCity": null
       }
@@ -8587,23 +8512,48 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.130531988323,
-          33.9380669056582
+          -117.368023020893,
+          33.8335158804289
         ]
       },
       "properties": {
         "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1698956756000,
-        "IncidentName": "SPRING",
+        "FireDiscoveryDateTime": 1698960420000,
+        "IncidentName": "CAJALCO RD / EL SOBRANTE RD",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
         "POOCounty": "Riverside",
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 2,
-        "ModifiedOnDateTime_dt": 1698957787420,
+        "IncidentSize": 0.01,
+        "ModifiedOnDateTime_dt": 1698961406173,
         "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1443440164389,
+          36.777147114637
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1698960720000,
+        "IncidentName": "A. Middleton Rd",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 0,
+        "POOCounty": "Harlan",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-KY",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 2,
+        "ModifiedOnDateTime_dt": 1698962002130,
+        "FireMgmtComplexity": "Type 5 Incident",
         "POOCity": null
       }
     }
