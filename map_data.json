@@ -187,6 +187,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -82.6163708665548,
+          36.8801741572531
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1680008309000,
+        "IncidentName": "Clinch Wildlife Openings Rx Spring",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": null,
+        "POOCounty": "Scott",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-VA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1698930731263,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -113.876411487745,
           34.9827252174061
         ]
@@ -3862,31 +3887,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -98.5003170812396,
-          34.7199380135314
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1697832000000,
-        "IncidentName": "Fort Sill Assist",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Comanche",
-        "POOLandownerCategory": "DOD",
-        "POOState": "US-OK",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 120,
-        "ModifiedOnDateTime_dt": 1698068969427,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -85.4091712595691,
           34.8633399297986
         ]
@@ -5125,9 +5125,9 @@
         "POOCounty": "Pulaski",
         "POOLandownerCategory": "Private",
         "POOState": "US-VA",
-        "TotalIncidentPersonnel": 7,
+        "TotalIncidentPersonnel": 13,
         "IncidentSize": 491,
-        "ModifiedOnDateTime_dt": 1698759956350,
+        "ModifiedOnDateTime_dt": 1698930863277,
         "FireMgmtComplexity": "Type 4 Incident",
         "POOCity": "Parrott"
       }
@@ -5221,13 +5221,13 @@
         "FireDiscoveryDateTime": 1698624000000,
         "IncidentName": "Poplar Creek",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 50,
+        "PercentContained": 75,
         "POOCounty": "Buchanan",
         "POOLandownerCategory": "Private",
         "POOState": "US-VA",
-        "TotalIncidentPersonnel": 17,
-        "IncidentSize": 100,
-        "ModifiedOnDateTime_dt": 1698760087193,
+        "TotalIncidentPersonnel": 16,
+        "IncidentSize": 350,
+        "ModifiedOnDateTime_dt": 1698931089773,
         "FireMgmtComplexity": "Type 4 Incident",
         "POOCity": "Grundy"
       }
@@ -5253,56 +5253,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1698682217990,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.352612195773,
-          33.9331948367171
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1698665213000,
-        "IncidentName": "LAC-371778",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1698665449200,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.681214723421,
-          35.6387328729169
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1698667553000,
-        "IncidentName": "RIVER",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "San Luis Obispo",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1698669450487,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -5353,31 +5303,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 46,
         "ModifiedOnDateTime_dt": 1698793088057,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.822812121646,
-          34.1192248872949
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1698670336000,
-        "IncidentName": "LAC-371815",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1698670488777,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -8502,7 +8427,7 @@
         "POOState": "US-NM",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1698887226267,
+        "ModifiedOnDateTime_dt": 1698931449403,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -8887,31 +8812,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.291538003569,
-          33.7809528786212
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1698927696000,
-        "IncidentName": "MUNDO",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Riverside",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 1.5,
-        "ModifiedOnDateTime_dt": 1698930099170,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -114.189243040534,
           45.859776338124
         ]
@@ -8919,7 +8819,7 @@
       "properties": {
         "FireCause": "Undetermined",
         "FireDiscoveryDateTime": 1698930378000,
-        "IncidentName": "WF Pile Burn Piquett 119 RX",
+        "IncidentName": "WF Pile Burn Piquet 119 RX",
         "IncidentTypeCategory": "RX",
         "PercentContained": null,
         "POOCounty": "Ravalli",
@@ -8927,7 +8827,7 @@
         "POOState": "US-MT",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 58,
-        "ModifiedOnDateTime_dt": 1698930678870,
+        "ModifiedOnDateTime_dt": 1698931128900,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -8952,7 +8852,7 @@
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1698930697877,
+        "ModifiedOnDateTime_dt": 1698932422413,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
