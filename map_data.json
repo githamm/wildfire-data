@@ -302,7 +302,7 @@
         "POOState": "US-NM",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 250,
-        "ModifiedOnDateTime_dt": 1698972199390,
+        "ModifiedOnDateTime_dt": 1699019923647,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -3626,8 +3626,8 @@
         "POOLandownerCategory": "USFS",
         "POOState": "US-NC",
         "TotalIncidentPersonnel": 77,
-        "IncidentSize": 90,
-        "ModifiedOnDateTime_dt": 1698961251767,
+        "IncidentSize": 74,
+        "ModifiedOnDateTime_dt": 1699019664253,
         "FireMgmtComplexity": "Type 3 Incident",
         "POOCity": "Andrews"
       }
@@ -4125,9 +4125,9 @@
         "POOCounty": "Madison",
         "POOLandownerCategory": "Private",
         "POOState": "US-VA",
-        "TotalIncidentPersonnel": 72,
-        "IncidentSize": 1134,
-        "ModifiedOnDateTime_dt": 1698950439630,
+        "TotalIncidentPersonnel": 71,
+        "IncidentSize": 1600,
+        "ModifiedOnDateTime_dt": 1699020675500,
         "FireMgmtComplexity": "Type 3 Incident",
         "POOCity": null
       }
@@ -5971,13 +5971,13 @@
         "FireDiscoveryDateTime": 1698836400000,
         "IncidentName": "Egypt hollow rd",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 80,
+        "PercentContained": 85,
         "POOCounty": "Dade",
         "POOLandownerCategory": "Private",
         "POOState": "US-GA",
         "TotalIncidentPersonnel": 9,
         "IncidentSize": 420,
-        "ModifiedOnDateTime_dt": 1698888697720,
+        "ModifiedOnDateTime_dt": 1699020721000,
         "FireMgmtComplexity": "Type 4 Incident",
         "POOCity": "Whiteside TN"
       }
@@ -7112,6 +7112,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -85.507504592503,
+          34.9419510421339
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1698913800000,
+        "IncidentName": "Murphy Hollow fire",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 70,
+        "POOCounty": "Dade",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-GA",
+        "TotalIncidentPersonnel": 6,
+        "IncidentSize": 658,
+        "ModifiedOnDateTime_dt": 1699020575120,
+        "FireMgmtComplexity": "Type 4 Incident",
+        "POOCity": "Whiteside TN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -119.308762385249,
           34.3171715235863
         ]
@@ -7653,31 +7678,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1698953928900,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.494712376124,
-          35.7145220194566
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1698953843000,
-        "IncidentName": "PALA",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Kern",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1698959229813,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -8262,12 +8262,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.7603545731386,
-          37.1584639956536
+          -83.7606142231954,
+          37.1581671655832
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Human",
         "FireDiscoveryDateTime": 1698999780000,
         "IncidentName": "Memorial Drive",
         "IncidentTypeCategory": "WF",
@@ -8277,7 +8277,7 @@
         "POOState": "US-KY",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 1,
-        "ModifiedOnDateTime_dt": 1699000137533,
+        "ModifiedOnDateTime_dt": 1699019755813,
         "FireMgmtComplexity": "Type 5 Incident",
         "POOCity": null
       }
@@ -8319,7 +8319,7 @@
       "properties": {
         "FireCause": "Undetermined",
         "FireDiscoveryDateTime": 1699000500000,
-        "IncidentName": "Black Star Coal Camp",
+        "IncidentName": "Daniel Branch",
         "IncidentTypeCategory": "WF",
         "PercentContained": 0,
         "POOCounty": "Harlan",
@@ -8327,7 +8327,7 @@
         "POOState": "US-KY",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 5,
-        "ModifiedOnDateTime_dt": 1699013497373,
+        "ModifiedOnDateTime_dt": 1699017323500,
         "FireMgmtComplexity": "Type 5 Incident",
         "POOCity": null
       }
@@ -8377,32 +8377,7 @@
         "POOState": "US-MS",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 10,
-        "ModifiedOnDateTime_dt": 1699016997433,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.559725009974,
-          38.4637141404259
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1699016035000,
-        "IncidentName": "SUGAR",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Amador",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1699016138970,
+        "ModifiedOnDateTime_dt": 1699018619210,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
