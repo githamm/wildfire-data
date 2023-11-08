@@ -5462,31 +5462,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.1544486772903,
-          36.2058402567763
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1699137128000,
-        "IncidentName": "Anderson - Scott Brogan Lane",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 85,
-        "POOCounty": "Anderson",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-TN",
-        "TotalIncidentPersonnel": 14,
-        "IncidentSize": 397.15,
-        "ModifiedOnDateTime_dt": 1699408016100,
-        "FireMgmtComplexity": "Type 5 Incident",
-        "POOCity": "Rocky Top"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -83.1126705981077,
           34.9603400398589
         ]
@@ -5528,56 +5503,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1699217432673,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.975752132076,
-          33.9288848573682
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1699154070000,
-        "IncidentName": "LAC-379074",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Orange",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1699154209160,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.129862213465,
-          34.5943149221132
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1699155647000,
-        "IncidentName": "LAC-379104",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1699155768930,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -7727,7 +7652,7 @@
         "POOState": "US-TN",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 200,
-        "ModifiedOnDateTime_dt": 1699408855493,
+        "ModifiedOnDateTime_dt": 1699414424507,
         "FireMgmtComplexity": "Type 5 Incident",
         "POOCity": null
       }
@@ -9046,13 +8971,13 @@
         "FireDiscoveryDateTime": 1699396219000,
         "IncidentName": "Campbell - Adam Hollow Rd",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
+        "PercentContained": 100,
         "POOCounty": "Campbell",
         "POOLandownerCategory": "State",
         "POOState": "US-TN",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 50,
-        "ModifiedOnDateTime_dt": 1699407732040,
+        "ModifiedOnDateTime_dt": 1699412835890,
         "FireMgmtComplexity": "Type 5 Incident",
         "POOCity": null
       }
@@ -9162,37 +9087,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.7333323094483,
-          37.163462729813
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1699400460000,
-        "IncidentName": "Kona",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
-        "POOCounty": "Letcher",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-KY",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 3,
-        "ModifiedOnDateTime_dt": 1699401411840,
-        "FireMgmtComplexity": "Type 5 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -83.8408462378401,
           37.0222391349416
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Human",
         "FireDiscoveryDateTime": 1699400728000,
         "IncidentName": "RED - Sandlick",
         "IncidentTypeCategory": "WF",
@@ -9201,8 +9101,8 @@
         "POOLandownerCategory": "Private",
         "POOState": "US-KY",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 10,
-        "ModifiedOnDateTime_dt": 1699405582677,
+        "IncidentSize": 20,
+        "ModifiedOnDateTime_dt": 1699412431983,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -9304,6 +9204,31 @@
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1699403688843,
         "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.820850685761,
+          35.1825039751452
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1699404493000,
+        "IncidentName": "Little C",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 90,
+        "POOCounty": "Donley",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-TX",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 13,
+        "ModifiedOnDateTime_dt": 1699414063813,
+        "FireMgmtComplexity": "Type 5 Incident",
         "POOCity": null
       }
     },
@@ -9429,6 +9354,31 @@
         "IncidentSize": 30,
         "ModifiedOnDateTime_dt": 1699411172360,
         "FireMgmtComplexity": "Type 5 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.169272167873,
+          33.9682748509
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1699413708000,
+        "IncidentName": "LAC-382711",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1699414369007,
+        "FireMgmtComplexity": null,
         "POOCity": null
       }
     }
