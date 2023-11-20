@@ -862,6 +862,56 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -147.062725960625,
+          64.7759918917772
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1682102325000,
+        "IncidentName": "YTA WDP Rx",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": null,
+        "POOCounty": "Fairbanks North Star",
+        "POOLandownerCategory": "DOD",
+        "POOState": "US-AK",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 4.8,
+        "ModifiedOnDateTime_dt": 1700515501837,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.612725989526,
+          64.8022817950494
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1682102355000,
+        "IncidentName": "FWA WDP Rx",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": null,
+        "POOCounty": "Fairbanks North Star",
+        "POOLandownerCategory": "DOD",
+        "POOState": "US-AK",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 10,
+        "ModifiedOnDateTime_dt": 1700515254027,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -117.378098347123,
           48.9097072370402
         ]
@@ -1003,31 +1053,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 1235,
         "ModifiedOnDateTime_dt": 1699403522587,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.1722426478278,
-          42.6977217336048
-        ]
-      },
-      "properties": {
-        "FireCause": null,
-        "FireDiscoveryDateTime": 1685306379000,
-        "IncidentName": "FD05070",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Essex",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-MA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.05,
-        "ModifiedOnDateTime_dt": 1700257230330,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -2121,13 +2146,13 @@
         "FireDiscoveryDateTime": 1698342540000,
         "IncidentName": "Quaker Run",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 98,
+        "PercentContained": 100,
         "POOCounty": "Madison",
         "POOLandownerCategory": "Private",
         "POOState": "US-VA",
-        "TotalIncidentPersonnel": 38,
+        "TotalIncidentPersonnel": 17,
         "IncidentSize": 3937,
-        "ModifiedOnDateTime_dt": 1700426312213,
+        "ModifiedOnDateTime_dt": 1700514999913,
         "FireMgmtComplexity": "Type 3 Incident",
         "POOCity": null
       }
@@ -3371,14 +3396,14 @@
         "FireDiscoveryDateTime": 1699293360000,
         "IncidentName": "Steep Valley",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 95,
+        "PercentContained": 100,
         "POOCounty": "Fayette",
         "POOLandownerCategory": "Private",
         "POOState": "US-WV",
-        "TotalIncidentPersonnel": 21,
+        "TotalIncidentPersonnel": 19,
         "IncidentSize": 2206,
-        "ModifiedOnDateTime_dt": 1700488236087,
-        "FireMgmtComplexity": "Type 3 Incident",
+        "ModifiedOnDateTime_dt": 1700517375467,
+        "FireMgmtComplexity": "Type 4 Incident",
         "POOCity": "Grandview"
       }
     },
@@ -3687,8 +3712,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.943337207456,
-          35.9758402586307
+          -82.9432539074344,
+          35.9758899586444
         ]
       },
       "properties": {
@@ -3702,7 +3727,7 @@
         "POOState": "US-TN",
         "TotalIncidentPersonnel": 66,
         "IncidentSize": 538,
-        "ModifiedOnDateTime_dt": 1700513050377,
+        "ModifiedOnDateTime_dt": 1700516713367,
         "FireMgmtComplexity": "Type 4 Incident",
         "POOCity": "Greeneville"
       }
@@ -4212,31 +4237,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.9383841446042,
-          42.7624247332977
-        ]
-      },
-      "properties": {
-        "FireCause": null,
-        "FireDiscoveryDateTime": 1699910517000,
-        "IncidentName": "FD05074",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Essex",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-MA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.08,
-        "ModifiedOnDateTime_dt": 1700256170110,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -82.1908370717456,
           37.3783405756069
         ]
@@ -4551,35 +4551,10 @@
         "POOLandownerCategory": "Private",
         "POOState": "US-NC",
         "TotalIncidentPersonnel": 195,
-        "IncidentSize": 1886,
-        "ModifiedOnDateTime_dt": 1700506269123,
+        "IncidentSize": 1888,
+        "ModifiedOnDateTime_dt": 1700517016333,
         "FireMgmtComplexity": "Type 3 Incident",
         "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.4041703416794,
-          34.0625065743612
-        ]
-      },
-      "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1700146800000,
-        "IncidentName": "Folks",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
-        "POOCounty": "Abbeville",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-SC",
-        "TotalIncidentPersonnel": 9,
-        "IncidentSize": 225,
-        "ModifiedOnDateTime_dt": 1700241459100,
-        "FireMgmtComplexity": "Type 4 Incident",
-        "POOCity": "2 miles west of Parson's Mountain"
       }
     },
     {
@@ -4725,9 +4700,9 @@
         "POOCounty": "Allegany",
         "POOLandownerCategory": "State",
         "POOState": "US-NY",
-        "TotalIncidentPersonnel": 75,
+        "TotalIncidentPersonnel": 0,
         "IncidentSize": 138,
-        "ModifiedOnDateTime_dt": 1700254569673,
+        "ModifiedOnDateTime_dt": 1700514676770,
         "FireMgmtComplexity": "Type 4 Incident",
         "POOCity": "CANEADEA"
       }
@@ -4953,56 +4928,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 18.5,
         "ModifiedOnDateTime_dt": 1700317245647,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.2222514240991,
-          42.6944927013789
-        ]
-      },
-      "properties": {
-        "FireCause": null,
-        "FireDiscoveryDateTime": 1700256470000,
-        "IncidentName": "FD05075",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Essex",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-MA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.05,
-        "ModifiedOnDateTime_dt": 1700256516733,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.255916821081,
-          33.7583629329415
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1700257897000,
-        "IncidentName": "KEVIN RD / AVE 40",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Riverside",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1700258443100,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -5787,6 +5712,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -84.6710373483046,
+          34.8940066654787
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1700428610000,
+        "IncidentName": "Hickey Gap Unattended Campfire",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Murray",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-GA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1700516399590,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -85.5413935174551,
           35.1958399931209
         ]
@@ -6187,6 +6137,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -116.516417879216,
+          33.91249893685
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1700496269000,
+        "IncidentName": "DESERT",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Riverside",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1700516151377,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -118.214292167748,
           33.8729348377872
         ]
@@ -6303,6 +6278,31 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1700511518917,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.109121214721,
+          38.4043121581896
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1700502443000,
+        "IncidentName": "Murphy's Hole",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Saguache",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-CO",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1700515574327,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -6477,7 +6477,7 @@
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 50,
-        "ModifiedOnDateTime_dt": 1700508565513,
+        "ModifiedOnDateTime_dt": 1700517445697,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -6551,8 +6551,8 @@
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 5,
-        "ModifiedOnDateTime_dt": 1700513737500,
+        "IncidentSize": 9,
+        "ModifiedOnDateTime_dt": 1700515709910,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -6562,22 +6562,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.2408343388024,
-          36.7702770673891
+          -83.7322542121475,
+          37.1176671586793
         ]
       },
       "properties": {
         "FireCause": "Human",
-        "FireDiscoveryDateTime": 1700513400000,
-        "IncidentName": "River Road #2",
+        "FireDiscoveryDateTime": 1700515320000,
+        "IncidentName": "Chop Bottom #2",
         "IncidentTypeCategory": "WF",
         "PercentContained": 0,
-        "POOCounty": "Whitley",
+        "POOCounty": "Clay",
         "POOLandownerCategory": "Private",
         "POOState": "US-KY",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 1,
-        "ModifiedOnDateTime_dt": 1700513759477,
+        "ModifiedOnDateTime_dt": 1700516015507,
         "FireMgmtComplexity": "Type 5 Incident",
         "POOCity": null
       }
@@ -6587,22 +6587,47 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.508812697303,
-          37.2192641024293
+          -117.018560935144,
+          33.5083408618809
         ]
       },
       "properties": {
         "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1700514122000,
-        "IncidentName": "FORK",
+        "FireDiscoveryDateTime": 1700516380000,
+        "IncidentName": "DE PORTOLA RD  TEM",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
-        "POOCounty": "Madera",
+        "POOCounty": "Riverside",
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1700514219500,
+        "ModifiedOnDateTime_dt": 1700516429217,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.354782543305,
+          40.3947151550347
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1700517262000,
+        "IncidentName": "RIDGE",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Shasta",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.01,
+        "ModifiedOnDateTime_dt": 1700517858570,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
