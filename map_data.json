@@ -1187,6 +1187,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -81.8200036550645,
+          37.2880628725498
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1698616800000,
+        "IncidentName": "Dry Monday #1",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 100,
+        "POOCounty": "McDowell",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-WV",
+        "TotalIncidentPersonnel": 9,
+        "IncidentSize": 102,
+        "ModifiedOnDateTime_dt": 1701112038927,
+        "FireMgmtComplexity": "Type 5 Incident",
+        "POOCity": "Bradshaw"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -80.3188920757856,
           36.8294516379673
         ]
@@ -1987,31 +2012,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.3038926652164,
-          36.7452849424532
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1699506000000,
-        "IncidentName": "Fugate Gate",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 100,
-        "POOCounty": "Russell",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-VA",
-        "TotalIncidentPersonnel": 0,
-        "IncidentSize": 385,
-        "ModifiedOnDateTime_dt": 1699902492260,
-        "FireMgmtComplexity": "Type 4 Incident",
-        "POOCity": "Mendoza"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -82.4583371320487,
           37.0761183034983
         ]
@@ -2112,8 +2112,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.4327807531193,
-          37.5925074291897
+          -79.4327859531168,
+          37.5924404291757
         ]
       },
       "properties": {
@@ -2126,8 +2126,8 @@
         "POOLandownerCategory": "USFS",
         "POOState": "US-VA",
         "TotalIncidentPersonnel": 82,
-        "IncidentSize": 11020,
-        "ModifiedOnDateTime_dt": 1701037601123,
+        "IncidentSize": 5,
+        "ModifiedOnDateTime_dt": 1701113273827,
         "FireMgmtComplexity": "Type 3 Incident",
         "POOCity": "Big Island"
       }
@@ -2903,56 +2903,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
         "ModifiedOnDateTime_dt": 1701029474103,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.531277059676,
-          33.9682148867021
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1700851465000,
-        "IncidentName": "66TH ST / WILLIAM AV",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Riverside",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1700852995370,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.442693867265,
-          33.9252509424464
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1700852685000,
-        "IncidentName": "DILLON RD / JOHNSON RD",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Riverside",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1700854465973,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -4703,6 +4653,81 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1701110569117,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.346058001851,
+          33.6399208593732
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1701111381000,
+        "IncidentName": "BLACKWELL BL / GRAND AV",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Riverside",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1701114582463,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.593072068467,
+          33.9462588807498
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1701113164000,
+        "IncidentName": "ARCHIBALD AV / CHANDLER ST",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Riverside",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1701114416787,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.130342221287,
+          34.6840849318791
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1701115446000,
+        "IncidentName": "LAC-407004",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1701115609333,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
