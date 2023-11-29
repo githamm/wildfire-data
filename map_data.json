@@ -562,6 +562,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -74.5213904626036,
+          39.8733413722967
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1687186800000,
+        "IncidentName": "Acorn Hill",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 100,
+        "POOCounty": "Burlington",
+        "POOLandownerCategory": "State",
+        "POOState": "US-NJ",
+        "TotalIncidentPersonnel": 12,
+        "IncidentSize": 246,
+        "ModifiedOnDateTime_dt": 1701266196937,
+        "FireMgmtComplexity": "Type 4 Incident",
+        "POOCity": "Browns Mills"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -105.098476824268,
           36.7774229875332
         ]
@@ -3512,31 +3537,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.315374249664,
-          38.1994119866574
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1701003908000,
-        "IncidentName": "MILTON",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Napa",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1701007398290,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -78.4100026973516,
           38.5266743285057
         ]
@@ -5276,8 +5276,8 @@
         "POOLandownerCategory": "BIA",
         "POOState": "US-FL",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 175,
-        "ModifiedOnDateTime_dt": 1701192293280,
+        "IncidentSize": 165,
+        "ModifiedOnDateTime_dt": 1701266753727,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -6053,6 +6053,56 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1701242159820,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4547254806139,
+          30.1891727034249
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1701265602000,
+        "IncidentName": "OSF CPT 102 BB5 Rx 1129",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": null,
+        "POOCounty": "Baker",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-FL",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 84,
+        "ModifiedOnDateTime_dt": 1701266709277,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.405292930815,
+          34.6176725874675
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1701266635000,
+        "IncidentName": "CAPILLA PILES Rx",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": null,
+        "POOCounty": "Torrance",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-NM",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1701266718647,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
