@@ -787,31 +787,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -86.6488936692024,
-          32.2108393209779
-        ]
-      },
-      "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1696789620000,
-        "IncidentName": "Bullock Fire",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 100,
-        "POOCounty": "Lowndes",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-AL",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 300,
-        "ModifiedOnDateTime_dt": 1700261858743,
-        "FireMgmtComplexity": "Type 3 Incident",
-        "POOCity": "Union Springs"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -115.567912976605,
           44.091006054688
         ]
@@ -1029,31 +1004,6 @@
         "IncidentSize": 3300,
         "ModifiedOnDateTime_dt": 1701372710710,
         "FireMgmtComplexity": "Type 4 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.374684707753,
-          48.8798970143611
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1698350400000,
-        "IncidentName": "TON RX - MOUNT HULL FHR",
-        "IncidentTypeCategory": "RX",
-        "PercentContained": null,
-        "POOCounty": "Okanogan",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-WA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 190,
-        "ModifiedOnDateTime_dt": 1700259041927,
-        "FireMgmtComplexity": null,
         "POOCity": null
       }
     },
@@ -3487,31 +3437,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -81.564563358442,
-          33.3377594455318
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1701189499000,
-        "IncidentName": "ATTA 112823",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Barnwell",
-        "POOLandownerCategory": "DOE",
-        "POOState": "US-SC",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1701210528060,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -94.0655387495818,
           31.4940225965063
         ]
@@ -3753,56 +3678,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1701306856413,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.090612163064,
-          34.0718648668384
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1701209753000,
-        "IncidentName": "LAC-408505",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1701209929617,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.072192159763,
-          34.0694648676146
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1701209979000,
-        "IncidentName": "LAC-408508",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1701210169287,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -4862,8 +4737,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.1388926553161,
-          35.7322289394464
+          -82.1388925553161,
+          35.7322291394464
         ]
       },
       "properties": {
@@ -4871,14 +4746,14 @@
         "FireDiscoveryDateTime": 1701291279000,
         "IncidentName": "LOCUST COVE 2",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 25,
         "POOCounty": "McDowell",
         "POOLandownerCategory": "USFS",
         "POOState": "US-NC",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 175,
-        "ModifiedOnDateTime_dt": 1701459309630,
-        "FireMgmtComplexity": null,
+        "TotalIncidentPersonnel": 40,
+        "IncidentSize": 165,
+        "ModifiedOnDateTime_dt": 1701470457760,
+        "FireMgmtComplexity": "Type 4 Incident",
         "POOCity": null
       }
     },
@@ -6478,6 +6353,56 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1701467449063,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.942902141005,
+          34.1070748791259
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1701468881000,
+        "IncidentName": "LAC-412229",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1701469249407,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.343312193949,
+          33.9298648368713
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1701469867000,
+        "IncidentName": "LAC-412252",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1701470089463,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
