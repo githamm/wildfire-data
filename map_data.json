@@ -3487,31 +3487,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.178152166336,
-          33.9308048462399
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1701367020000,
-        "IncidentName": "LAC-410640",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1701367258653,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -94.7382986078314,
           44.1077205336156
         ]
@@ -5337,8 +5312,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.753086450612,
-          36.0391420364461
+          -118.75234545023,
+          36.0365050362243
         ]
       },
       "properties": {
@@ -5352,7 +5327,32 @@
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1701620182593,
+        "ModifiedOnDateTime_dt": 1701626478753,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.752845450297,
+          36.0363380361749
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1701619361000,
+        "IncidentName": "VEGA",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Tulare",
+        "POOLandownerCategory": "BIA",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1701626773317,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -5371,14 +5371,64 @@
         "FireDiscoveryDateTime": 1701620744000,
         "IncidentName": "Barton",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
+        "PercentContained": 50,
         "POOCounty": "Hockley",
         "POOLandownerCategory": "Private",
         "POOState": "US-TX",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 150,
-        "ModifiedOnDateTime_dt": 1701622735950,
+        "IncidentSize": 263,
+        "ModifiedOnDateTime_dt": 1701625586503,
         "FireMgmtComplexity": "Type 5 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.133942154689,
+          33.8784448428878
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1701626550000,
+        "IncidentName": "LAC-414515",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1701626699273,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.488079444478,
+          33.0004259327137
+        ]
+      },
+      "properties": {
+        "FireCause": null,
+        "FireDiscoveryDateTime": 1701626940000,
+        "IncidentName": "USFWS AZ FY24 RX",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": null,
+        "POOCounty": "Yuma",
+        "POOLandownerCategory": "USFWS",
+        "POOState": "US-AZ",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1701627077523,
+        "FireMgmtComplexity": null,
         "POOCity": null
       }
     }
