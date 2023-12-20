@@ -818,6 +818,31 @@
       },
       "properties": {
         "FireCause": null,
+        "FireDiscoveryDateTime": 1690321805000,
+        "IncidentName": "47",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Harding",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-NM",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 4,
+        "ModifiedOnDateTime_dt": 1703112945290,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.331589567489,
+          35.8593758930113
+        ]
+      },
+      "properties": {
+        "FireCause": null,
         "FireDiscoveryDateTime": 1690321850000,
         "IncidentName": "47",
         "IncidentTypeCategory": "WF",
@@ -2287,6 +2312,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -106.532427059628,
+          35.8316387625882
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1701794936000,
+        "IncidentName": "South Mountain Unit Pile RX",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": null,
+        "POOCounty": "Sandoval",
+        "POOLandownerCategory": "NPS",
+        "POOState": "US-NM",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 62,
+        "ModifiedOnDateTime_dt": 1703112043373,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -100.033341699591,
           33.4397279331007
         ]
@@ -2903,31 +2953,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 130,
         "ModifiedOnDateTime_dt": 1702419937177,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.1075029810319,
-          26.9991719731071
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1702310442000,
-        "IncidentName": "SET SE 11 Rx 1211",
-        "IncidentTypeCategory": "RX",
-        "PercentContained": null,
-        "POOCounty": "Glades",
-        "POOLandownerCategory": "BIA",
-        "POOState": "US-FL",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 68,
-        "ModifiedOnDateTime_dt": 1702419931033,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -4187,81 +4212,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.974622131886,
-          33.9288948574326
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1702852669000,
-        "IncidentName": "LAC-433170",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Orange",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1702852848867,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.63538227037,
-          34.2677248572062
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1702852857000,
-        "IncidentName": "LAC-433172",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Ventura",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1702853089037,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.210129996275,
-          33.8656688928848
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1702853391000,
-        "IncidentName": "AMIGOS",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Riverside",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1702854258143,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -116.725844826357,
           32.7261157842346
         ]
@@ -5087,8 +5037,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -111.585310793212,
-          31.5290848709788
+          -111.585288593213,
+          31.5291715709923
         ]
       },
       "properties": {
@@ -5096,14 +5046,14 @@
         "FireDiscoveryDateTime": 1702951740000,
         "IncidentName": "Mirador",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 10,
         "POOCounty": "Pima",
         "POOLandownerCategory": "State",
         "POOState": "US-AZ",
-        "TotalIncidentPersonnel": null,
+        "TotalIncidentPersonnel": 23,
         "IncidentSize": 372,
-        "ModifiedOnDateTime_dt": 1703109279240,
-        "FireMgmtComplexity": null,
+        "ModifiedOnDateTime_dt": 1703113351320,
+        "FireMgmtComplexity": "Type 4 Incident",
         "POOCity": null
       }
     },
@@ -5804,31 +5754,6 @@
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1703102068600,
         "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.8540661700915,
-          30.6790603659273
-        ]
-      },
-      "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1703101357000,
-        "IncidentName": "Grimes 4537",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 95,
-        "POOCounty": "Grimes",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-TX",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 12,
-        "ModifiedOnDateTime_dt": 1703109338263,
-        "FireMgmtComplexity": "Type 5 Incident",
         "POOCity": null
       }
     }
