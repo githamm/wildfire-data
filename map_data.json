@@ -1587,31 +1587,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -81.820003655061,
-          37.2880072725385
-        ]
-      },
-      "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1698616800000,
-        "IncidentName": "Dry Monday #1",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 100,
-        "POOCounty": "McDowell",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-WV",
-        "TotalIncidentPersonnel": 9,
-        "IncidentSize": 102,
-        "ModifiedOnDateTime_dt": 1703707406547,
-        "FireMgmtComplexity": "Type 5 Incident",
-        "POOCity": "Bradshaw"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -114.048762822546,
           44.8695892648583
         ]
@@ -2728,6 +2703,31 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1704729645463,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.070179210489,
+          39.4125571819519
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1704499457000,
+        "IncidentName": "YRRD Piles - Trapper SFEP WCSL  RX",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": null,
+        "POOCounty": "Yuba",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1704917308070,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -4126,8 +4126,8 @@
         "POOLandownerCategory": "USFS",
         "POOState": "US-NM",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1704822609330,
+        "IncidentSize": 171,
+        "ModifiedOnDateTime_dt": 1704915984240,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -5192,7 +5192,7 @@
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Human",
         "FireDiscoveryDateTime": 1704901680000,
         "IncidentName": "Midewin Piles RX",
         "IncidentTypeCategory": "RX",
@@ -5202,7 +5202,7 @@
         "POOState": "US-IL",
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1704902165470,
+        "ModifiedOnDateTime_dt": 1704913804830,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -5337,22 +5337,72 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.868255048783,
-          37.0317699207421
+          -114.303011496034,
+          34.1258660857907
         ]
       },
       "properties": {
         "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1704913274000,
-        "IncidentName": "FERN",
+        "FireDiscoveryDateTime": 1704913447000,
+        "IncidentName": "Pit",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
-        "POOCounty": "Santa Cruz",
+        "POOCounty": "La Paz",
+        "POOLandownerCategory": "BIA",
+        "POOState": "US-AZ",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1704914698457,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.69278987966,
+          33.8738937669818
+        ]
+      },
+      "properties": {
+        "FireCause": null,
+        "FireDiscoveryDateTime": 1704915000000,
+        "IncidentName": "HOV",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Orange",
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1704913396107,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1704916396737,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.354923007233,
+          33.6891878645662
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1704915753000,
+        "IncidentName": "RIVERSIDE DR / GUNNERSON ST",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Riverside",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1704916972777,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
