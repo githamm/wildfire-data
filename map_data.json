@@ -387,31 +387,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -108.444840334751,
-          34.1611904097678
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1705419682000,
-        "IncidentName": "Baca Pit RX",
-        "IncidentTypeCategory": "RX",
-        "PercentContained": null,
-        "POOCounty": "Catron",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-NM",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 5,
-        "ModifiedOnDateTime_dt": 1707246282083,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -110.309129424173,
           46.853456802179
         ]
@@ -2437,31 +2412,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -109.244669462868,
-          33.6408282914192
-        ]
-      },
-      "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1706803594000,
-        "IncidentName": "Paradise Park",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Greenlee",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-AZ",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1707242908290,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -97.615207494598,
           27.9181047484482
         ]
@@ -3662,31 +3612,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.2806709326547,
-          34.6986736781347
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1707225632000,
-        "IncidentName": "Longnose Coneflower AP RX",
-        "IncidentTypeCategory": "RX",
-        "PercentContained": null,
-        "POOCounty": "Oconee",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-SC",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1707245579623,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -79.8214731033166,
           38.1034875178847
         ]
@@ -3703,31 +3628,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 70,
         "ModifiedOnDateTime_dt": 1707252140180,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.240170030029,
-          34.6220067726407
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1707228063000,
-        "IncidentName": "0505NS CRR RX",
-        "IncidentTypeCategory": "RX",
-        "PercentContained": null,
-        "POOCounty": "Chesterfield",
-        "POOLandownerCategory": "USFWS",
-        "POOState": "US-SC",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1707245902133,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -3779,31 +3679,6 @@
         "IncidentSize": 147.9,
         "ModifiedOnDateTime_dt": 1707406274033,
         "FireMgmtComplexity": "Type 1 Prescribed Fire",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.1415538973855,
-          34.7964237041114
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1707231058000,
-        "IncidentName": "Rich Mountain AP RX",
-        "IncidentTypeCategory": "RX",
-        "PercentContained": null,
-        "POOCounty": "Oconee",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-SC",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1707245928060,
-        "FireMgmtComplexity": null,
         "POOCity": null
       }
     },
@@ -5246,15 +5121,15 @@
         "FireDiscoveryDateTime": 1707330660000,
         "IncidentName": "Congress Road Fire",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 100,
         "POOCounty": "Washington",
         "POOLandownerCategory": "Private",
         "POOState": "US-OH",
-        "TotalIncidentPersonnel": null,
+        "TotalIncidentPersonnel": 7,
         "IncidentSize": 2,
-        "ModifiedOnDateTime_dt": 1707501785803,
-        "FireMgmtComplexity": null,
-        "POOCity": null
+        "ModifiedOnDateTime_dt": 1707502672780,
+        "FireMgmtComplexity": "Type 5 Incident",
+        "POOCity": "Belpre"
       }
     },
     {
@@ -6221,38 +6096,13 @@
         "FireDiscoveryDateTime": 1707423256000,
         "IncidentName": "Red Mud Creek",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 85,
+        "PercentContained": 90,
         "POOCounty": "Gray",
         "POOLandownerCategory": "Private",
         "POOState": "US-TX",
         "TotalIncidentPersonnel": 9,
-        "IncidentSize": 400,
-        "ModifiedOnDateTime_dt": 1707501478087,
-        "FireMgmtComplexity": "Type 5 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.2291540534102,
-          36.9622871485898
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1707425160000,
-        "IncidentName": "Gabe Bridge Falls",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 50,
-        "POOCounty": "Harlan",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-KY",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 25,
-        "ModifiedOnDateTime_dt": 1707449360637,
+        "IncidentSize": 549,
+        "ModifiedOnDateTime_dt": 1707504895877,
         "FireMgmtComplexity": "Type 5 Incident",
         "POOCity": null
       }
@@ -6312,31 +6162,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.9280039793753,
-          37.1960072082721
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1707428100000,
-        "IncidentName": "Doty Branch",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 30,
-        "POOCounty": "Letcher",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-KY",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 135,
-        "ModifiedOnDateTime_dt": 1707498704713,
-        "FireMgmtComplexity": "Type 5 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -105.840009902069,
           35.7848057955631
         ]
@@ -6371,13 +6196,13 @@
         "FireDiscoveryDateTime": 1707434580000,
         "IncidentName": "Mountain View Road",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
+        "PercentContained": 40,
         "POOCounty": "Breathitt",
         "POOLandownerCategory": "Private",
         "POOState": "US-KY",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 30,
-        "ModifiedOnDateTime_dt": 1707448471573,
+        "IncidentSize": 50,
+        "ModifiedOnDateTime_dt": 1707504631697,
         "FireMgmtComplexity": "Type 5 Incident",
         "POOCity": null
       }
@@ -6401,8 +6226,8 @@
         "POOLandownerCategory": "Private",
         "POOState": "US-KY",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 50,
-        "ModifiedOnDateTime_dt": 1707455111860,
+        "IncidentSize": 55,
+        "ModifiedOnDateTime_dt": 1707503660350,
         "FireMgmtComplexity": "Type 5 Incident",
         "POOCity": null
       }
@@ -6428,31 +6253,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 50,
         "ModifiedOnDateTime_dt": 1707500753030,
-        "FireMgmtComplexity": "Type 5 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.4548541156213,
-          36.893267125239
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1707437040000,
-        "IncidentName": "Peters Knob",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
-        "POOCounty": "Leslie",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-KY",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 40,
-        "ModifiedOnDateTime_dt": 1707449203110,
         "FireMgmtComplexity": "Type 5 Incident",
         "POOCity": null
       }
