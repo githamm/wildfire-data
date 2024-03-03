@@ -6687,31 +6687,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -88.8803883247731,
-          30.8149726407767
-        ]
-      },
-      "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1708728923000,
-        "IncidentName": "Turner",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "George",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-MS",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 10.38,
-        "ModifiedOnDateTime_dt": 1708748076540,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -95.1841739338655,
           34.6919505687819
         ]
@@ -13962,6 +13937,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -94.6405627597069,
+          35.6444507709418
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1709383500000,
+        "IncidentName": "Cabin Fire",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 50,
+        "POOCounty": "Adair",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-OK",
+        "TotalIncidentPersonnel": 6,
+        "IncidentSize": 109,
+        "ModifiedOnDateTime_dt": 1709440395063,
+        "FireMgmtComplexity": "Type 5 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -116.881125944038,
           33.9254159180916
         ]
@@ -14396,13 +14396,38 @@
         "FireDiscoveryDateTime": 1709427360000,
         "IncidentName": "Red River 0369",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 50,
+        "PercentContained": 70,
         "POOCounty": "Red River",
         "POOLandownerCategory": "Private",
         "POOState": "US-TX",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 1,
-        "ModifiedOnDateTime_dt": 1709438343240,
+        "ModifiedOnDateTime_dt": 1709438995233,
+        "FireMgmtComplexity": "Type 5 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5426494779691,
+          30.9869572961586
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1709434740000,
+        "IncidentName": "Tyler 0370",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 0,
+        "POOCounty": "Tyler",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-TX",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 5,
+        "ModifiedOnDateTime_dt": 1709442161027,
         "FireMgmtComplexity": "Type 5 Incident",
         "POOCity": null
       }
