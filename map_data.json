@@ -612,6 +612,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -105.256010123026,
+          39.3320063444188
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1706727000000,
+        "IncidentName": "Green Mountain RX",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": null,
+        "POOCounty": "Jefferson",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-CO",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1709650843703,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -108.111010209288,
           33.4252053173961
         ]
@@ -6362,31 +6387,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.0522292552256,
-          32.0413945570506
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1708796700000,
-        "IncidentName": "Rx Cherokee 0238",
-        "IncidentTypeCategory": "RX",
-        "PercentContained": 0,
-        "POOCounty": "Cherokee",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-TX",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 72,
-        "ModifiedOnDateTime_dt": 1708958707420,
-        "FireMgmtComplexity": "Type 1 Prescribed Fire",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -95.0813961263252,
           34.9675062247901
         ]
@@ -7854,31 +7854,6 @@
         "IncidentSize": 130,
         "ModifiedOnDateTime_dt": 1708984004017,
         "FireMgmtComplexity": "Type 5 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.797009930896,
-          38.5420062639422
-        ]
-      },
-      "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1708892520000,
-        "IncidentName": "Range 153",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
-        "POOCounty": "El Paso",
-        "POOLandownerCategory": "DOD",
-        "POOState": "US-CO",
-        "TotalIncidentPersonnel": 13,
-        "IncidentSize": 2672,
-        "ModifiedOnDateTime_dt": 1709048883537,
-        "FireMgmtComplexity": "Type 4 Incident",
         "POOCity": null
       }
     },
@@ -9469,7 +9444,7 @@
       "properties": {
         "FireCause": "Undetermined",
         "FireDiscoveryDateTime": 1708968300000,
-        "IncidentName": "Snow Play Fire #1",
+        "IncidentName": "Snow Play",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
         "POOCounty": "Coconino",
@@ -9477,7 +9452,7 @@
         "POOState": "US-AZ",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1709574288640,
+        "ModifiedOnDateTime_dt": 1709648164270,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -14026,8 +14001,8 @@
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1709568646023,
+        "IncidentSize": 0.01,
+        "ModifiedOnDateTime_dt": 1709650553620,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -14602,7 +14577,7 @@
         "POOState": "US-AR",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 2,
-        "ModifiedOnDateTime_dt": 1709607814880,
+        "ModifiedOnDateTime_dt": 1709648849687,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -14612,8 +14587,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -96.057507593128,
-          36.4630064461934
+          -99.4133293011157,
+          44.0497064156066
+        ]
+      },
+      "properties": {
+        "FireCause": null,
+        "FireDiscoveryDateTime": 1709589605000,
+        "IncidentName": "Lady Bug",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Buffalo",
+        "POOLandownerCategory": "BIA",
+        "POOState": "US-SD",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 2.7,
+        "ModifiedOnDateTime_dt": 1709650735620,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.0652856020108,
+          36.5480624607738
         ]
       },
       "properties": {
@@ -14627,7 +14627,7 @@
         "POOState": "US-OK",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1709590272173,
+        "ModifiedOnDateTime_dt": 1709650642430,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -14826,8 +14826,8 @@
         "POOLandownerCategory": "USFS",
         "POOState": "US-TN",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 1,
-        "ModifiedOnDateTime_dt": 1709646871823,
+        "IncidentSize": 0.75,
+        "ModifiedOnDateTime_dt": 1709648920350,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -15029,6 +15029,56 @@
         "IncidentSize": 4,
         "ModifiedOnDateTime_dt": 1709646413403,
         "FireMgmtComplexity": "Type 1 Prescribed Fire",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.1980641696643,
+          36.8038953899594
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1709648340000,
+        "IncidentName": "RX OKSLR-HFR-FY24-RX-Entrance-Rd",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": null,
+        "POOCounty": "Alfalfa",
+        "POOLandownerCategory": "USFWS",
+        "POOState": "US-OK",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1709648554677,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.8375167382883,
+          37.8052150587304
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1709648400000,
+        "IncidentName": "Grisley Woods LWR Unit B RX",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": null,
+        "POOCounty": "Williamson",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-IL",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1709648560870,
+        "FireMgmtComplexity": null,
         "POOCity": null
       }
     }
