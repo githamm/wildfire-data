@@ -8176,8 +8176,8 @@
         "POOLandownerCategory": "USFS",
         "POOState": "US-AZ",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 500,
-        "ModifiedOnDateTime_dt": 1711586589493,
+        "IncidentSize": 2800,
+        "ModifiedOnDateTime_dt": 1711672584767,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -8746,15 +8746,15 @@
         "FireDiscoveryDateTime": 1711390686000,
         "IncidentName": "Wolfpen Trail",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 25,
         "POOCounty": "Gilmer",
         "POOLandownerCategory": "Private",
         "POOState": "US-GA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 180,
-        "ModifiedOnDateTime_dt": 1711578963473,
+        "TotalIncidentPersonnel": 64,
+        "IncidentSize": 175,
+        "ModifiedOnDateTime_dt": 1711667932317,
         "FireMgmtComplexity": null,
-        "POOCity": null
+        "POOCity": "Ellijay"
       }
     },
     {
@@ -10643,7 +10643,7 @@
       },
       "properties": {
         "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1711629906000,
+        "FireDiscoveryDateTime": 1711629900000,
         "IncidentName": "Council Bluff West RX",
         "IncidentTypeCategory": "RX",
         "PercentContained": null,
@@ -10652,7 +10652,7 @@
         "POOState": "US-MO",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 2907,
-        "ModifiedOnDateTime_dt": 1711633396157,
+        "ModifiedOnDateTime_dt": 1711669140743,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -10751,8 +10751,8 @@
         "POOLandownerCategory": "USFS",
         "POOState": "US-IL",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1711639456857,
+        "IncidentSize": 742,
+        "ModifiedOnDateTime_dt": 1711668799403,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -10887,6 +10887,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -93.8563958769274,
+          34.5661172069278
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1711633665000,
+        "IncidentName": "RX Forks 1 and 2",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": null,
+        "POOCounty": "Montgomery",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-AR",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 1744,
+        "ModifiedOnDateTime_dt": 1711671796520,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -87.3121050638984,
           34.2128064188381
         ]
@@ -11001,8 +11026,8 @@
         "POOLandownerCategory": "Private",
         "POOState": "US-IL",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1711637466867,
+        "IncidentSize": 350,
+        "ModifiedOnDateTime_dt": 1711669539513,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -11287,31 +11312,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -92.0062896085402,
-          37.646673869673
-        ]
-      },
-      "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1711652008000,
-        "IncidentName": "Crossing Hollow",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Phelps",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-MO",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 10,
-        "ModifiedOnDateTime_dt": 1711660287427,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -99.2167847951577,
           40.5171669231441
         ]
@@ -11351,8 +11351,8 @@
         "POOLandownerCategory": "USFS",
         "POOState": "US-AL",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1711661442290,
+        "IncidentSize": 221,
+        "ModifiedOnDateTime_dt": 1711673509643,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -11462,31 +11462,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.8719139720768,
-          37.3389072393494
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1711658520000,
-        "IncidentName": "Purpose Lane",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 50,
-        "POOCounty": "Knott",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-KY",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 2.5,
-        "ModifiedOnDateTime_dt": 1711666757963,
-        "FireMgmtComplexity": "Type 5 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -96.2919026654225,
           36.6053564588537
         ]
@@ -11587,97 +11562,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.2075240701994,
-          37.3165972207534
-        ]
-      },
-      "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1711661700000,
-        "IncidentName": "Harveyton Road",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 75,
-        "POOCounty": "Perry",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-KY",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 3,
-        "ModifiedOnDateTime_dt": 1711667195770,
-        "FireMgmtComplexity": "Type 5 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.1411740948847,
-          37.9731773541715
-        ]
-      },
-      "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1711662480000,
-        "IncidentName": "680 Muddy Branch Road",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
-        "POOCounty": "Morgan",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-KY",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 1,
-        "ModifiedOnDateTime_dt": 1711665026613,
-        "FireMgmtComplexity": "Type 5 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -82.8906039177091,
           36.3993570479503
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Human",
         "FireDiscoveryDateTime": 1711663274000,
         "IncidentName": "Hawkins - Jones Cemetery Road",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
+        "PercentContained": 100,
         "POOCounty": "Hawkins",
         "POOLandownerCategory": "Private",
         "POOState": "US-TN",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 3,
-        "ModifiedOnDateTime_dt": 1711665841243,
-        "FireMgmtComplexity": "Type 5 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.5311438693385,
-          37.3181272493868
-        ]
-      },
-      "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1711665480000,
-        "IncidentName": "Kentucky 611 #2",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
-        "POOCounty": "Pike",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-KY",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.5,
-        "ModifiedOnDateTime_dt": 1711665777083,
+        "IncidentSize": 2,
+        "ModifiedOnDateTime_dt": 1711669135677,
         "FireMgmtComplexity": "Type 5 Incident",
         "POOCity": null
       }
@@ -11703,6 +11603,31 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1711665968050,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.226026994274,
+          33.8060568851334
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1711672578000,
+        "IncidentName": "N PERRIS BL / ORANGETREE DR",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Riverside",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1711673579620,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
