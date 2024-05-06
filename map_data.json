@@ -1262,6 +1262,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -146.604425889762,
+          64.7067619751512
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1711990930000,
+        "IncidentName": "YTA Stuart Creek Rx",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": null,
+        "POOCounty": "Fairbanks North Star",
+        "POOLandownerCategory": "DOD",
+        "POOState": "US-AK",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 6125,
+        "ModifiedOnDateTime_dt": 1714958306830,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -118.112961246937,
           47.9405410943161
         ]
@@ -2278,31 +2303,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 144,
         "ModifiedOnDateTime_dt": 1713965261767,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -112.074528495657,
-          38.5404387675974
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1713276972000,
-        "IncidentName": "Monroe Peak RX",
-        "IncidentTypeCategory": "RX",
-        "PercentContained": null,
-        "POOCounty": "Sevier",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-UT",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 300,
-        "ModifiedOnDateTime_dt": 1713744809007,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -5296,13 +5296,13 @@
         "FireDiscoveryDateTime": 1714421940000,
         "IncidentName": "75 RD (53)",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 50,
+        "PercentContained": 95,
         "POOCounty": "Polk",
         "POOLandownerCategory": "Private",
         "POOState": "US-FL",
-        "TotalIncidentPersonnel": 14,
+        "TotalIncidentPersonnel": 30,
         "IncidentSize": 464,
-        "ModifiedOnDateTime_dt": 1714447818777,
+        "ModifiedOnDateTime_dt": 1714960462530,
         "FireMgmtComplexity": null,
         "POOCity": "Indian Lake Estates"
       }
@@ -5717,7 +5717,7 @@
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Human",
         "FireDiscoveryDateTime": 1714620255000,
         "IncidentName": "Ocotillo",
         "IncidentTypeCategory": "WF",
@@ -5727,7 +5727,7 @@
         "POOState": "US-AZ",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1714701836163,
+        "ModifiedOnDateTime_dt": 1714959629907,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -6646,13 +6646,13 @@
         "FireDiscoveryDateTime": 1714760937000,
         "IncidentName": "OAKMONT",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 30,
+        "PercentContained": 50,
         "POOCounty": "Otero",
         "POOLandownerCategory": "Private",
         "POOState": "US-NM",
         "TotalIncidentPersonnel": 92,
         "IncidentSize": 65.4,
-        "ModifiedOnDateTime_dt": 1714951457413,
+        "ModifiedOnDateTime_dt": 1714959349577,
         "FireMgmtComplexity": null,
         "POOCity": "Timberon"
       }
@@ -8037,31 +8037,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -109.858343622229,
-          34.0729553214409
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1714938034000,
-        "IncidentName": "McNary Pond",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Apache",
-        "POOLandownerCategory": "BIA",
-        "POOState": "US-AZ",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1714942714053,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -95.0055187331804,
           48.069008286784
         ]
@@ -8312,38 +8287,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -111.961963023301,
-          33.8001451708488
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1714950000000,
-        "IncidentName": "Carefree",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Maricopa",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-AZ",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1714952244530,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -111.683343980062,
           33.9500052061828
         ]
       },
       "properties": {
         "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1714950584000,
+        "FireDiscoveryDateTime": 1714950540000,
         "IncidentName": "Horse",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
@@ -8352,7 +8302,7 @@
         "POOState": "US-AZ",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1714953374443,
+        "ModifiedOnDateTime_dt": 1714958892680,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -8378,6 +8328,81 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1714951650210,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.762011389926,
+          39.8800560219584
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1714952880000,
+        "IncidentName": "Willow Creek Piles",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Duchesne",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-UT",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1714961616913,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.965083997852,
+          34.4038119685441
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1714958086000,
+        "IncidentName": "CARNELIAN",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "San Bernardino",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.01,
+        "ModifiedOnDateTime_dt": 1714958543167,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.697492270972,
+          34.1509748410043
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1714961921000,
+        "IncidentName": "VIRGENES",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1714962408380,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
