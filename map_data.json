@@ -4962,31 +4962,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.067790205356,
-          35.002227109658
-        ]
-      },
-      "properties": {
-        "FireCause": null,
-        "FireDiscoveryDateTime": 1715218020000,
-        "IncidentName": "TANK",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Kern",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1715287840110,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -84.5625870896635,
           30.2573886557929
         ]
@@ -5278,56 +5253,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 150,
         "ModifiedOnDateTime_dt": 1715387180100,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.972640747677,
-          35.6313696806272
-        ]
-      },
-      "properties": {
-        "FireCause": null,
-        "FireDiscoveryDateTime": 1715285760000,
-        "IncidentName": "TULE",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Kern",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1715285976207,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.820692115626,
-          34.0499748796546
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1715285891000,
-        "IncidentName": "MARIA",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1715286170240,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -6987,6 +6912,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -96.2210417736824,
+          46.2455579543131
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1715436000000,
+        "IncidentName": "Ridgeway West RX",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": null,
+        "POOCounty": "Otter Tail",
+        "POOLandownerCategory": "USFWS",
+        "POOState": "US-MN",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 224,
+        "ModifiedOnDateTime_dt": 1715545676880,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -88.3242563235002,
           45.1573753471931
         ]
@@ -7071,15 +7021,15 @@
         "FireDiscoveryDateTime": 1715444145000,
         "IncidentName": "Laguna 24",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 40,
         "POOCounty": "Kleberg",
         "POOLandownerCategory": "NPS",
         "POOState": "US-TX",
-        "TotalIncidentPersonnel": null,
+        "TotalIncidentPersonnel": 12,
         "IncidentSize": 200,
-        "ModifiedOnDateTime_dt": 1715523644010,
+        "ModifiedOnDateTime_dt": 1715547853913,
         "FireMgmtComplexity": null,
-        "POOCity": null
+        "POOCity": "Corpus Christi"
       }
     },
     {
@@ -7518,7 +7468,7 @@
       },
       "properties": {
         "FireCause": "Human",
-        "FireDiscoveryDateTime": 1715464490000,
+        "FireDiscoveryDateTime": 1715464440000,
         "IncidentName": "Elk Creek",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
@@ -7526,8 +7476,8 @@
         "POOLandownerCategory": "Private",
         "POOState": "US-MT",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 40,
-        "ModifiedOnDateTime_dt": 1715471481717,
+        "IncidentSize": 98.8,
+        "ModifiedOnDateTime_dt": 1715546914017,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -7537,22 +7487,47 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.8516881184088,
-          48.8444703157572
+          -96.0183278411917,
+          47.0090340706607
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1715465145000,
+        "IncidentName": "300th",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Becker",
+        "POOLandownerCategory": "BIA",
+        "POOState": "US-MN",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 10,
+        "ModifiedOnDateTime_dt": 1715547032977,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.6332914626045,
+          47.1040501899083
         ]
       },
       "properties": {
         "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1715465301000,
-        "IncidentName": "Buckthorn",
+        "FireDiscoveryDateTime": 1715467081000,
+        "IncidentName": "Hungry Gulch",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
-        "POOCounty": "Roseau",
+        "POOCounty": "Cass",
         "POOLandownerCategory": "Private",
         "POOState": "US-MN",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 12,
-        "ModifiedOnDateTime_dt": 1715470171490,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1715547092790,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -7678,31 +7653,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1715470650437,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.776796107582,
-          38.9733051679576
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1715470644000,
-        "IncidentName": "VOLCANOVILLE",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "El Dorado",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 5.94,
-        "ModifiedOnDateTime_dt": 1715496663770,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -7903,6 +7853,31 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1715488008587,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.2710772373618,
+          45.4406381980887
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1715490000000,
+        "IncidentName": "abc",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Rusk",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-WI",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.01,
+        "ModifiedOnDateTime_dt": 1715547735697,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -8137,6 +8112,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -94.4567664872324,
+          47.5605502636794
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1715531135000,
+        "IncidentName": "Rose",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Beltrami",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-MN",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 25,
+        "ModifiedOnDateTime_dt": 1715544734930,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -119.626811648357,
           36.576555032417
         ]
@@ -8287,31 +8287,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.64469085716,
-          37.0109170039902
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1715538512000,
-        "IncidentName": "EUCALYPTUS RD / REYNOLDS AV",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Merced",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1715540340670,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -91.0685572585453,
           46.02334129721
         ]
@@ -8326,8 +8301,8 @@
         "POOLandownerCategory": "Private",
         "POOState": "US-WI",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 1,
-        "ModifiedOnDateTime_dt": 1715543504927,
+        "IncidentSize": 1.4,
+        "ModifiedOnDateTime_dt": 1715545147140,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -8387,31 +8362,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.540657886329,
-          33.9481919397041
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1715542436000,
-        "IncidentName": "COLONY",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Riverside",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1715543214000,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -92.5435999322871,
           47.5931254121691
         ]
@@ -8443,7 +8393,7 @@
       },
       "properties": {
         "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1715544417000,
+        "FireDiscoveryDateTime": 1715544360000,
         "IncidentName": "Grace",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
@@ -8451,8 +8401,108 @@
         "POOLandownerCategory": "Private",
         "POOState": "US-MN",
         "TotalIncidentPersonnel": null,
+        "IncidentSize": 5,
+        "ModifiedOnDateTime_dt": 1715546040170,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.9245742531012,
+          47.0729802392965
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1715545786000,
+        "IncidentName": "Big Sand Fire",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Cass",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-MN",
+        "TotalIncidentPersonnel": null,
         "IncidentSize": 1,
-        "ModifiedOnDateTime_dt": 1715544526740,
+        "ModifiedOnDateTime_dt": 1715548150100,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.2531788318312,
+          47.503831421438
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1715545944000,
+        "IncidentName": "Rd 54",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "St. Louis",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-MN",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1715546103370,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.32921400364,
+          33.6996918671872
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1715546848000,
+        "IncidentName": "ALLAN",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Riverside",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.01,
+        "ModifiedOnDateTime_dt": 1715547340027,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.1059885837028,
+          47.0169711422523
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1715547420000,
+        "IncidentName": "Eagle Lake",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Hubbard",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-MN",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.25,
+        "ModifiedOnDateTime_dt": 1715548299973,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
