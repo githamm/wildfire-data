@@ -3037,31 +3037,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -94.3912068261389,
-          31.3330455516992
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1714582200000,
-        "IncidentName": "Rx Nacogdoches 1514",
-        "IncidentTypeCategory": "RX",
-        "PercentContained": 0,
-        "POOCounty": "Nacogdoches",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-TX",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 112,
-        "ModifiedOnDateTime_dt": 1715001369963,
-        "FireMgmtComplexity": "Type 5 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -85.450915002758,
           42.615323999547
         ]
@@ -3203,6 +3178,31 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 146,
         "ModifiedOnDateTime_dt": 1715019180800,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.2994904177873,
+          46.6520413714678
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1714753425000,
+        "IncidentName": "NW Sands Block J RX",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": null,
+        "POOCounty": "Bayfield",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-WI",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1716214103053,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -4377,7 +4377,7 @@
         "POOState": "US-WI",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 140,
-        "ModifiedOnDateTime_dt": 1715607599440,
+        "ModifiedOnDateTime_dt": 1716213983750,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -4877,7 +4877,7 @@
         "POOState": "US-WI",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 897,
-        "ModifiedOnDateTime_dt": 1715613601077,
+        "ModifiedOnDateTime_dt": 1716214283523,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -5827,7 +5827,7 @@
         "POOState": "US-CO",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 1342,
-        "ModifiedOnDateTime_dt": 1716173686370,
+        "ModifiedOnDateTime_dt": 1716213238040,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -6812,56 +6812,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.178152166336,
-          33.9308048462399
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1715952258000,
-        "IncidentName": "LAC-168187",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1715952468657,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.368312199387,
-          33.9454348371859
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1715952894000,
-        "IncidentName": "LAC-168194",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1715953848420,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -111.488494386625,
           38.6149888179149
         ]
@@ -6877,7 +6827,7 @@
         "POOState": "US-UT",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 1000,
-        "ModifiedOnDateTime_dt": 1716165245350,
+        "ModifiedOnDateTime_dt": 1716213547240,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -7503,6 +7453,81 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
         "ModifiedOnDateTime_dt": 1716073517487,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.59608377378,
+          47.3201791440841
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1715990580000,
+        "IncidentName": "Butterfinger 1",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Mahnomen",
+        "POOLandownerCategory": "BIA",
+        "POOState": "US-MN",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.25,
+        "ModifiedOnDateTime_dt": 1716212570157,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.5950537733395,
+          47.3193061440511
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1715990940000,
+        "IncidentName": "Butterfinger 2",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Mahnomen",
+        "POOLandownerCategory": "BIA",
+        "POOState": "US-MN",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1716212786097,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.5946247730997,
+          47.318608143994
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1715991360000,
+        "IncidentName": "Butterfinger 3",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Mahnomen",
+        "POOLandownerCategory": "BIA",
+        "POOState": "US-MN",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1716212969997,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
@@ -8962,31 +8987,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -112.833001168509,
-          33.485785082339
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1716160952000,
-        "IncidentName": "Weldon",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Maricopa",
-        "POOLandownerCategory": "State",
-        "POOState": "US-AZ",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 5.8,
-        "ModifiedOnDateTime_dt": 1716207836880,
-        "FireMgmtComplexity": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -119.599691770682,
           37.7448871457328
         ]
@@ -9362,6 +9362,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -121.728013362387,
+          39.7830221594134
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1716208282000,
+        "IncidentName": "HWY 32  E FRST_RNCH",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Butte",
+        "POOLandownerCategory": "City",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1716212237063,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -118.113102225209,
           34.762674941457
         ]
@@ -9378,6 +9403,31 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1716209149010,
+        "FireMgmtComplexity": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.589460715444,
+          47.5596409196656
+        ]
+      },
+      "properties": {
+        "FireCause": null,
+        "FireDiscoveryDateTime": 1716212638000,
+        "IncidentName": "Cedar Roots",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Dunn",
+        "POOLandownerCategory": "BIA",
+        "POOState": "US-ND",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.3,
+        "ModifiedOnDateTime_dt": 1716212749723,
         "FireMgmtComplexity": null,
         "POOCity": null
       }
