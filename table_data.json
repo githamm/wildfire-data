@@ -1938,7 +1938,7 @@
       },
       "properties": {
         "IncidentSize": 0.84,
-        "FireCause": "Undetermined",
+        "FireCause": "Human",
         "FireDiscoveryDateTime": 1716502920000,
         "IncidentName": "Fourmile",
         "IncidentTypeCategory": "WF",
@@ -2558,7 +2558,7 @@
       },
       "properties": {
         "IncidentSize": 0.35,
-        "FireCause": "Undetermined",
+        "FireCause": "Human",
         "FireDiscoveryDateTime": 1717740934000,
         "IncidentName": "Chief Ignacio",
         "IncidentTypeCategory": "WF",
@@ -2912,6 +2912,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -105.648759093033,
+          38.2355311646965
+        ]
+      },
+      "properties": {
+        "IncidentSize": 0.1,
+        "FireCause": "Natural",
+        "FireDiscoveryDateTime": 1718062260000,
+        "IncidentName": "Stover Gulch",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Custer",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -108.735510666218,
           37.2179778243421
         ]
@@ -2937,13 +2957,53 @@
         ]
       },
       "properties": {
-        "IncidentSize": 0.5,
+        "IncidentSize": 2,
         "FireCause": "Natural",
         "FireDiscoveryDateTime": 1718127600000,
         "IncidentName": "Snow Ranch",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
         "POOCounty": "Archuleta",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.011982031525,
+          39.0148123166994
+        ]
+      },
+      "properties": {
+        "IncidentSize": 0.1,
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1718133803000,
+        "IncidentName": "FS Rd 309",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "El Paso",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.350660341821,
+          39.0690332335084
+        ]
+      },
+      "properties": {
+        "IncidentSize": 0.1,
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1718135040000,
+        "IncidentName": "Interlaken",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Lake",
         "POOState": "US-CO"
       }
     }
