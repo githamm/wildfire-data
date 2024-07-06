@@ -6152,7 +6152,7 @@
         "POOState": "US-AK",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 44,
-        "ModifiedOnDateTime_dt": 1720023140197,
+        "ModifiedOnDateTime_dt": 1720270143073,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -6396,13 +6396,13 @@
         "FireDiscoveryDateTime": 1719942677000,
         "IncidentName": "THOMPSON",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 55,
+        "PercentContained": 71,
         "POOCounty": "Butte",
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
         "TotalIncidentPersonnel": 1930,
         "IncidentSize": 3789,
-        "ModifiedOnDateTime_dt": 1720226534243,
+        "ModifiedOnDateTime_dt": 1720269401240,
         "IncidentComplexityLevel": "Type 3 Incident",
         "POOCity": "Oroville"
       }
@@ -10150,9 +10150,9 @@
         "POOCounty": "Mariposa",
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
-        "TotalIncidentPersonnel": 919,
+        "TotalIncidentPersonnel": 1090,
         "IncidentSize": 908,
-        "ModifiedOnDateTime_dt": 1720225943860,
+        "ModifiedOnDateTime_dt": 1720269375660,
         "IncidentComplexityLevel": "Type 3 Incident",
         "POOCity": "Mariposa"
       }
@@ -17751,8 +17751,8 @@
         "POOLandownerCategory": "State",
         "POOState": "US-NJ",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 450,
-        "ModifiedOnDateTime_dt": 1720268137773,
+        "IncidentSize": 1200,
+        "ModifiedOnDateTime_dt": 1720270309783,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -18152,7 +18152,7 @@
         "POOState": "US-UT",
         "TotalIncidentPersonnel": 92,
         "IncidentSize": 686,
-        "ModifiedOnDateTime_dt": 1720232510273,
+        "ModifiedOnDateTime_dt": 1720270916747,
         "IncidentComplexityLevel": "Type 4 Incident",
         "POOCity": "Marysville"
       }
@@ -18771,15 +18771,15 @@
         "FireDiscoveryDateTime": 1720219680000,
         "IncidentName": "Lake",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 0,
         "POOCounty": "Santa Barbara",
         "POOLandownerCategory": "USFS",
         "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
+        "TotalIncidentPersonnel": 0,
         "IncidentSize": 4673,
-        "ModifiedOnDateTime_dt": 1720244977653,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
+        "ModifiedOnDateTime_dt": 1720269878413,
+        "IncidentComplexityLevel": "Type 3 Incident",
+        "POOCity": "Los Olivos"
       }
     },
     {
@@ -19801,8 +19801,8 @@
         "POOLandownerCategory": "BLM",
         "POOState": "US-ID",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 25,
-        "ModifiedOnDateTime_dt": 1720264441140,
+        "IncidentSize": 1150,
+        "ModifiedOnDateTime_dt": 1720271311440,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -20037,6 +20037,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -120.641596186197,
+          39.7414882433212
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1720262760000,
+        "IncidentName": "BK EAGLE",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Plumas",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.3,
+        "ModifiedOnDateTime_dt": 1720270902450,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -123.691124941926,
           41.0769494899733
         ]
@@ -20103,6 +20128,106 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.01,
         "ModifiedOnDateTime_dt": 1720266912400,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.050671213434,
+          39.4583351872783
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1720268179000,
+        "IncidentName": "WEEDS",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Yuba",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1720270508040,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.820782162109,
+          34.605564941492
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1720269522000,
+        "IncidentName": "LAC-233160",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1720269648567,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.112562220022,
+          34.7040849351097
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1720270467000,
+        "IncidentName": "LAC-233170",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1720270728467,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.691958241921,
+          41.0761161898448
+        ]
+      },
+      "properties": {
+        "FireCause": null,
+        "FireDiscoveryDateTime": 1720270680000,
+        "IncidentName": "Rodeo 3",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Humboldt",
+        "POOLandownerCategory": "BIA",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1720270872127,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
