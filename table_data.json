@@ -3518,7 +3518,7 @@
       },
       "properties": {
         "IncidentSize": 2,
-        "FireCause": "Undetermined",
+        "FireCause": "Human",
         "FireDiscoveryDateTime": 1718554542000,
         "IncidentName": "Sink",
         "IncidentTypeCategory": "WF",
@@ -3638,7 +3638,7 @@
       },
       "properties": {
         "IncidentSize": 1505,
-        "FireCause": "Undetermined",
+        "FireCause": "Human",
         "FireDiscoveryDateTime": 1718657664000,
         "IncidentName": "Rabbit Valley",
         "IncidentTypeCategory": "WF",
@@ -5978,7 +5978,7 @@
       },
       "properties": {
         "IncidentSize": 0.1,
-        "FireCause": "Undetermined",
+        "FireCause": "Human",
         "FireDiscoveryDateTime": 1720286778000,
         "IncidentName": "Wild Horse",
         "IncidentTypeCategory": "WF",
@@ -6452,6 +6452,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -105.189296267219,
+          40.6733665314918
+        ]
+      },
+      "properties": {
+        "IncidentSize": 10.9,
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1720638840000,
+        "IncidentName": "Teds Fire",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Larimer",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -104.917643017814,
           39.0872563332156
         ]
@@ -6577,9 +6597,9 @@
         ]
       },
       "properties": {
-        "IncidentSize": 0.1,
+        "IncidentSize": 100,
         "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1720890640000,
+        "FireDiscoveryDateTime": 1720890600000,
         "IncidentName": "Quail Hollow Rd",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
