@@ -4400,9 +4400,9 @@
         "POOCounty": "Butte",
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
-        "TotalIncidentPersonnel": 5579,
+        "TotalIncidentPersonnel": 5426,
         "IncidentSize": 429259,
-        "ModifiedOnDateTime_dt": 1723596503247,
+        "ModifiedOnDateTime_dt": 1723639878070,
         "IncidentComplexityLevel": "Type 1 Incident",
         "POOCity": "CHICO"
       }
@@ -4527,7 +4527,7 @@
         "POOState": "US-ID",
         "TotalIncidentPersonnel": 594,
         "IncidentSize": 31256,
-        "ModifiedOnDateTime_dt": 1723592334317,
+        "ModifiedOnDateTime_dt": 1723638398363,
         "IncidentComplexityLevel": "Type 1 Incident",
         "POOCity": "Cuprum"
       }
@@ -4776,8 +4776,8 @@
         "POOLandownerCategory": "USFS",
         "POOState": "US-ID",
         "TotalIncidentPersonnel": 56,
-        "IncidentSize": 3104,
-        "ModifiedOnDateTime_dt": 1723636058093,
+        "IncidentSize": 3918,
+        "ModifiedOnDateTime_dt": 1723638440560,
         "IncidentComplexityLevel": "Type 1 Incident",
         "POOCity": "Stanley, ID"
       }
@@ -7626,8 +7626,8 @@
         "POOLandownerCategory": "USFS",
         "POOState": "US-ID",
         "TotalIncidentPersonnel": 206,
-        "IncidentSize": 2585,
-        "ModifiedOnDateTime_dt": 1723635597160,
+        "IncidentSize": 2726,
+        "ModifiedOnDateTime_dt": 1723638327560,
         "IncidentComplexityLevel": "Type 4 Incident",
         "POOCity": null
       }
@@ -7876,8 +7876,8 @@
         "POOLandownerCategory": "USFS",
         "POOState": "US-ID",
         "TotalIncidentPersonnel": 2,
-        "IncidentSize": 3239,
-        "ModifiedOnDateTime_dt": 1723635672083,
+        "IncidentSize": 5595,
+        "ModifiedOnDateTime_dt": 1723638407050,
         "IncidentComplexityLevel": "Type 4 Incident",
         "POOCity": null
       }
@@ -8827,7 +8827,7 @@
         "POOState": "US-CA",
         "TotalIncidentPersonnel": 610,
         "IncidentSize": 4270,
-        "ModifiedOnDateTime_dt": 1723598280987,
+        "ModifiedOnDateTime_dt": 1723641198210,
         "IncidentComplexityLevel": "Type 2 Incident",
         "POOCity": null
       }
@@ -9521,13 +9521,13 @@
         "FireDiscoveryDateTime": 1723318020000,
         "IncidentName": "BLUE",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 95,
+        "PercentContained": 98,
         "POOCounty": "Kern",
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
         "TotalIncidentPersonnel": 199,
         "IncidentSize": 427,
-        "ModifiedOnDateTime_dt": 1723594627973,
+        "ModifiedOnDateTime_dt": 1723639234310,
         "IncidentComplexityLevel": "Type 4 Incident",
         "POOCity": null
       }
@@ -11517,18 +11517,18 @@
         ]
       },
       "properties": {
-        "FireCause": null,
+        "FireCause": "Undetermined",
         "FireDiscoveryDateTime": 1723483080000,
         "IncidentName": "TURBINE",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 40,
         "POOCounty": "Kern",
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1723485924803,
-        "IncidentComplexityLevel": null,
+        "TotalIncidentPersonnel": 112,
+        "IncidentSize": 329,
+        "ModifiedOnDateTime_dt": 1723638378363,
+        "IncidentComplexityLevel": "Type 4 Incident",
         "POOCity": null
       }
     },
@@ -13037,6 +13037,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -96.8646036456833,
+          34.3902860336109
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1723572000000,
+        "IncidentName": "CLUSTER",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Johnston",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-OK",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 12,
+        "ModifiedOnDateTime_dt": 1723639341170,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -117.487940035272,
           47.5299781332092
         ]
@@ -13228,31 +13253,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
         "ModifiedOnDateTime_dt": 1723582741230,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.86651340192,
-          45.0721730136942
-        ]
-      },
-      "properties": {
-        "FireCause": "Natural",
-        "FireDiscoveryDateTime": 1723580040000,
-        "IncidentName": "Line Creek",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Baker",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-OR",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.5,
-        "ModifiedOnDateTime_dt": 1723595760370,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
