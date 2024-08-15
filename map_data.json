@@ -3646,13 +3646,13 @@
         "FireDiscoveryDateTime": 1721675995000,
         "IncidentName": "Telephone",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 64,
+        "PercentContained": 65,
         "POOCounty": "Harney",
         "POOLandownerCategory": "USFS",
         "POOState": "US-OR",
         "TotalIncidentPersonnel": 485,
-        "IncidentSize": 53989,
-        "ModifiedOnDateTime_dt": 1723604857337,
+        "IncidentSize": 53999,
+        "ModifiedOnDateTime_dt": 1723691845127,
         "IncidentComplexityLevel": "Type 2 Incident",
         "POOCity": "Burns"
       }
@@ -4596,13 +4596,13 @@
         "FireDiscoveryDateTime": 1721886815000,
         "IncidentName": "Sand- Team 8",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 92,
+        "PercentContained": 100,
         "POOCounty": "Grant",
         "POOLandownerCategory": "USFS",
         "POOState": "US-OR",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 7582,
-        "ModifiedOnDateTime_dt": 1723604929197,
+        "ModifiedOnDateTime_dt": 1723691795463,
         "IncidentComplexityLevel": "Type 2 Incident",
         "POOCity": "Izee"
       }
@@ -8871,13 +8871,13 @@
         "FireDiscoveryDateTime": 1723326180000,
         "IncidentName": "Dixon",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
+        "PercentContained": 4,
         "POOCounty": "Douglas",
         "POOLandownerCategory": "USFS",
         "POOState": "US-OR",
-        "TotalIncidentPersonnel": 618,
+        "TotalIncidentPersonnel": 653,
         "IncidentSize": 1997,
-        "ModifiedOnDateTime_dt": 1723607522630,
+        "ModifiedOnDateTime_dt": 1723694345397,
         "IncidentComplexityLevel": "Type 1 Incident",
         "POOCity": "Tiller, OR"
       }
@@ -8942,7 +8942,7 @@
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Natural",
         "FireDiscoveryDateTime": 1723331681000,
         "IncidentName": "Brush Creek",
         "IncidentTypeCategory": "WF",
@@ -8952,7 +8952,7 @@
         "POOState": "US-WA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1723476950860,
+        "ModifiedOnDateTime_dt": 1723692889823,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -9512,31 +9512,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -112.355128355309,
-          36.7065055255887
-        ]
-      },
-      "properties": {
-        "FireCause": "Natural",
-        "FireDiscoveryDateTime": 1723414020000,
-        "IncidentName": "Oak Corral",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Coconino",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-AZ",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 4.1,
-        "ModifiedOnDateTime_dt": 1723434895483,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -121.300491983284,
           44.0907575126082
         ]
@@ -9662,6 +9637,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -121.147315046632,
+          48.9958888214333
+        ]
+      },
+      "properties": {
+        "FireCause": "Natural",
+        "FireDiscoveryDateTime": 1723425114000,
+        "IncidentName": "Wright Peak",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Whatcom",
+        "POOLandownerCategory": "NPS",
+        "POOState": "US-WA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1723692869640,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -119.997633049988,
           39.497437273691
         ]
@@ -9680,56 +9680,6 @@
         "ModifiedOnDateTime_dt": 1723678302497,
         "IncidentComplexityLevel": "Type 3 Incident",
         "POOCity": "Verdi"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.187512165078,
-          33.8956648418105
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1723431755000,
-        "IncidentName": "LAC-281477",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1723432008413,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.271382176075,
-          33.8573848328735
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1723432901000,
-        "IncidentName": "LAC-281495",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "County",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1723433148293,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
       }
     },
     {
@@ -13276,8 +13226,8 @@
         "POOLandownerCategory": "USFS",
         "POOState": "US-AZ",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1723683139600,
+        "IncidentSize": 3,
+        "ModifiedOnDateTime_dt": 1723694156590,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -13562,6 +13512,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -111.798678754215,
+          41.0335060747998
+        ]
+      },
+      "properties": {
+        "FireCause": "Natural",
+        "FireDiscoveryDateTime": 1723678140000,
+        "IncidentName": "Line Creek",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Morgan",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-UT",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.25,
+        "ModifiedOnDateTime_dt": 1723694566717,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -118.041122209274,
           34.7192449409914
         ]
@@ -13778,6 +13753,31 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.01,
         "ModifiedOnDateTime_dt": 1723690140343,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.112232215564,
+          34.6532149295817
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1723694493000,
+        "IncidentName": "LAC-285520",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1723694688350,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
