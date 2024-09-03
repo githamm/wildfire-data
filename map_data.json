@@ -7412,31 +7412,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.064182155864,
-          34.0382348645958
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1725078082000,
-        "IncidentName": "LAC-306522",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1725078288663,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -118.330112191342,
           33.9249248370662
         ]
@@ -10796,14 +10771,14 @@
         "FireDiscoveryDateTime": 1725303420000,
         "IncidentName": "Chimney",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 0,
         "POOCounty": "Camas",
         "POOLandownerCategory": "State",
         "POOState": "US-ID",
-        "TotalIncidentPersonnel": null,
+        "TotalIncidentPersonnel": 13,
         "IncidentSize": 3631,
-        "ModifiedOnDateTime_dt": 1725329733230,
-        "IncidentComplexityLevel": null,
+        "ModifiedOnDateTime_dt": 1725338011103,
+        "IncidentComplexityLevel": "Type 3 Incident",
         "POOCity": null
       }
     },
@@ -11077,7 +11052,7 @@
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 800,
-        "ModifiedOnDateTime_dt": 1725333723317,
+        "ModifiedOnDateTime_dt": 1725339390130,
         "IncidentComplexityLevel": "Type 2 Incident",
         "POOCity": "Loyalton"
       }
@@ -11387,12 +11362,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.900013347082,
-          42.741672637261
+          -118.913296348765,
+          42.7380886357762
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Natural",
         "FireDiscoveryDateTime": 1725316069000,
         "IncidentName": "Solomon",
         "IncidentTypeCategory": "WF",
@@ -11402,7 +11377,7 @@
         "POOState": "US-OR",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 250,
-        "ModifiedOnDateTime_dt": 1725336809577,
+        "ModifiedOnDateTime_dt": 1725337698140,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -11737,8 +11712,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -103.363866298315,
-          44.0250841045671
+          -103.359944297218,
+          44.024208104772
         ]
       },
       "properties": {
@@ -11748,11 +11723,11 @@
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
         "POOCounty": "Pennington",
-        "POOLandownerCategory": "Private",
+        "POOLandownerCategory": "USFS",
         "POOState": "US-SD",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 35,
-        "ModifiedOnDateTime_dt": 1725330154723,
+        "ModifiedOnDateTime_dt": 1725337191590,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -12052,7 +12027,7 @@
         "POOState": "US-OR",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1725331619097,
+        "ModifiedOnDateTime_dt": 1725337660263,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -12087,63 +12062,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.186679701207,
-          41.7061727844239
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1725327820000,
-        "IncidentName": "24",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Elko",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-NV",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1725336824330,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -112.946675147387,
-          42.1530231011108
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1725327900000,
-        "IncidentName": "IA 11",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Oneida",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-ID",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1725328002567,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -116.075089110137,
           44.300921025618
         ]
       },
       "properties": {
         "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1725329145000,
+        "FireDiscoveryDateTime": 1725329100000,
         "IncidentName": "Moore",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
@@ -12152,7 +12077,7 @@
         "POOState": "US-ID",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.5,
-        "ModifiedOnDateTime_dt": 1725335111583,
+        "ModifiedOnDateTime_dt": 1725338723503,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -12378,6 +12303,31 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1725336708867,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.034188437551,
+          38.8562369838595
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1725339793000,
+        "IncidentName": "BLUE",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Mendocino",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.01,
+        "ModifiedOnDateTime_dt": 1725339924367,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
