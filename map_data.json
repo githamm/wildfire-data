@@ -10237,31 +10237,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.24133249618,
-          40.1832341485221
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1726918377000,
-        "IncidentName": "BRECKENRIDGE",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Tehama",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1727057956330,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -84.6813390009226,
           44.2937780043453
         ]
@@ -10828,31 +10803,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1727109763020,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.040592196541,
-          34.5726449249787
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1727058831000,
-        "IncidentName": "LAC-336610",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1727059008423,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -13771,15 +13721,15 @@
         "FireDiscoveryDateTime": 1727300820000,
         "IncidentName": "GOOSMUS",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 0,
         "POOCounty": "Ferry",
         "POOLandownerCategory": "Private",
         "POOState": "US-WA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 1000,
-        "ModifiedOnDateTime_dt": 1727311219573,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
+        "TotalIncidentPersonnel": 61,
+        "IncidentSize": 1500,
+        "ModifiedOnDateTime_dt": 1727320742200,
+        "IncidentComplexityLevel": "Type 3 Incident",
+        "POOCity": "Curlew"
       }
     },
     {
@@ -13993,7 +13943,7 @@
       },
       "properties": {
         "FireCause": "Human",
-        "FireDiscoveryDateTime": 1727308053000,
+        "FireDiscoveryDateTime": 1727308020000,
         "IncidentName": "Meridian",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
@@ -14002,7 +13952,7 @@
         "POOState": "US-ID",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 20,
-        "ModifiedOnDateTime_dt": 1727318379340,
+        "ModifiedOnDateTime_dt": 1727320030367,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -14017,7 +13967,7 @@
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Natural",
         "FireDiscoveryDateTime": 1727308560000,
         "IncidentName": "Devils Canyon",
         "IncidentTypeCategory": "WF",
@@ -14026,8 +13976,8 @@
         "POOLandownerCategory": "Private",
         "POOState": "US-WA",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 5,
-        "ModifiedOnDateTime_dt": 1727318116157,
+        "IncidentSize": 3,
+        "ModifiedOnDateTime_dt": 1727319555950,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -14062,22 +14012,47 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.204041350615,
-          48.3015611078437
+          -116.993664097597,
+          48.1923392311372
         ]
       },
       "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1727309272000,
-        "IncidentName": "Short Cut Road",
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1727309840000,
+        "IncidentName": "Freeman Lake",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
-        "POOCounty": "Ferry",
-        "POOLandownerCategory": "BIA",
+        "POOCounty": "Bonner",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-ID",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1727318873883,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.040890105393,
+          48.1873872257419
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1727310284000,
+        "IncidentName": "OLDTOWN",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Pend Oreille",
+        "POOLandownerCategory": "Private",
         "POOState": "US-WA",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.25,
-        "ModifiedOnDateTime_dt": 1727313309557,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1727319055320,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -14094,7 +14069,7 @@
       "properties": {
         "FireCause": "Undetermined",
         "FireDiscoveryDateTime": 1727310603000,
-        "IncidentName": "MIS Sonshine Way",
+        "IncidentName": "Sonshine Way",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
         "POOCounty": "Kootenai",
@@ -14102,7 +14077,7 @@
         "POOState": "US-ID",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.25,
-        "ModifiedOnDateTime_dt": 1727318517753,
+        "ModifiedOnDateTime_dt": 1727318858777,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -14287,22 +14262,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.550044696402,
-          35.5715808748063
+          -121.479181961474,
+          36.7716439248023
         ]
       },
       "properties": {
         "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1727317564000,
-        "IncidentName": "MACK",
+        "FireDiscoveryDateTime": 1727319679000,
+        "IncidentName": "SAN JUAN CANYON RD  SAN_JUAN_BAUTISTA",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
-        "POOCounty": "San Luis Obispo",
+        "POOCounty": "San Benito",
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1727318358223,
+        "ModifiedOnDateTime_dt": 1727319775347,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
