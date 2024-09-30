@@ -437,31 +437,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.616774516297,
-          35.2384469003122
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1717167047000,
-        "IncidentName": "TELEPHONE",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Kern",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1727407128847,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -120.530933734991,
           48.1825588461171
         ]
@@ -11042,18 +11017,18 @@
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Human",
         "FireDiscoveryDateTime": 1727646216000,
         "IncidentName": "Button",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 30,
         "POOCounty": "Humboldt",
         "POOLandownerCategory": "Private",
         "POOState": "US-NV",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 200,
-        "ModifiedOnDateTime_dt": 1727656229807,
-        "IncidentComplexityLevel": null,
+        "TotalIncidentPersonnel": 39,
+        "IncidentSize": 300,
+        "ModifiedOnDateTime_dt": 1727669454913,
+        "IncidentComplexityLevel": "Type 3 Incident",
         "POOCity": null
       }
     },
@@ -11287,8 +11262,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -109.285349216902,
-          40.9465512606027
+          -109.285349215894,
+          40.9389942596992
         ]
       },
       "properties": {
@@ -11302,7 +11277,7 @@
         "POOState": "US-UT",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1727665055107,
+        "ModifiedOnDateTime_dt": 1727669544030,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -11453,6 +11428,31 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 1,
         "ModifiedOnDateTime_dt": 1727665990773,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.809112158554,
+          34.587244940152
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1727668970000,
+        "IncidentName": "LAC-345484",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1727669268587,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
