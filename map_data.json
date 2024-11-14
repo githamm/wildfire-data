@@ -837,6 +837,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -113.014457778522,
+          48.5327844766227
+        ]
+      },
+      "properties": {
+        "FireCause": null,
+        "FireDiscoveryDateTime": 1712107800000,
+        "IncidentName": "NOMAD",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Glacier",
+        "POOLandownerCategory": "Tribal",
+        "POOState": "US-MT",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1731619576913,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -117.381101232705,
           48.4470772065203
         ]
@@ -1003,6 +1028,56 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.01,
         "ModifiedOnDateTime_dt": 1731613871880,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.911013530331,
+          47.4970063992155
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1713879444000,
+        "IncidentName": "RX D5 Tree Farm",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": null,
+        "POOCounty": "Sanders",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-MT",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 20,
+        "ModifiedOnDateTime_dt": 1731621606113,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.479546670879,
+          47.6202233498407
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1713966057000,
+        "IncidentName": "RX D5 Clear Creek 15 EMB 82",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": null,
+        "POOCounty": "Sanders",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-MT",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 25,
+        "ModifiedOnDateTime_dt": 1731621683283,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -1380,31 +1455,6 @@
         "ModifiedOnDateTime_dt": 1730936252813,
         "IncidentComplexityLevel": "Type 4 Incident",
         "POOCity": "Marysvale"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.105681757667,
-          47.8767557657355
-        ]
-      },
-      "properties": {
-        "FireCause": "Natural",
-        "FireDiscoveryDateTime": 1720473060000,
-        "IncidentName": "SHOOFLY",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 93,
-        "POOCounty": "Chelan",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-WA",
-        "TotalIncidentPersonnel": 4,
-        "IncidentSize": 104,
-        "ModifiedOnDateTime_dt": 1730409629237,
-        "IncidentComplexityLevel": "Type 4 Incident",
-        "POOCity": "Leavenworth"
       }
     },
     {
@@ -2362,31 +2412,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.708546781165,
-          43.5064555285881
-        ]
-      },
-      "properties": {
-        "FireCause": "Natural",
-        "FireDiscoveryDateTime": 1725675621000,
-        "IncidentName": "Road 157",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Lake",
-        "POOLandownerCategory": "BLM",
-        "POOState": "US-OR",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 336,
-        "ModifiedOnDateTime_dt": 1731449205517,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -121.889314043063,
           43.9072224436206
         ]
@@ -2605,31 +2630,6 @@
         "ModifiedOnDateTime_dt": 1731609401180,
         "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -106.078378007419,
-          44.3861239249009
-        ]
-      },
-      "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1726613700000,
-        "IncidentName": "Livingston Draw",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 100,
-        "POOCounty": "Johnson",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-WY",
-        "TotalIncidentPersonnel": 0,
-        "IncidentSize": 1400,
-        "ModifiedOnDateTime_dt": 1730411084267,
-        "IncidentComplexityLevel": "Type 3 Incident",
-        "POOCity": "Gillette"
       }
     },
     {
@@ -3877,7 +3877,7 @@
         "POOState": "US-NM",
         "TotalIncidentPersonnel": 6,
         "IncidentSize": 323,
-        "ModifiedOnDateTime_dt": 1731539132017,
+        "ModifiedOnDateTime_dt": 1731619556650,
         "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": "Ruidoso"
       }
@@ -7025,9 +7025,9 @@
         "POOCounty": "Ulster",
         "POOLandownerCategory": "Private",
         "POOState": "US-NY",
-        "TotalIncidentPersonnel": 21,
+        "TotalIncidentPersonnel": 10,
         "IncidentSize": 645,
-        "ModifiedOnDateTime_dt": 1731535330030,
+        "ModifiedOnDateTime_dt": 1731619238627,
         "IncidentComplexityLevel": "Type 3 Incident",
         "POOCity": "Town of Denning"
       }
@@ -7728,31 +7728,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1731436165993,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.990554611965,
-          41.2400792486395
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1731355811000,
-        "IncidentName": "FY25 SMMU Piles RX",
-        "IncidentTypeCategory": "RX",
-        "PercentContained": null,
-        "POOCounty": "Siskiyou",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1731360573070,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -12612,31 +12587,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.9632200009094,
-          42.4208500053767
-        ]
-      },
-      "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1731602400000,
-        "IncidentName": "FD080125",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Worcester",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-MA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.6,
-        "ModifiedOnDateTime_dt": 1731606323307,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -121.252514103404,
           44.7622277817939
         ]
@@ -12887,6 +12837,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -111.926312725034,
+          46.6102626236005
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1731615244000,
+        "IncidentName": "LOC Elkview",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Lewis and Clark",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-MT",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.5,
+        "ModifiedOnDateTime_dt": 1731619667697,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -121.172300988457,
           37.4536930067708
         ]
@@ -12978,6 +12953,56 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1731618168687,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.646345410829,
+          35.8125050199971
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1731619411000,
+        "IncidentName": "SUGAR",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Tulare",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.01,
+        "ModifiedOnDateTime_dt": 1731620928370,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.271002237351,
+          34.5959849140027
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1731620699000,
+        "IncidentName": "LEONA",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1731621168620,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
