@@ -1987,31 +1987,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.0345499995354,
-          42.647699998612
-        ]
-      },
-      "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1730226780000,
-        "IncidentName": "Old Forest",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 100,
-        "POOCounty": "Essex",
-        "POOLandownerCategory": "State",
-        "POOState": "US-MA",
-        "TotalIncidentPersonnel": 0,
-        "IncidentSize": 134,
-        "ModifiedOnDateTime_dt": 1732629935410,
-        "IncidentComplexityLevel": "Type 3 Incident",
-        "POOCity": "North Andover"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -70.9136605011382,
           42.5003219746156
         ]
@@ -5187,31 +5162,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.87785998681,
-          34.0020954683595
-        ]
-      },
-      "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1733601600000,
-        "IncidentName": "GRINCH",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Socorro",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-NM",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 1.5,
-        "ModifiedOnDateTime_dt": 1733609890950,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -117.934022177245,
           34.5578849295979
         ]
@@ -6771,14 +6721,14 @@
         "FireDiscoveryDateTime": 1733813453000,
         "IncidentName": "FRANKLIN",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 0,
         "POOCounty": "Los Angeles",
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1733813808723,
-        "IncidentComplexityLevel": null,
+        "IncidentSize": 850,
+        "ModifiedOnDateTime_dt": 1733837742893,
+        "IncidentComplexityLevel": "Type 3 Incident",
         "POOCity": null
       }
     },
@@ -6828,6 +6778,31 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1733836172783,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.090835955478,
+          26.2680607914346
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1733839559000,
+        "IncidentName": "SEA KBS-5 Rx 1210",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": null,
+        "POOCounty": "Hendry",
+        "POOLandownerCategory": "BIA",
+        "POOState": "US-FL",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1733839788133,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
