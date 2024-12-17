@@ -612,6 +612,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -123.155182496243,
+          42.5383698348236
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1719771300000,
+        "IncidentName": "E Evans Crk Rd 8514",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Jackson",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-OR",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.11,
+        "ModifiedOnDateTime_dt": 1734403841293,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -120.416813084155,
           39.2393052186046
         ]
@@ -4021,13 +4046,13 @@
         "FireDiscoveryDateTime": 1733813453000,
         "IncidentName": "FRANKLIN",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 54,
+        "PercentContained": 56,
         "POOCounty": "Los Angeles",
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
-        "TotalIncidentPersonnel": 1155,
+        "TotalIncidentPersonnel": 1014,
         "IncidentSize": 4037,
-        "ModifiedOnDateTime_dt": 1734356816490,
+        "ModifiedOnDateTime_dt": 1734400375080,
         "IncidentComplexityLevel": "Type 1 Incident",
         "POOCity": "Malibu"
       }
@@ -5478,56 +5503,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 15,
         "ModifiedOnDateTime_dt": 1734148051887,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.659562121522,
-          34.4514849337935
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1734137945000,
-        "IncidentName": "SAGE",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "San Bernardino",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1734138894237,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.717234281777,
-          33.8483381627279
-        ]
-      },
-      "properties": {
-        "FireCause": null,
-        "FireDiscoveryDateTime": 1734139800000,
-        "IncidentName": "LANDROVER",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Orange",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1734140007840,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
