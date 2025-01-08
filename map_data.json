@@ -1837,6 +1837,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -122.17193023668,
+          38.271088003241
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1736317091000,
+        "IncidentName": "GREEN VALLEY RD  CORDELIA",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Solano",
+        "POOLandownerCategory": "City",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.01,
+        "ModifiedOnDateTime_dt": 1736317172013,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -118.353345590581,
           35.045004957497
         ]
@@ -2028,31 +2053,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.25,
         "ModifiedOnDateTime_dt": 1736131795307,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.107522164004,
-          34.0484948632873
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1736055939000,
-        "IncidentName": "LAC-005220",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1736056608253,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -2862,24 +2862,24 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.551057239819,
-          34.067790840294
+          -118.551123339829,
+          34.0677826402894
         ]
       },
       "properties": {
-        "FireCause": null,
+        "FireCause": "Undetermined",
         "FireDiscoveryDateTime": 1736275080000,
         "IncidentName": "Palisades",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 0,
         "POOCounty": "Los Angeles",
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1736294752110,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
+        "TotalIncidentPersonnel": 800,
+        "IncidentSize": 2920,
+        "ModifiedOnDateTime_dt": 1736315974977,
+        "IncidentComplexityLevel": "Type 3 Incident",
+        "POOCity": "Los Angeles City"
       }
     },
     {
@@ -3478,6 +3478,81 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1736313288923,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.765082271969,
+          34.0269548237198
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1736313963000,
+        "IncidentName": "LAC-009509",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1736314248777,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.93092213006,
+          33.9977048675863
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1736314325000,
+        "IncidentName": "LAC-009521",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1736314728327,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.534282263691,
+          34.3883848761091
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1736316417000,
+        "IncidentName": "LAC-009597",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1736316648500,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -6101,8 +6176,33 @@
         "POOLandownerCategory": "Private",
         "POOState": "US-AZ",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1736306148070,
+        "IncidentSize": 48,
+        "ModifiedOnDateTime_dt": 1736314575390,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.534618434052,
+          32.7337998959483
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1736314687000,
+        "IncidentName": "Ranch",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Yuma",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-AZ",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 7,
+        "ModifiedOnDateTime_dt": 1736316384263,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
