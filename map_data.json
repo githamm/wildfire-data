@@ -321,13 +321,13 @@
         "FireDiscoveryDateTime": 1736274600000,
         "IncidentName": "Palisades",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 96,
+        "PercentContained": 97,
         "POOCounty": "Los Angeles",
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
-        "TotalIncidentPersonnel": 225,
+        "TotalIncidentPersonnel": 138,
         "IncidentSize": 23448,
-        "ModifiedOnDateTime_dt": 1738115484890,
+        "ModifiedOnDateTime_dt": 1738201940423,
         "IncidentComplexityLevel": "Type 3 Incident",
         "POOCity": "Los Angeles City"
       }
@@ -425,9 +425,9 @@
         "POOCounty": "Los Angeles",
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
-        "TotalIncidentPersonnel": 64,
+        "TotalIncidentPersonnel": 43,
         "IncidentSize": 14021,
-        "ModifiedOnDateTime_dt": 1738114641083,
+        "ModifiedOnDateTime_dt": 1738200998463,
         "IncidentComplexityLevel": "Type 4 Incident",
         "POOCity": "Altadena"
       }
@@ -2946,13 +2946,13 @@
         "FireDiscoveryDateTime": 1737669494000,
         "IncidentName": "BORDER 2",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 90,
+        "PercentContained": 96,
         "POOCounty": "San Diego",
         "POOLandownerCategory": "BLM",
         "POOState": "US-CA",
-        "TotalIncidentPersonnel": 1634,
-        "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1738195771863,
+        "TotalIncidentPersonnel": 1098,
+        "IncidentSize": 6625,
+        "ModifiedOnDateTime_dt": 1738200622263,
         "IncidentComplexityLevel": "Type 1 Incident",
         "POOCity": "Chula Vista"
       }
@@ -6862,12 +6862,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.7001438237046,
-          37.3801061548132
+          -82.7031039245264,
+          37.3792072545089
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Human",
         "FireDiscoveryDateTime": 1738185360000,
         "IncidentName": "KY 979",
         "IncidentTypeCategory": "WF",
@@ -6877,7 +6877,7 @@
         "POOState": "US-KY",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 10,
-        "ModifiedOnDateTime_dt": 1738194969933,
+        "ModifiedOnDateTime_dt": 1738201553463,
         "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": null
       }
@@ -7012,6 +7012,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -82.7208749052661,
+          37.4619965203775
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1738192380000,
+        "IncidentName": "Middle Branch",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 0,
+        "POOCounty": "Floyd",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-KY",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 20,
+        "ModifiedOnDateTime_dt": 1738201780310,
+        "IncidentComplexityLevel": "Type 5 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -122.941013640324,
           40.4576051106406
         ]
@@ -7071,13 +7096,38 @@
         "FireDiscoveryDateTime": 1738196340000,
         "IncidentName": "Martin County - 4572 Big Elk Road",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 25,
+        "PercentContained": 50,
         "POOCounty": "Martin",
         "POOLandownerCategory": "Private",
         "POOState": "US-KY",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 2,
-        "ModifiedOnDateTime_dt": 1738198734200,
+        "IncidentSize": 4,
+        "ModifiedOnDateTime_dt": 1738201551903,
+        "IncidentComplexityLevel": "Type 5 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.1742871119606,
+          36.7782172289819
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1738196460000,
+        "IncidentName": "127",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 0,
+        "POOCounty": "Clinton",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-KY",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 1,
+        "ModifiedOnDateTime_dt": 1738202861487,
         "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": null
       }
