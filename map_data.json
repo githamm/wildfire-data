@@ -6846,13 +6846,13 @@
         "FireDiscoveryDateTime": 1740590460000,
         "IncidentName": "Chestnut Mtn",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 30,
+        "PercentContained": 50,
         "POOCounty": "Whitfield",
         "POOLandownerCategory": "USFS",
         "POOState": "US-GA",
-        "TotalIncidentPersonnel": 55,
+        "TotalIncidentPersonnel": 56,
         "IncidentSize": 345,
-        "ModifiedOnDateTime_dt": 1740709203600,
+        "ModifiedOnDateTime_dt": 1740715474090,
         "IncidentComplexityLevel": "Type 3 Incident",
         "POOCity": "Dalton"
       }
@@ -9512,6 +9512,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -88.0688941063973,
+          32.963895029075
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1740688860000,
+        "IncidentName": "Greene Co Fire",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 65,
+        "POOCounty": "Greene",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-AL",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 115,
+        "ModifiedOnDateTime_dt": 1740713455690,
+        "IncidentComplexityLevel": "Type 3 Incident",
+        "POOCity": "Eutaw"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -88.4183385768484,
           32.4552838086996
         ]
@@ -9604,31 +9629,6 @@
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1740690850117,
         "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -85.8550947133276,
-          35.2890066993871
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1740693300000,
-        "IncidentName": "Grundy - Dave Hollow Lane",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 70,
-        "POOCounty": "Grundy",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-TN",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 10,
-        "ModifiedOnDateTime_dt": 1740708139930,
-        "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": null
       }
     },
@@ -9792,8 +9792,8 @@
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1740700520000,
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1740700500000,
         "IncidentName": "Old Federal Fire 2",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
@@ -9802,7 +9802,7 @@
         "POOState": "US-GA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 15,
-        "ModifiedOnDateTime_dt": 1740707613633,
+        "ModifiedOnDateTime_dt": 1740713700157,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
