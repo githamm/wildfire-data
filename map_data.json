@@ -5437,31 +5437,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.868597849653,
-          32.7044657743765
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1740627843000,
-        "IncidentName": "PEACEFUL",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "San Diego",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1740627927180,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -88.841672343715,
           31.448061778765
         ]
@@ -11302,7 +11277,7 @@
         "POOState": "US-GA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 482,
-        "ModifiedOnDateTime_dt": 1740851763707,
+        "ModifiedOnDateTime_dt": 1740887484540,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -11355,6 +11330,31 @@
         "ModifiedOnDateTime_dt": 1740863658950,
         "IncidentComplexityLevel": null,
         "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6425042147716,
+          32.5458394647901
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1740852000000,
+        "IncidentName": "Thomas Circle",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 95,
+        "POOCounty": "Talbot",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-GA",
+        "TotalIncidentPersonnel": 38,
+        "IncidentSize": 110,
+        "ModifiedOnDateTime_dt": 1740886167313,
+        "IncidentComplexityLevel": "Type 4 Incident",
+        "POOCity": "Geneva"
       }
     },
     {
@@ -11526,8 +11526,8 @@
         "POOLandownerCategory": "USFS",
         "POOState": "US-SD",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 150,
-        "ModifiedOnDateTime_dt": 1740872214200,
+        "IncidentSize": 340,
+        "ModifiedOnDateTime_dt": 1740887824093,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -11744,7 +11744,7 @@
       "properties": {
         "FireCause": "Undetermined",
         "FireDiscoveryDateTime": 1740861833000,
-        "IncidentName": "ART LILY",
+        "IncidentName": "FALLS DAM",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
         "POOCounty": "Montgomery",
@@ -11752,7 +11752,7 @@
         "POOState": "US-NC",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 2,
-        "ModifiedOnDateTime_dt": 1740873360907,
+        "ModifiedOnDateTime_dt": 1740887355400,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -11777,7 +11777,7 @@
         "POOState": "US-GA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 5,
-        "ModifiedOnDateTime_dt": 1740873104860,
+        "ModifiedOnDateTime_dt": 1740887270407,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -12237,22 +12237,47 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.632402688505,
-          35.3501638482172
+          -120.502345833873,
+          37.0036720131803
         ]
       },
       "properties": {
         "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1740884929000,
-        "IncidentName": "SPRINGS",
+        "FireDiscoveryDateTime": 1740881743000,
+        "IncidentName": "CH04A",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
-        "POOCounty": "San Luis Obispo",
+        "POOCounty": "Madera",
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1740885858833,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1740886669920,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.288162175809,
+          33.8189448276725
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1740887464000,
+        "IncidentName": "LAC-078205",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1740887689647,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
