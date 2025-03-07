@@ -13287,6 +13287,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -82.8097257701303,
+          29.847227813402
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1741287600000,
+        "IncidentName": "NE 90TH WAY (21)",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 60,
+        "POOCounty": "Gilchrist",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-FL",
+        "TotalIncidentPersonnel": 15,
+        "IncidentSize": 320,
+        "ModifiedOnDateTime_dt": 1741316102847,
+        "IncidentComplexityLevel": "Type 3 Incident",
+        "POOCity": "SPRING RIDGE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -87.0858381435606,
           31.1919501838481
         ]
@@ -13387,31 +13412,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.452460006022,
-          35.4125887049072
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1741300642000,
-        "IncidentName": "GREEN ACRES",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Sandoval",
-        "POOLandownerCategory": "BIA",
-        "POOState": "US-NM",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 2.25,
-        "ModifiedOnDateTime_dt": 1741313047457,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -118.169612163323,
           33.9112248445422
         ]
@@ -13446,14 +13446,64 @@
         "FireDiscoveryDateTime": 1741307460000,
         "IncidentName": "Anderson 0934",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
+        "PercentContained": 50,
         "POOCounty": "Anderson",
         "POOLandownerCategory": "Private",
         "POOState": "US-TX",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 20,
-        "ModifiedOnDateTime_dt": 1741314726067,
+        "ModifiedOnDateTime_dt": 1741317870463,
         "IncidentComplexityLevel": "Type 5 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.152428092031,
+          32.5875137698328
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1741311780000,
+        "IncidentName": "Upshur 0935",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 0,
+        "POOCounty": "Upshur",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-TX",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 1,
+        "ModifiedOnDateTime_dt": 1741316647717,
+        "IncidentComplexityLevel": "Type 5 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.082542200644,
+          34.5377949187017
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1741317371000,
+        "IncidentName": "LAC-084131",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1741317644823,
+        "IncidentComplexityLevel": null,
         "POOCity": null
       }
     }
