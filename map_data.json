@@ -312,6 +312,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -101.198898825614,
+          45.1727852030048
+        ]
+      },
+      "properties": {
+        "FireCause": null,
+        "FireDiscoveryDateTime": 1737818340000,
+        "IncidentName": "GG TURN",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Dewey",
+        "POOLandownerCategory": "BIA",
+        "POOState": "US-SD",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1742180739370,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -114.467644926339,
           38.2529865648097
         ]
@@ -7728,31 +7753,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 2.58,
         "ModifiedOnDateTime_dt": 1742065385793,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -89.4665664523138,
-          43.3987879991894
-        ]
-      },
-      "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1741678500000,
-        "IncidentName": "Jolt",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Columbia",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-WI",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1741920761310,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -17621,13 +17621,13 @@
         "FireDiscoveryDateTime": 1742163180000,
         "IncidentName": "Jasper 1317",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
+        "PercentContained": 75,
         "POOCounty": "Jasper",
         "POOLandownerCategory": "Private",
         "POOState": "US-TX",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 40,
-        "ModifiedOnDateTime_dt": 1742173162607,
+        "ModifiedOnDateTime_dt": 1742181449110,
         "IncidentComplexityLevel": "Type 4 Incident",
         "POOCity": null
       }
