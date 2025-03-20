@@ -252,7 +252,7 @@
         "POOState": "US-GU",
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1742401528727,
+        "ModifiedOnDateTime_dt": 1742436998937,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -277,7 +277,7 @@
         "POOState": "US-GU",
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1742401764630,
+        "ModifiedOnDateTime_dt": 1742436840390,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -13487,6 +13487,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -95.4888959672755,
+          30.6902831615458
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1742217600000,
+        "IncidentName": "Rx Walker 1327",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": 0,
+        "POOCounty": "Walker",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-TX",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 198,
+        "ModifiedOnDateTime_dt": 1742435171740,
+        "IncidentComplexityLevel": "Type 5 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -89.3656378626175,
           37.4857759728981
         ]
@@ -13654,6 +13679,56 @@
         "IncidentSize": 62,
         "ModifiedOnDateTime_dt": 1742244819830,
         "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.8840166941069,
+          31.3379055718057
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1742221200000,
+        "IncidentName": "Rx Sabine 1342",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": 0,
+        "POOCounty": "Sabine",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-TX",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 190,
+        "ModifiedOnDateTime_dt": 1742436229707,
+        "IncidentComplexityLevel": "Type 5 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3606070498721,
+          30.8021654087284
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1742221200000,
+        "IncidentName": "Rx Walker 1346",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": 0,
+        "POOCounty": "Walker",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-TX",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 55,
+        "ModifiedOnDateTime_dt": 1742438413707,
+        "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": null
       }
     },
@@ -14021,13 +14096,13 @@
         "FireDiscoveryDateTime": 1742231700000,
         "IncidentName": "Flying J Fire",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 60,
+        "PercentContained": 100,
         "POOCounty": "Latimer",
         "POOLandownerCategory": "Private",
         "POOState": "US-OK",
-        "TotalIncidentPersonnel": 5,
+        "TotalIncidentPersonnel": 1,
         "IncidentSize": 1154,
-        "ModifiedOnDateTime_dt": 1742296781060,
+        "ModifiedOnDateTime_dt": 1742434008160,
         "IncidentComplexityLevel": "Type 4 Incident",
         "POOCity": null
       }
@@ -14146,13 +14221,13 @@
         "FireDiscoveryDateTime": 1742238000000,
         "IncidentName": "Rugged Mtn Fire",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 50,
+        "PercentContained": 80,
         "POOCounty": "Pittsburg",
         "POOLandownerCategory": "Private",
         "POOState": "US-OK",
-        "TotalIncidentPersonnel": 3,
-        "IncidentSize": 1383,
-        "ModifiedOnDateTime_dt": 1742354968830,
+        "TotalIncidentPersonnel": 4,
+        "IncidentSize": 1463,
+        "ModifiedOnDateTime_dt": 1742435939893,
         "IncidentComplexityLevel": "Type 4 Incident",
         "POOCity": null
       }
@@ -17837,6 +17912,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -85.1491710842606,
+          33.0308395520697
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1742403600000,
+        "IncidentName": "Troup West Lake Village",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 90,
+        "POOCounty": "Troup",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-GA",
+        "TotalIncidentPersonnel": 3,
+        "IncidentSize": 119.5,
+        "ModifiedOnDateTime_dt": 1742434440587,
+        "IncidentComplexityLevel": "Type 5 Incident",
+        "POOCity": "LaGrange"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -103.300010906055,
           47.6037075312099
         ]
@@ -17996,38 +18096,13 @@
         "FireDiscoveryDateTime": 1742405340000,
         "IncidentName": "San Augustine 1523",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
+        "PercentContained": 40,
         "POOCounty": "San Augustine",
         "POOLandownerCategory": "Private",
         "POOState": "US-TX",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 50,
-        "ModifiedOnDateTime_dt": 1742430503417,
-        "IncidentComplexityLevel": "Type 5 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.7549153247075,
-          37.2061592754247
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1742405820000,
-        "IncidentName": "Jacks Branch",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 80,
-        "POOCounty": "Clay",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-KY",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 20,
-        "ModifiedOnDateTime_dt": 1742429557937,
+        "ModifiedOnDateTime_dt": 1742437118807,
         "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": null
       }
@@ -18202,8 +18277,8 @@
         "POOState": "US-TX",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 1300,
-        "ModifiedOnDateTime_dt": 1742433385243,
-        "IncidentComplexityLevel": "Type 4 Incident",
+        "ModifiedOnDateTime_dt": 1742435854613,
+        "IncidentComplexityLevel": "Type 3 Incident",
         "POOCity": null
       }
     },
@@ -18271,63 +18346,13 @@
         "FireDiscoveryDateTime": 1742414640000,
         "IncidentName": "Pond Creek Road",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
+        "PercentContained": 75,
         "POOCounty": "Pike",
         "POOLandownerCategory": "Private",
         "POOState": "US-KY",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 130,
-        "ModifiedOnDateTime_dt": 1742427631013,
-        "IncidentComplexityLevel": "Type 5 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.8987471703506,
-          37.2545748789439
-        ]
-      },
-      "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1742414820000,
-        "IncidentName": "Robinson Creek Road",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 80,
-        "POOCounty": "Clay",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-KY",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 38,
-        "ModifiedOnDateTime_dt": 1742431827800,
-        "IncidentComplexityLevel": "Type 5 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.9660440307436,
-          37.797807326984
-        ]
-      },
-      "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1742414880000,
-        "IncidentName": "2154 Painters Lick Road",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 90,
-        "POOCounty": "Magoffin",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-KY",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 10,
-        "ModifiedOnDateTime_dt": 1742428650617,
+        "IncidentSize": 160,
+        "ModifiedOnDateTime_dt": 1742438741240,
         "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": null
       }
@@ -18354,31 +18379,6 @@
         "IncidentSize": 400,
         "ModifiedOnDateTime_dt": 1742431045940,
         "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.1119008055404,
-          37.8708829716119
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1742416020000,
-        "IncidentName": "Red River RD Clark County",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 90,
-        "POOCounty": "Clark",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-KY",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 10,
-        "ModifiedOnDateTime_dt": 1742429755260,
-        "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": null
       }
     },
@@ -18421,13 +18421,13 @@
         "FireDiscoveryDateTime": 1742417702000,
         "IncidentName": "Grainger - Elm Springs Ridge",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 80,
+        "PercentContained": 100,
         "POOCounty": "Grainger",
         "POOLandownerCategory": "Private",
         "POOState": "US-TN",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 178,
-        "ModifiedOnDateTime_dt": 1742430113413,
+        "ModifiedOnDateTime_dt": 1742435096343,
         "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": null
       }
@@ -18454,31 +18454,6 @@
         "IncidentSize": 5,
         "ModifiedOnDateTime_dt": 1742431762460,
         "IncidentComplexityLevel": "Type 5 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.078961773886,
-          33.5547299181278
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1742418180000,
-        "IncidentName": "LINCOLN",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Riverside",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1742419044067,
-        "IncidentComplexityLevel": null,
         "POOCity": null
       }
     },
@@ -18537,6 +18512,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -85.044448791359,
+          33.7383397075552
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1742418900000,
+        "IncidentName": "Carroll Enterprise Drive",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 95,
+        "POOCounty": "Carroll",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-GA",
+        "TotalIncidentPersonnel": 27,
+        "IncidentSize": 2,
+        "ModifiedOnDateTime_dt": 1742435800390,
+        "IncidentComplexityLevel": "Type 5 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -92.8722897637199,
           36.6389566415266
         ]
@@ -18571,13 +18571,13 @@
         "FireDiscoveryDateTime": 1742418960000,
         "IncidentName": "Lawrence Co Line",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 70,
+        "PercentContained": 90,
         "POOCounty": "Lawrence",
         "POOLandownerCategory": "Private",
         "POOState": "US-KY",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 15,
-        "ModifiedOnDateTime_dt": 1742432270310,
+        "ModifiedOnDateTime_dt": 1742438301103,
         "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": null
       }
@@ -18737,8 +18737,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -108.51779025773,
-          47.9927850827856
+          -108.517962257176,
+          47.9900400825095
         ]
       },
       "properties": {
@@ -18752,32 +18752,7 @@
         "POOState": "US-MT",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 100,
-        "ModifiedOnDateTime_dt": 1742425948710,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -93.6350068431146,
-          34.9316062864103
-        ]
-      },
-      "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1742422320000,
-        "IncidentName": "Cudd",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Yell",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-AR",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 30,
-        "ModifiedOnDateTime_dt": 1742429020847,
+        "ModifiedOnDateTime_dt": 1742434522000,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -18812,6 +18787,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -85.4258377629728,
+          33.0227840402661
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1742423760000,
+        "IncidentName": "Johnny Fire",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 70,
+        "POOCounty": "Chambers",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-AL",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 160,
+        "ModifiedOnDateTime_dt": 1742438358517,
+        "IncidentComplexityLevel": "Type 3 Incident",
+        "POOCity": "Five Points"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -89.3906228847041,
           37.6800070080836
         ]
@@ -18837,31 +18837,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -94.0721747226144,
-          30.9263154811429
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1742424173000,
-        "IncidentName": "BTP INC.134",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Jasper",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-TX",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 1,
-        "ModifiedOnDateTime_dt": 1742430476560,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -97.3687600037672,
           28.4554017156903
         ]
@@ -18875,9 +18850,9 @@
         "POOCounty": "Goliad",
         "POOLandownerCategory": "Private",
         "POOState": "US-TX",
-        "TotalIncidentPersonnel": null,
+        "TotalIncidentPersonnel": 33,
         "IncidentSize": 200,
-        "ModifiedOnDateTime_dt": 1742432016080,
+        "ModifiedOnDateTime_dt": 1742438487097,
         "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": null
       }
@@ -18912,37 +18887,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -91.2185063249061,
-          36.7919737520393
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1742426144000,
-        "IncidentName": "Brawley",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Oregon",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-MO",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 3.2,
-        "ModifiedOnDateTime_dt": 1742432814100,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -94.8418903360707,
           32.4915724339572
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Human",
         "FireDiscoveryDateTime": 1742426220000,
         "IncidentName": "Gregg 1564",
         "IncidentTypeCategory": "WF",
@@ -18952,7 +18902,7 @@
         "POOState": "US-TX",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 2.8,
-        "ModifiedOnDateTime_dt": 1742433125430,
+        "ModifiedOnDateTime_dt": 1742436774310,
         "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": null
       }
@@ -18962,23 +18912,98 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -91.127039328415,
-          37.1651738260473
+          -90.9000062453641,
+          36.9000067878772
         ]
       },
       "properties": {
         "FireCause": "Human",
         "FireDiscoveryDateTime": 1742426308000,
-        "IncidentName": "Spring Hollow",
+        "IncidentName": "Bluff",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
-        "POOCounty": "Shannon",
-        "POOLandownerCategory": "State",
+        "POOCounty": "Carter",
+        "POOLandownerCategory": "NPS",
         "POOState": "US-MO",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 50,
-        "ModifiedOnDateTime_dt": 1742432848747,
+        "IncidentSize": 5,
+        "ModifiedOnDateTime_dt": 1742437950930,
         "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6416708624611,
+          31.4330615188337
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1742427900000,
+        "IncidentName": "Early Burning Bush Road",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 80,
+        "POOCounty": "Early",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-GA",
+        "TotalIncidentPersonnel": 19,
+        "IncidentSize": 130,
+        "ModifiedOnDateTime_dt": 1742438139390,
+        "IncidentComplexityLevel": "Type 4 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9684040492382,
+          38.0575073782842
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1742429220000,
+        "IncidentName": "Wallow Hole Rd #2",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 0,
+        "POOCounty": "Elliott",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-KY",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 2,
+        "ModifiedOnDateTime_dt": 1742437826550,
+        "IncidentComplexityLevel": "Type 5 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.7457911033559,
+          27.9191547155696
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1742429314000,
+        "IncidentName": "Duval 1573",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 0,
+        "POOCounty": "Duval",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-TX",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 150,
+        "ModifiedOnDateTime_dt": 1742438480190,
+        "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": null
       }
     },
@@ -19012,6 +19037,56 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -83.7171242422018,
+          37.630397261461
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1742430840000,
+        "IncidentName": "Ashcraft Rd",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 0,
+        "POOCounty": "Lee",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-KY",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 10,
+        "ModifiedOnDateTime_dt": 1742437667763,
+        "IncidentComplexityLevel": "Type 5 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0425740489909,
+          37.7310873104602
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1742431440000,
+        "IncidentName": "592 East Lick Branch",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 0,
+        "POOCounty": "Magoffin",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-KY",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 1,
+        "ModifiedOnDateTime_dt": 1742437762590,
+        "IncidentComplexityLevel": "Type 5 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -118.369812201114,
           33.9636648391115
         ]
@@ -19028,6 +19103,106 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1742431845060,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6038039323652,
+          37.9400073706715
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1742432460000,
+        "IncidentName": "645 #2",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 0,
+        "POOCounty": "Lawrence",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-KY",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 40,
+        "ModifiedOnDateTime_dt": 1742436233663,
+        "IncidentComplexityLevel": "Type 5 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.091512147376,
+          33.8763048450183
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1742434333000,
+        "IncidentName": "LAC-099850",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1742434485020,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.493410816147,
+          36.8510839996684
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1742435837000,
+        "IncidentName": "NEE",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Fresno",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1742436734743,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.969762196921,
+          34.7160249448624
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1742436871000,
+        "IncidentName": "LAC-099899",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1742437005177,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
