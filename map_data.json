@@ -521,13 +521,13 @@
         "FireDiscoveryDateTime": 1740928327000,
         "IncidentName": "Covington Drive Compact",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 85,
+        "PercentContained": 90,
         "POOCounty": "Horry",
         "POOLandownerCategory": "State",
         "POOState": "US-SC",
-        "TotalIncidentPersonnel": 11,
+        "TotalIncidentPersonnel": 5,
         "IncidentSize": 2059,
-        "ModifiedOnDateTime_dt": 1743457370610,
+        "ModifiedOnDateTime_dt": 1743731323550,
         "IncidentComplexityLevel": "Type 4 Incident",
         "POOCity": "Myrtle Beach"
       }
@@ -10752,7 +10752,7 @@
         "POOState": "US-CA",
         "TotalIncidentPersonnel": 238,
         "IncidentSize": 1611,
-        "ModifiedOnDateTime_dt": 1743726901323,
+        "ModifiedOnDateTime_dt": 1743730291193,
         "IncidentComplexityLevel": "Type 3 Incident",
         "POOCity": null
       }
@@ -13062,6 +13062,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -81.8741699240524,
+          27.6730607200944
+        ]
+      },
+      "properties": {
+        "FireCause": "Natural",
+        "FireDiscoveryDateTime": 1743627240000,
+        "IncidentName": "RED HORSE (53)",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 95,
+        "POOCounty": "Polk",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-FL",
+        "TotalIncidentPersonnel": 5,
+        "IncidentSize": 390,
+        "ModifiedOnDateTime_dt": 1743731624593,
+        "IncidentComplexityLevel": "Type 5 Incident",
+        "POOCity": "Bowling Green"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -120.102012855903,
           37.7780051126636
         ]
@@ -13653,31 +13678,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1743712276897,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.302789787732,
-          33.2144488651029
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1743716263000,
-        "IncidentName": "SPRINGS 2",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "San Diego",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1743721835440,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
