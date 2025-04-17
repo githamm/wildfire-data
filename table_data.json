@@ -1598,7 +1598,7 @@
       },
       "properties": {
         "IncidentSize": 70,
-        "FireCause": "Undetermined",
+        "FireCause": "Human",
         "FireDiscoveryDateTime": 1744327800000,
         "IncidentName": "Lake Minnequa",
         "IncidentTypeCategory": "WF",
@@ -1858,7 +1858,7 @@
       },
       "properties": {
         "IncidentSize": 4.03,
-        "FireCause": "Undetermined",
+        "FireCause": "Natural",
         "FireDiscoveryDateTime": 1744848780000,
         "IncidentName": "Carrizo Swing",
         "IncidentTypeCategory": "WF",
@@ -1897,13 +1897,33 @@
         ]
       },
       "properties": {
-        "IncidentSize": 20,
+        "IncidentSize": 39,
         "FireCause": "Human",
         "FireDiscoveryDateTime": 1744913100000,
         "IncidentName": "67 Lane",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
         "POOCounty": "Pueblo",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.337445353171,
+          39.1957212516257
+        ]
+      },
+      "properties": {
+        "IncidentSize": 0.1,
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1744923968000,
+        "IncidentName": "Crystal Lake",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Lake",
         "POOState": "US-CO"
       }
     }
