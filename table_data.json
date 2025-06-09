@@ -3478,7 +3478,7 @@
       },
       "properties": {
         "IncidentSize": 1,
-        "FireCause": "Undetermined",
+        "FireCause": "Human",
         "FireDiscoveryDateTime": 1747939795000,
         "IncidentName": "Mile Marker 80",
         "IncidentTypeCategory": "WF",
@@ -4732,6 +4732,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -106.456093474052,
+          40.0000063510052
+        ]
+      },
+      "properties": {
+        "IncidentSize": 0.1,
+        "FireCause": "Natural",
+        "FireDiscoveryDateTime": 1749448342000,
+        "IncidentName": "Blind",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Grand",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -106.571093460039,
           39.6657062985141
         ]
@@ -4744,6 +4764,26 @@
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
         "POOCounty": "Eagle",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.502601986068,
+          37.5098290701896
+        ]
+      },
+      "properties": {
+        "IncidentSize": 0.1,
+        "FireCause": "Natural",
+        "FireDiscoveryDateTime": 1749503093000,
+        "IncidentName": "B & E",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Costilla",
         "POOState": "US-CO"
       }
     }
