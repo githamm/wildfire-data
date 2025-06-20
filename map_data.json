@@ -6192,7 +6192,7 @@
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Natural",
         "FireDiscoveryDateTime": 1750197180000,
         "IncidentName": "VANCE",
         "IncidentTypeCategory": "WF",
@@ -6202,7 +6202,7 @@
         "POOState": "US-WA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 1.5,
-        "ModifiedOnDateTime_dt": 1750276953127,
+        "ModifiedOnDateTime_dt": 1750396188930,
         "IncidentComplexityLevel": "Type 4 Incident",
         "POOCity": null
       }
@@ -7896,13 +7896,13 @@
         "FireDiscoveryDateTime": 1750289340000,
         "IncidentName": "Kechumstuk Creek",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 0,
         "POOCounty": "Southeast Fairbanks",
         "POOLandownerCategory": "BLM",
         "POOState": "US-AK",
-        "TotalIncidentPersonnel": null,
+        "TotalIncidentPersonnel": 13,
         "IncidentSize": 400,
-        "ModifiedOnDateTime_dt": 1750364587847,
+        "ModifiedOnDateTime_dt": 1750394058303,
         "IncidentComplexityLevel": "Type 4 Incident",
         "POOCity": null
       }
@@ -9726,9 +9726,9 @@
         "POOLandownerCategory": "USFS",
         "POOState": "US-UT",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 75,
-        "ModifiedOnDateTime_dt": 1750385537967,
-        "IncidentComplexityLevel": null,
+        "IncidentSize": 300,
+        "ModifiedOnDateTime_dt": 1750394551330,
+        "IncidentComplexityLevel": "Type 3 Incident",
         "POOCity": null
       }
     },
@@ -9751,8 +9751,8 @@
         "POOLandownerCategory": "DOD",
         "POOState": "US-AK",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 150,
-        "ModifiedOnDateTime_dt": 1750385563490,
+        "IncidentSize": 300,
+        "ModifiedOnDateTime_dt": 1750395333867,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -10087,31 +10087,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.136832966634,
-          33.6505128720338
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1750381180000,
-        "IncidentName": "BRIGGS",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Riverside",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 2.5,
-        "ModifiedOnDateTime_dt": 1750384476057,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -118.218812220121,
           34.4970649062842
         ]
@@ -10262,8 +10237,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -147.448026143688,
-          64.9640018135313
+          -148.754910873532,
+          66.6246624775972
         ]
       },
       "properties": {
@@ -10272,13 +10247,13 @@
         "IncidentName": "Gilmore Trail",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
-        "POOCounty": "Fairbanks North Star",
-        "POOLandownerCategory": "County",
+        "POOCounty": "Yukon-Koyukuk",
+        "POOLandownerCategory": "USFWS",
         "POOState": "US-AK",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 5,
-        "ModifiedOnDateTime_dt": 1750388195190,
-        "IncidentComplexityLevel": null,
+        "ModifiedOnDateTime_dt": 1750394449080,
+        "IncidentComplexityLevel": "Type 4 Incident",
         "POOCity": null
       }
     },
@@ -10487,6 +10462,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -112.388178165133,
+          34.5369222459132
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1750391460000,
+        "IncidentName": "Lynx",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Yavapai",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-AZ",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.25,
+        "ModifiedOnDateTime_dt": 1750396070830,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -117.8309621541,
           34.4914849282795
         ]
@@ -10503,6 +10503,56 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1750392764097,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.958598005928,
+          64.8337863874697
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1750395357000,
+        "IncidentName": "Trail",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Yukon-Koyukuk",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-AK",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1750395994440,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.901532122009,
+          33.9597148649824
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1750396156000,
+        "IncidentName": "GRAND",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1750396484180,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
