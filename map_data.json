@@ -3312,31 +3312,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.292157065789,
-          34.5376139648067
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1749789783000,
-        "IncidentName": "VEG/WM/82A",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "San Bernardino",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1750220349293,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -74.6397915926315,
           39.7455880426154
         ]
@@ -5078,31 +5053,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.35,
         "ModifiedOnDateTime_dt": 1750373030990,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.583692274838,
-          34.4229448769742
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1750219383000,
-        "IncidentName": "WALE",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1750219725690,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -7196,13 +7146,13 @@
         "FireDiscoveryDateTime": 1750353099000,
         "IncidentName": "Bonnifield Creek",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 0,
         "POOCounty": "Denali",
         "POOLandownerCategory": "State",
         "POOState": "US-AK",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 500,
-        "ModifiedOnDateTime_dt": 1750479698520,
+        "ModifiedOnDateTime_dt": 1750481526187,
         "IncidentComplexityLevel": "Type 2 Incident",
         "POOCity": null
       }
@@ -8546,13 +8496,13 @@
         "FireDiscoveryDateTime": 1750384380000,
         "IncidentName": "Gilmore Trail",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 20,
         "POOCounty": "Fairbanks North Star",
         "POOLandownerCategory": "County",
         "POOState": "US-AK",
-        "TotalIncidentPersonnel": null,
+        "TotalIncidentPersonnel": 30,
         "IncidentSize": 15.5,
-        "ModifiedOnDateTime_dt": 1750448735590,
+        "ModifiedOnDateTime_dt": 1750479786747,
         "IncidentComplexityLevel": "Type 4 Incident",
         "POOCity": null
       }
@@ -8971,13 +8921,13 @@
         "FireDiscoveryDateTime": 1750397469000,
         "IncidentName": "Saint George Creek",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 0,
         "POOCounty": "Denali",
         "POOLandownerCategory": "State",
         "POOState": "US-AK",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 285,
-        "ModifiedOnDateTime_dt": 1750453091453,
+        "ModifiedOnDateTime_dt": 1750482639107,
         "IncidentComplexityLevel": "Type 4 Incident",
         "POOCity": null
       }
@@ -10026,8 +9976,8 @@
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 10,
-        "ModifiedOnDateTime_dt": 1750456658100,
+        "IncidentSize": 25,
+        "ModifiedOnDateTime_dt": 1750482696330,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -10054,31 +10004,6 @@
         "IncidentSize": 1,
         "ModifiedOnDateTime_dt": 1750459397383,
         "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.623731088987,
-          47.6531391272934
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1750455571000,
-        "IncidentName": "RAMBO",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Spokane",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-WA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1750466439003,
-        "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": null
       }
     },
@@ -10367,7 +10292,7 @@
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Human",
         "FireDiscoveryDateTime": 1750458941000,
         "IncidentName": "NELSON",
         "IncidentTypeCategory": "WF",
@@ -10377,7 +10302,7 @@
         "POOState": "US-WA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.3,
-        "ModifiedOnDateTime_dt": 1750466447357,
+        "ModifiedOnDateTime_dt": 1750479760240,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -10518,7 +10443,7 @@
       },
       "properties": {
         "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1750461215000,
+        "FireDiscoveryDateTime": 1750461180000,
         "IncidentName": "MP 157 Richardson HWY",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
@@ -10527,7 +10452,7 @@
         "POOState": "US-AK",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 25,
-        "ModifiedOnDateTime_dt": 1750466504577,
+        "ModifiedOnDateTime_dt": 1750482881937,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -10862,14 +10787,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -141.210941290549,
-          63.1155359772299
+          -141.440024522197,
+          63.3789199270016
         ]
       },
       "properties": {
         "FireCause": "Undetermined",
         "FireDiscoveryDateTime": 1750467883000,
-        "IncidentName": "McArthur Creek",
+        "IncidentName": "Ridgeline",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
         "POOCounty": "Southeast Fairbanks",
@@ -10877,7 +10802,7 @@
         "POOState": "US-AK",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 340,
-        "ModifiedOnDateTime_dt": 1750479269470,
+        "ModifiedOnDateTime_dt": 1750482967960,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -10987,6 +10912,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -141.210941290549,
+          63.1155359772299
+        ]
+      },
+      "properties": {
+        "FireCause": "Natural",
+        "FireDiscoveryDateTime": 1750472472000,
+        "IncidentName": "McArthur Creek",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Southeast Fairbanks",
+        "POOLandownerCategory": "State",
+        "POOState": "US-AK",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 1104,
+        "ModifiedOnDateTime_dt": 1750482961557,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -121.653146328915,
           39.6203051525057
         ]
@@ -11087,6 +11037,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -112.852461934075,
+          40.8015889660817
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1750476720000,
+        "IncidentName": "Drumstick",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Tooele",
+        "POOLandownerCategory": "BLM",
+        "POOState": "US-UT",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 1.5,
+        "ModifiedOnDateTime_dt": 1750480172423,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -143.724857766972,
           63.5390025327382
         ]
@@ -11112,31 +11087,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.233425208691,
-          39.2020561517145
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1750477578000,
-        "IncidentName": "POKER",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Nevada",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1750478663740,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -161.028024845726,
           64.3499995445213
         ]
@@ -11153,6 +11103,81 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
         "ModifiedOnDateTime_dt": 1750478440913,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.762723325239,
+          34.6642688923397
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1750478857000,
+        "IncidentName": "RAMP",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.01,
+        "ModifiedOnDateTime_dt": 1750482522073,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.080485768826,
+          37.0244850442968
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1750478864000,
+        "IncidentName": "PICKFAIR WY  MADERA_ACRES",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Madera",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1750480236447,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.221623004159,
+          33.9393649007241
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1750479103000,
+        "IncidentName": "HY 60  W/ PERRIS BL OFRP",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Riverside",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1750480926467,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
