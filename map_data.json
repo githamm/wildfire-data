@@ -5327,7 +5327,7 @@
         "POOState": "US-AK",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 2675.1,
-        "ModifiedOnDateTime_dt": 1750557018257,
+        "ModifiedOnDateTime_dt": 1750581308600,
         "IncidentComplexityLevel": "Type 2 Incident",
         "POOCity": null
       }
@@ -6346,14 +6346,14 @@
         "FireDiscoveryDateTime": 1750378140000,
         "IncidentName": "Himalaya Road",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 0,
         "POOCounty": "Fairbanks North Star",
         "POOLandownerCategory": "State",
         "POOState": "US-AK",
-        "TotalIncidentPersonnel": null,
+        "TotalIncidentPersonnel": 13,
         "IncidentSize": 1868.62,
-        "ModifiedOnDateTime_dt": 1750546292157,
-        "IncidentComplexityLevel": null,
+        "ModifiedOnDateTime_dt": 1750583598417,
+        "IncidentComplexityLevel": "Type 3 Incident",
         "POOCity": null
       }
     },
@@ -7077,7 +7077,7 @@
         "POOState": "US-AK",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 285,
-        "ModifiedOnDateTime_dt": 1750482639107,
+        "ModifiedOnDateTime_dt": 1750581524930,
         "IncidentComplexityLevel": "Type 4 Incident",
         "POOCity": null
       }
@@ -10962,31 +10962,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.879681072508,
-          48.1782892423734
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1750567928000,
-        "IncidentName": "Mud Hol",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Bonner",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-ID",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1750577465910,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -118.130442222082,
           34.6930649328516
         ]
@@ -11087,22 +11062,47 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.660339093907,
-          37.7191869947637
+          -122.354874613541,
+          40.8782051908064
         ]
       },
       "properties": {
         "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1750579210000,
-        "IncidentName": "GREEN",
+        "FireDiscoveryDateTime": 1750581856000,
+        "IncidentName": "CLAUS",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
-        "POOCounty": "Alameda",
+        "POOCounty": "Shasta",
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1750579867233,
+        "ModifiedOnDateTime_dt": 1750583701950,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.213632172248,
+          33.930224844186
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1750582109000,
+        "IncidentName": "LAC-216404",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1750582244543,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
