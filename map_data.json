@@ -37,8 +37,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.636012739553,
-          37.4149051121123
+          -119.5535997159,
+          37.3223711091321
         ]
       },
       "properties": {
@@ -48,11 +48,11 @@
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
         "POOCounty": "Madera",
-        "POOLandownerCategory": "USFS",
+        "POOLandownerCategory": "Private",
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1750459024687,
+        "ModifiedOnDateTime_dt": 1750705636273,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -253,31 +253,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 155,
         "ModifiedOnDateTime_dt": 1750077354310,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.903812541666,
-          36.693005092501
-        ]
-      },
-      "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1743629880000,
-        "IncidentName": "Grant Grove RX",
-        "IncidentTypeCategory": "RX",
-        "PercentContained": null,
-        "POOCounty": "Tulare",
-        "POOLandownerCategory": "NPS",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1750443784060,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -2587,6 +2562,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -120.781013124217,
+          39.0988941783075
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1749942772000,
+        "IncidentName": "FINNING",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Placer",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1750704668270,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -146.560308868176,
           64.6845189840949
         ]
@@ -3396,14 +3396,14 @@
         "FireDiscoveryDateTime": 1750194756000,
         "IncidentName": "Rockybottom",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 0,
         "POOCounty": "Yukon-Koyukuk",
         "POOLandownerCategory": "State",
         "POOState": "US-AK",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 961.4,
-        "ModifiedOnDateTime_dt": 1750639727713,
-        "IncidentComplexityLevel": null,
+        "ModifiedOnDateTime_dt": 1750703483397,
+        "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": null
       }
     },
@@ -4226,8 +4226,8 @@
         "POOLandownerCategory": "State",
         "POOState": "US-AK",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 3118.79,
-        "ModifiedOnDateTime_dt": 1750646098993,
+        "IncidentSize": 3426.98,
+        "ModifiedOnDateTime_dt": 1750705930940,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -4678,31 +4678,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 324.55,
         "ModifiedOnDateTime_dt": 1750645726633,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -107.802810714894,
-          39.5107231910919
-        ]
-      },
-      "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1750372160000,
-        "IncidentName": "321 Command",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Garfield",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CO",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1750444356457,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -5678,31 +5653,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1750450939347,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.896482169587,
-          34.5427349301232
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1750442283000,
-        "IncidentName": "LAC-214337",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1750443644233,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -8752,7 +8702,7 @@
         "POOState": "US-AK",
         "TotalIncidentPersonnel": 3,
         "IncidentSize": 5863.93,
-        "ModifiedOnDateTime_dt": 1750669927440,
+        "ModifiedOnDateTime_dt": 1750705667540,
         "IncidentComplexityLevel": "Type 3 Incident",
         "POOCity": null
       }
@@ -9318,7 +9268,7 @@
       },
       "properties": {
         "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1750606298000,
+        "FireDiscoveryDateTime": 1750606260000,
         "IncidentName": "DESERT WILLOW COMPLEX",
         "IncidentTypeCategory": "CX",
         "PercentContained": null,
@@ -9327,7 +9277,7 @@
         "POOState": "US-NM",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1750609459030,
+        "ModifiedOnDateTime_dt": 1750703486930,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -10501,8 +10451,8 @@
         "POOLandownerCategory": "USFWS",
         "POOState": "US-IL",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1750692970660,
+        "IncidentSize": 45,
+        "ModifiedOnDateTime_dt": 1750703511770,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -10537,31 +10487,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.982355676596,
-          48.3301329150434
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1750697315000,
-        "IncidentName": "FINLEY CANYON FIRE",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Okanogan",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-WA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1750701385870,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -115.529278772097,
           34.7436220915084
         ]
@@ -10578,81 +10503,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.01,
         "ModifiedOnDateTime_dt": 1750701989717,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.685297037084,
-          48.1857562636582
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1750698060000,
-        "IncidentName": "Rosebush",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Bonner",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-ID",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1750702465943,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.3355741758685,
-          36.4457989826702
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1750700723000,
-        "IncidentName": "Henry - West Chestnut Street",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
-        "POOCounty": "Henry",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-TN",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 6,
-        "ModifiedOnDateTime_dt": 1750702584820,
-        "IncidentComplexityLevel": "Type 5 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.760531907206,
-          37.3023230224322
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1750700734000,
-        "IncidentName": "WASHINGTON",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Merced",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1750702596510,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -10687,31 +10537,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.839404084692,
-          38.7114301407746
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1750701281000,
-        "IncidentName": "FLAT",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "El Dorado",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1750702698457,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -117.243102025637,
           34.1582339245833
         ]
@@ -10737,8 +10562,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.090012459488,
-          35.5516716650573
+          -119.020012428228,
+          35.3400049476476
         ]
       },
       "properties": {
@@ -10752,7 +10577,82 @@
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1750702942373,
+        "ModifiedOnDateTime_dt": 1750704312223,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.623227093346,
+          35.9875387802508
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1750702953000,
+        "IncidentName": "Twin Cabins",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Sandoval",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-NM",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 15,
+        "ModifiedOnDateTime_dt": 1750705709333,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.952846153114,
+          37.8454849841688
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1750705251000,
+        "IncidentName": "ALAMEDA",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Contra Costa",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.01,
+        "ModifiedOnDateTime_dt": 1750705714377,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.247597217398,
+          38.0139169765022
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1750705602000,
+        "IncidentName": "RODEO",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Contra Costa",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.01,
+        "ModifiedOnDateTime_dt": 1750705936390,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
