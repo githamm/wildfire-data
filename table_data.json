@@ -6357,7 +6357,7 @@
         ]
       },
       "properties": {
-        "IncidentSize": 0.5,
+        "IncidentSize": 0.25,
         "FireCause": "Natural",
         "FireDiscoveryDateTime": 1750884429000,
         "IncidentName": "Luis Creek",
@@ -6422,7 +6422,7 @@
         "FireDiscoveryDateTime": 1750967640000,
         "IncidentName": "Horse Draw",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
+        "PercentContained": 45,
         "POOCounty": "Moffat",
         "POOState": "US-CO"
       }
@@ -6518,12 +6518,52 @@
       },
       "properties": {
         "IncidentSize": 1,
-        "FireCause": "Undetermined",
+        "FireCause": "Human",
         "FireDiscoveryDateTime": 1751059091000,
         "IncidentName": "J.2",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
         "POOCounty": "Costilla",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.75401032198,
+          40.060039408971
+        ]
+      },
+      "properties": {
+        "IncidentSize": 0.01,
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1751061698000,
+        "IncidentName": "High Lonesome",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Grand",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.904643738319,
+          39.5203391851105
+        ]
+      },
+      "properties": {
+        "IncidentSize": 0.1,
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1751071915000,
+        "IncidentName": "Landfill",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Garfield",
         "POOState": "US-CO"
       }
     }
