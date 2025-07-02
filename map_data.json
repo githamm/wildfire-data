@@ -4787,31 +4787,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.0523069897276,
-          31.1842054968355
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1750514400000,
-        "IncidentName": "Rx Trinity 3158",
-        "IncidentTypeCategory": "RX",
-        "PercentContained": 0,
-        "POOCounty": "Trinity",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-TX",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 80,
-        "ModifiedOnDateTime_dt": 1750769076860,
-        "IncidentComplexityLevel": "Type 5 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -163.560025147856,
           65.0299990568875
         ]
@@ -4954,31 +4929,6 @@
         "IncidentSize": 4878,
         "ModifiedOnDateTime_dt": 1751423211067,
         "IncidentComplexityLevel": "Type 3 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.0912140392498,
-          31.9312956437987
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1750539120000,
-        "IncidentName": "Rx Cherokee 3159",
-        "IncidentTypeCategory": "RX",
-        "PercentContained": 0,
-        "POOCounty": "Cherokee",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-TX",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 50,
-        "ModifiedOnDateTime_dt": 1750768920903,
-        "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": null
       }
     },
@@ -5380,31 +5330,6 @@
         "ModifiedOnDateTime_dt": 1751401867280,
         "IncidentComplexityLevel": "Type 4 Incident",
         "POOCity": "Los Lunas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -94.9997699724338,
-          31.1106214840616
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1750609740000,
-        "IncidentName": "Rx Trinity 3171",
-        "IncidentTypeCategory": "RX",
-        "PercentContained": 0,
-        "POOCounty": "Trinity",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-TX",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 100,
-        "ModifiedOnDateTime_dt": 1750769076367,
-        "IncidentComplexityLevel": "Type 5 Incident",
-        "POOCity": null
       }
     },
     {
@@ -6296,15 +6221,15 @@
         "FireDiscoveryDateTime": 1750883271000,
         "IncidentName": "Laguna",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 0,
         "POOCounty": "Rio Arriba",
         "POOLandownerCategory": "USFS",
         "POOState": "US-NM",
-        "TotalIncidentPersonnel": null,
+        "TotalIncidentPersonnel": 99,
         "IncidentSize": 200,
-        "ModifiedOnDateTime_dt": 1751408443107,
-        "IncidentComplexityLevel": "Type 4 Incident",
-        "POOCity": null
+        "ModifiedOnDateTime_dt": 1751461267077,
+        "IncidentComplexityLevel": "Type 3 Incident",
+        "POOCity": "Gallina NM"
       }
     },
     {
@@ -8352,7 +8277,7 @@
         "POOState": "US-CA",
         "TotalIncidentPersonnel": 1098,
         "IncidentSize": 2414,
-        "ModifiedOnDateTime_dt": 1751413728890,
+        "ModifiedOnDateTime_dt": 1751460468140,
         "IncidentComplexityLevel": "Type 3 Incident",
         "POOCity": null
       }
@@ -12962,6 +12887,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -100.836292072245,
+          43.2438898391983
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1751417221000,
+        "IncidentName": "2 Flaps",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Todd",
+        "POOLandownerCategory": "BIA",
+        "POOState": "US-SD",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1751462725593,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -123.203680685532,
           40.5015550917219
         ]
@@ -13387,8 +13337,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.994013658852,
-          40.5315051115118
+          -122.996446658811,
+          40.5287221111071
         ]
       },
       "properties": {
@@ -13402,7 +13352,7 @@
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.25,
-        "ModifiedOnDateTime_dt": 1751429792830,
+        "ModifiedOnDateTime_dt": 1751460977390,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -13644,7 +13594,7 @@
       "properties": {
         "FireCause": "Undetermined",
         "FireDiscoveryDateTime": 1751433230000,
-        "IncidentName": "2553",
+        "IncidentName": "Catlow",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
         "POOCounty": "Harney",
@@ -13652,7 +13602,7 @@
         "POOState": "US-OR",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1751443283543,
+        "ModifiedOnDateTime_dt": 1751462235207,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -13828,6 +13778,31 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1751453204853,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.34408005457,
+          39.0995902122181
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1751459172000,
+        "IncidentName": "STEAMBOAT",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Placer",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1751461360593,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
