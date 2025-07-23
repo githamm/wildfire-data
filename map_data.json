@@ -1600,9 +1600,9 @@
         "POOCounty": "Fairbanks North Star",
         "POOLandownerCategory": "DOD",
         "POOState": "US-AK",
-        "TotalIncidentPersonnel": 69,
+        "TotalIncidentPersonnel": 68,
         "IncidentSize": 15677.35,
-        "ModifiedOnDateTime_dt": 1753202475943,
+        "ModifiedOnDateTime_dt": 1753243739920,
         "IncidentComplexityLevel": "Type 4 Incident",
         "POOCity": null
       }
@@ -1727,7 +1727,7 @@
         "POOState": "US-AK",
         "TotalIncidentPersonnel": 342,
         "IncidentSize": 6194,
-        "ModifiedOnDateTime_dt": 1753236079933,
+        "ModifiedOnDateTime_dt": 1753244271677,
         "IncidentComplexityLevel": "Type 2 Incident",
         "POOCity": null
       }
@@ -6546,14 +6546,14 @@
         "FireDiscoveryDateTime": 1752272059000,
         "IncidentName": "Burnt",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 0,
         "POOCounty": "Yukon-Koyukuk",
         "POOLandownerCategory": "USFWS",
         "POOState": "US-AK",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 746,
-        "ModifiedOnDateTime_dt": 1753122518380,
-        "IncidentComplexityLevel": null,
+        "ModifiedOnDateTime_dt": 1753243998220,
+        "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": null
       }
     },
@@ -7587,6 +7587,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -118.356362226226,
+          34.2960248763505
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1752765292000,
+        "IncidentName": "RANGE",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1753244841547,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -107.98214374921,
           39.4692731730043
         ]
@@ -8278,31 +8303,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 8.3,
         "ModifiedOnDateTime_dt": 1753022346077,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.359712196895,
-          33.9323848362291
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1752981139000,
-        "IncidentName": "LAC-251258",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1752981284427,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -10812,31 +10812,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -119.619611647444,
-          36.5790430331423
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1753154045000,
-        "IncidentName": "SHAFER",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Fresno",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1753155121537,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -121.672382045148,
           48.6506557442232
         ]
@@ -11362,31 +11337,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.22888143533,
-          47.138088817276
-        ]
-      },
-      "properties": {
-        "FireCause": "Natural",
-        "FireDiscoveryDateTime": 1753220468000,
-        "IncidentName": "BRUSHY RIDGE",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Kittitas",
-        "POOLandownerCategory": "State",
-        "POOState": "US-WA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1753237617127,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -117.646964293576,
           48.4913061805853
         ]
@@ -11476,8 +11426,8 @@
         "POOLandownerCategory": "Private",
         "POOState": "US-ID",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1753235109607,
+        "IncidentSize": 65,
+        "ModifiedOnDateTime_dt": 1753242858197,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -11587,31 +11537,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.084054099702,
-          37.1987459199657
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1753229892000,
-        "IncidentName": "KINGS",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Santa Cruz",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.5,
-        "ModifiedOnDateTime_dt": 1753232953560,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -115.613512760865,
           42.769505932296
         ]
@@ -11626,8 +11551,8 @@
         "POOLandownerCategory": "DOD",
         "POOState": "US-ID",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1753235860340,
+        "IncidentSize": 50,
+        "ModifiedOnDateTime_dt": 1753243985433,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -11653,6 +11578,131 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 1,
         "ModifiedOnDateTime_dt": 1753237757560,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.665280139755,
+          42.7921727523132
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1753236900000,
+        "IncidentName": "ROME",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Malheur",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-OR",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 40,
+        "ModifiedOnDateTime_dt": 1753242512620,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.103929026933,
+          39.1864892383705
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1753242708000,
+        "IncidentName": "TRINITY",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Placer",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.01,
+        "ModifiedOnDateTime_dt": 1753243080700,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.995508193276,
+          39.3709071843845
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1753243558000,
+        "IncidentName": "TYLER",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Nevada",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.01,
+        "ModifiedOnDateTime_dt": 1753243936490,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.520983634044,
+          36.6047040422679
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1753243744000,
+        "IncidentName": "MANNING",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Fresno",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1753244162123,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.935902168072,
+          34.4462849171776
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1753244922000,
+        "IncidentName": "LAC-254898",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1753245285477,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
