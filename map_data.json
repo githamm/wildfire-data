@@ -8162,31 +8162,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.16512217084,
-          34.0134248561435
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1753849975000,
-        "IncidentName": "LAC-263388",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1753850204683,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -89.6441266280728,
           44.4371781524111
         ]
@@ -13996,15 +13971,15 @@
         "FireDiscoveryDateTime": 1754081820000,
         "IncidentName": "Gifford",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 0,
         "POOCounty": "Santa Barbara",
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.25,
-        "ModifiedOnDateTime_dt": 1754101863157,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
+        "IncidentSize": 5000,
+        "ModifiedOnDateTime_dt": 1754110956083,
+        "IncidentComplexityLevel": "Type 3 Incident",
+        "POOCity": "Santa Maria"
       }
     },
     {
@@ -14769,7 +14744,7 @@
       "properties": {
         "FireCause": "Undetermined",
         "FireDiscoveryDateTime": 1754089800000,
-        "IncidentName": "0698",
+        "IncidentName": "0698 WYCHUS",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
         "POOCounty": "Deschutes",
@@ -14777,7 +14752,7 @@
         "POOState": "US-OR",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1754107189540,
+        "ModifiedOnDateTime_dt": 1754110952617,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -15302,7 +15277,7 @@
         "POOState": "US-OR",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1754104897163,
+        "ModifiedOnDateTime_dt": 1754110944467,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -15401,8 +15376,8 @@
         "POOLandownerCategory": "Private",
         "POOState": "US-NV",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 10,
-        "ModifiedOnDateTime_dt": 1754104748793,
+        "IncidentSize": 81.5,
+        "ModifiedOnDateTime_dt": 1754110287290,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -15512,6 +15487,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -117.391519802963,
+          40.9210206110209
+        ]
+      },
+      "properties": {
+        "FireCause": "Natural",
+        "FireDiscoveryDateTime": 1754099461000,
+        "IncidentName": "Sulfur Springs",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Humboldt",
+        "POOLandownerCategory": "BLM",
+        "POOState": "US-NV",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 1.14,
+        "ModifiedOnDateTime_dt": 1754111797443,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -117.86841212943,
           34.1197948847716
         ]
@@ -15542,7 +15542,7 @@
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Natural",
         "FireDiscoveryDateTime": 1754100066000,
         "IncidentName": "Mahoney Creek",
         "IncidentTypeCategory": "WF",
@@ -15552,8 +15552,8 @@
         "POOState": "US-ID",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1754108479853,
-        "IncidentComplexityLevel": null,
+        "ModifiedOnDateTime_dt": 1754109917657,
+        "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": null
       }
     },
@@ -15577,7 +15577,7 @@
         "POOState": "US-WA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.43,
-        "ModifiedOnDateTime_dt": 1754106254310,
+        "ModifiedOnDateTime_dt": 1754110327577,
         "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": null
       }
@@ -15653,31 +15653,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1754102084637,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.27180151843,
-          41.3628633199585
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1754103916000,
-        "IncidentName": "3-15",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Modoc",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1754104108543,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -15827,7 +15802,7 @@
         "POOState": "US-NV",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 70,
-        "ModifiedOnDateTime_dt": 1754109000533,
+        "ModifiedOnDateTime_dt": 1754109788173,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -15903,6 +15878,81 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.01,
         "ModifiedOnDateTime_dt": 1754108483417,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.18698216535,
+          33.9001548423392
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1754110535000,
+        "IncidentName": "LAC-266955",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1754110724637,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.368062805494,
+          40.9675056172214
+        ]
+      },
+      "properties": {
+        "FireCause": "Natural",
+        "FireDiscoveryDateTime": 1754110798000,
+        "IncidentName": "North Pass",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Humboldt",
+        "POOLandownerCategory": "BLM",
+        "POOState": "US-NV",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 18.35,
+        "ModifiedOnDateTime_dt": 1754111899180,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.028912327777,
+          34.1769715248399
+        ]
+      },
+      "properties": {
+        "FireCause": null,
+        "FireDiscoveryDateTime": 1754110800000,
+        "IncidentName": "DAIRY",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Ventura",
+        "POOLandownerCategory": "State",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1754111215590,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
