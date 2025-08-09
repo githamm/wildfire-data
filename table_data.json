@@ -12242,7 +12242,7 @@
         "FireDiscoveryDateTime": 1754165700000,
         "IncidentName": "Waters Canyon",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 50,
+        "PercentContained": 90,
         "POOCounty": "Montezuma",
         "POOState": "US-CO"
       }
@@ -13312,18 +13312,58 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -104.932906932184,
+          38.2572202142798
+        ]
+      },
+      "properties": {
+        "IncidentSize": 2,
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1754763330000,
+        "IncidentName": "HWY 96 MM 34",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Pueblo",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -105.520865243859,
           39.8519043973469
         ]
       },
       "properties": {
-        "IncidentSize": 0.2,
+        "IncidentSize": 0.1,
         "FireCause": "Undetermined",
         "FireDiscoveryDateTime": 1754763960000,
         "IncidentName": "Missouri Gulch",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
         "POOCounty": "Gilpin",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.650036856402,
+          38.1530992174813
+        ]
+      },
+      "properties": {
+        "IncidentSize": 0.1,
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1754767824000,
+        "IncidentName": "I-25 MM90",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Pueblo",
         "POOState": "US-CO"
       }
     }
