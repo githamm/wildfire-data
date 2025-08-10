@@ -6712,31 +6712,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -123.66556943393,
-          41.0486161902704
-        ]
-      },
-      "properties": {
-        "FireCause": null,
-        "FireDiscoveryDateTime": 1754461800000,
-        "IncidentName": "Airport 4",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Humboldt",
-        "POOLandownerCategory": "BIA",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1754551902940,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -81.0533699460263,
           26.3207548054625
         ]
@@ -7328,31 +7303,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.01,
         "ModifiedOnDateTime_dt": 1754757411517,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.13054221926,
-          34.6602649292709
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1754552139000,
-        "IncidentName": "LAC-273633",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1754552324630,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -10527,7 +10477,7 @@
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.2,
-        "ModifiedOnDateTime_dt": 1754785620400,
+        "ModifiedOnDateTime_dt": 1754813862830,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -10621,15 +10571,15 @@
         "FireDiscoveryDateTime": 1754786340000,
         "IncidentName": "RICHBAR",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 0,
         "POOCounty": "Kern",
         "POOLandownerCategory": "USFS",
         "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
+        "TotalIncidentPersonnel": 78,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1754801145477,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
+        "ModifiedOnDateTime_dt": 1754812071563,
+        "IncidentComplexityLevel": "Type 3 Incident",
+        "POOCity": "bakersfield"
       }
     },
     {
@@ -10837,6 +10787,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -117.130325001781,
+          47.6754391810042
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1754806572000,
+        "IncidentName": "ORCHARD PARK",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Spokane",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-WA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1754811149073,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -121.431108277427,
           39.4920671598887
         ]
@@ -10851,8 +10826,33 @@
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.5,
+        "ModifiedOnDateTime_dt": 1754810372117,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.293199250814,
+          39.4533371676725
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1754813875000,
+        "IncidentName": "GLENN",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Yuba",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
         "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1754809066983,
+        "ModifiedOnDateTime_dt": 1754814123597,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
