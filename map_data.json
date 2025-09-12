@@ -3487,31 +3487,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.704346183871,
-          46.0636733050627
-        ]
-      },
-      "properties": {
-        "FireCause": "Natural",
-        "FireDiscoveryDateTime": 1756245437000,
-        "IncidentName": "Elk Ridge",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Idaho",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-ID",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 25,
-        "ModifiedOnDateTime_dt": 1756951875710,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -99.0127878448938,
           47.9780639480831
         ]
@@ -4375,9 +4350,9 @@
         "POOCounty": "Kittitas",
         "POOLandownerCategory": "USFS",
         "POOState": "US-WA",
-        "TotalIncidentPersonnel": 247,
-        "IncidentSize": 3511,
-        "ModifiedOnDateTime_dt": 1757561840580,
+        "TotalIncidentPersonnel": 295,
+        "IncidentSize": 4001,
+        "ModifiedOnDateTime_dt": 1757645799433,
         "IncidentComplexityLevel": "Type 1 Incident",
         "POOCity": "Cle Elum"
       }
@@ -4425,9 +4400,9 @@
         "POOCounty": "Chelan",
         "POOLandownerCategory": "USFS",
         "POOState": "US-WA",
-        "TotalIncidentPersonnel": 815,
-        "IncidentSize": 13952,
-        "ModifiedOnDateTime_dt": 1757563527320,
+        "TotalIncidentPersonnel": 920,
+        "IncidentSize": 14323,
+        "ModifiedOnDateTime_dt": 1757646456060,
         "IncidentComplexityLevel": "Type 1 Incident",
         "POOCity": "PLAIN"
       }
@@ -9187,6 +9162,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -85.1377820873985,
+          31.0577836186664
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1757533980000,
+        "IncidentName": "SPRING HILL RD FIRE",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 25,
+        "POOCounty": "Houston",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-AL",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 210,
+        "ModifiedOnDateTime_dt": 1757645899740,
+        "IncidentComplexityLevel": "Type 3 Incident",
+        "POOCity": "Gordon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -107.491759366359,
           36.8864228570246
         ]
@@ -11396,13 +11396,13 @@
         "FireDiscoveryDateTime": 1757633819000,
         "IncidentName": "Dry Line",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
+        "PercentContained": 25,
         "POOCounty": "Coleman",
         "POOLandownerCategory": "Private",
         "POOState": "US-TX",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 50,
-        "ModifiedOnDateTime_dt": 1757641926867,
+        "IncidentSize": 100,
+        "ModifiedOnDateTime_dt": 1757645937537,
         "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": null
       }
@@ -11562,8 +11562,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -94.004406712042,
-          31.0697875128569
+          -94.0043400420047,
+          31.0693888427782
         ]
       },
       "properties": {
@@ -11577,7 +11577,7 @@
         "POOState": "US-TX",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 1.5,
-        "ModifiedOnDateTime_dt": 1757645462790,
+        "ModifiedOnDateTime_dt": 1757647227190,
         "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": null
       }
@@ -11603,6 +11603,131 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 1,
         "ModifiedOnDateTime_dt": 1757641074867,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1602090526628,
+          42.6774475901758
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1757645400000,
+        "IncidentName": "FD05114",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Essex",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-MA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.37,
+        "ModifiedOnDateTime_dt": 1757645609480,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1608000028486,
+          42.677300000129
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1757645580000,
+        "IncidentName": "FD05115",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Essex",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-MA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.12,
+        "ModifiedOnDateTime_dt": 1757645679980,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.161590003101,
+          42.677170000079
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1757645640000,
+        "IncidentName": "FD05116",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Essex",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-MA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.07,
+        "ModifiedOnDateTime_dt": 1757645756630,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1548974910668,
+          42.6800200008318
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1757645700000,
+        "IncidentName": "FD05117",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Essex",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-MA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.09,
+        "ModifiedOnDateTime_dt": 1757645831337,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1551300011315,
+          42.6798200007866
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1757645820000,
+        "IncidentName": "FD05118",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Essex",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-MA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.4,
+        "ModifiedOnDateTime_dt": 1757645893830,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
