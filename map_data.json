@@ -1562,6 +1562,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -110.232843666738,
+          33.6521722416546
+        ]
+      },
+      "properties": {
+        "FireCause": "Natural",
+        "FireDiscoveryDateTime": 1754251081000,
+        "IncidentName": "Bronco",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 100,
+        "POOCounty": "Gila",
+        "POOLandownerCategory": "BIA",
+        "POOState": "US-AZ",
+        "TotalIncidentPersonnel": 3,
+        "IncidentSize": 18041,
+        "ModifiedOnDateTime_dt": 1759088625737,
+        "IncidentComplexityLevel": "Type 4 Incident",
+        "POOCity": "San Carlos"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -115.298846467377,
           46.8605063101172
         ]
@@ -3050,10 +3075,10 @@
         "POOCounty": "Latah",
         "POOLandownerCategory": "USFS",
         "POOState": "US-ID",
-        "TotalIncidentPersonnel": 86,
+        "TotalIncidentPersonnel": 60,
         "IncidentSize": 1045,
-        "ModifiedOnDateTime_dt": 1759008590183,
-        "IncidentComplexityLevel": "Type 4 Incident",
+        "ModifiedOnDateTime_dt": 1759090318793,
+        "IncidentComplexityLevel": "Type 3 Incident",
         "POOCity": "Harvard"
       }
     },
@@ -4812,31 +4837,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -99.4263590580232,
-          30.6283822228464
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1758296715000,
-        "IncidentName": "RX Mason 4448",
-        "IncidentTypeCategory": "RX",
-        "PercentContained": 0,
-        "POOCounty": "Mason",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-TX",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 80,
-        "ModifiedOnDateTime_dt": 1758398362020,
-        "IncidentComplexityLevel": "Type 5 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -69.9753862539224,
           44.0961777404219
         ]
@@ -5778,56 +5778,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1759080776653,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -110.638038713313,
-          35.8766444157485
-        ]
-      },
-      "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1758822322000,
-        "IncidentName": "DANNY",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Navajo",
-        "POOLandownerCategory": "BIA",
-        "POOState": "US-AZ",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1758829248037,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.176832167084,
-          33.9428148476481
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1758827282000,
-        "IncidentName": "LAC-336970",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1758827445690,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -7752,7 +7702,7 @@
         "POOState": "US-UT",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1759072806480,
+        "ModifiedOnDateTime_dt": 1759087069427,
         "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": null
       }
@@ -8287,6 +8237,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -95.6207237394676,
+          29.8047051976137
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1759082820000,
+        "IncidentName": "Harris 4572",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 50,
+        "POOCounty": "Harris",
+        "POOLandownerCategory": "DOD",
+        "POOState": "US-TX",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 5,
+        "ModifiedOnDateTime_dt": 1759089033657,
+        "IncidentComplexityLevel": "Type 5 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -118.166192230336,
           34.7187649335326
         ]
@@ -8317,7 +8292,7 @@
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Human",
         "FireDiscoveryDateTime": 1759084320000,
         "IncidentName": "HUMDRUM",
         "IncidentTypeCategory": "WF",
@@ -8327,7 +8302,82 @@
         "POOState": "US-ID",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1759086529297,
+        "ModifiedOnDateTime_dt": 1759087699427,
+        "IncidentComplexityLevel": "Type 5 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.722662321465,
+          48.067607069826
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1759087382000,
+        "IncidentName": "Hayes",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Blaine",
+        "POOLandownerCategory": "BIA",
+        "POOState": "US-MT",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 20,
+        "ModifiedOnDateTime_dt": 1759090541040,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.6515902207181,
+          31.2741222000009
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1759087500000,
+        "IncidentName": "Angelina 4573",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 0,
+        "POOCounty": "Angelina",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-TX",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 3,
+        "ModifiedOnDateTime_dt": 1759090024107,
+        "IncidentComplexityLevel": "Type 5 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.326893681283,
+          43.7708141392261
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1759090080000,
+        "IncidentName": "IA 1",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Blaine",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-ID",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1759090155790,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
