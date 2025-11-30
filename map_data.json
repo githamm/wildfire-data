@@ -2562,56 +2562,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -105.754049423194,
-          40.8772135172561
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1764199305000,
-        "IncidentName": "Cow Creek RX",
-        "IncidentTypeCategory": "RX",
-        "PercentContained": null,
-        "POOCounty": "Larimer",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-CO",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1764199736710,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.167612229291,
-          34.7039649318393
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1764204551000,
-        "IncidentName": "LAC-413878",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1764204764373,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -117.978012147587,
           34.1149348780097
         ]
@@ -3300,11 +3250,61 @@
         "POOCounty": "Calhoun",
         "POOLandownerCategory": "Private",
         "POOState": "US-FL",
-        "TotalIncidentPersonnel": 9,
+        "TotalIncidentPersonnel": 1,
         "IncidentSize": 10,
-        "ModifiedOnDateTime_dt": 1764380852917,
-        "IncidentComplexityLevel": "Type 1 Incident",
+        "ModifiedOnDateTime_dt": 1764463390273,
+        "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": "Altha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.7325052869549,
+          30.8792056597418
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1764355260000,
+        "IncidentName": "Fontainebleau Unit 3",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 50,
+        "POOCounty": "George",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-MS",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 150,
+        "ModifiedOnDateTime_dt": 1764464889923,
+        "IncidentComplexityLevel": "Type 4 Incident",
+        "POOCity": "Ocean Springs"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.7366719664518,
+          30.3950055539915
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1764361800000,
+        "IncidentName": "Jackson - Old Spanish Trail",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 100,
+        "POOCounty": "Jackson",
+        "POOLandownerCategory": "USFWS",
+        "POOState": "US-MS",
+        "TotalIncidentPersonnel": 2,
+        "IncidentSize": 5,
+        "ModifiedOnDateTime_dt": 1764460889380,
+        "IncidentComplexityLevel": "Type 4 Incident",
+        "POOCity": null
       }
     },
     {
@@ -3637,6 +3637,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -85.9500045094211,
+          30.8669501495968
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1764436920000,
+        "IncidentName": "GRIFFEN CIRCLE",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 90,
+        "POOCounty": "Holmes",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-FL",
+        "TotalIncidentPersonnel": 1,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1764465148680,
+        "IncidentComplexityLevel": "Type 5 Incident",
+        "POOCity": "WESTVILLE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -85.7607411497803,
           35.3472022851802
         ]
@@ -3654,31 +3679,6 @@
         "IncidentSize": 0.1,
         "ModifiedOnDateTime_dt": 1764449660693,
         "IncidentComplexityLevel": "Type 5 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -88.7325052869549,
-          30.8792056597418
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1764441708000,
-        "IncidentName": "Fontainebleau Unit 3",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "George",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-MS",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 150,
-        "ModifiedOnDateTime_dt": 1764442374733,
-        "IncidentComplexityLevel": null,
         "POOCity": null
       }
     },
@@ -3712,8 +3712,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.720902470413,
-          36.2928550644065
+          -118.721095470446,
+          36.2928720643956
         ]
       },
       "properties": {
@@ -3727,7 +3727,7 @@
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1764454904327,
+        "ModifiedOnDateTime_dt": 1764464606357,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -3746,14 +3746,39 @@
         "FireDiscoveryDateTime": 1764447060000,
         "IncidentName": "Middle Fork -Magoffin County",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
+        "PercentContained": 50,
         "POOCounty": "Magoffin",
         "POOLandownerCategory": "Private",
         "POOState": "US-KY",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 25,
-        "ModifiedOnDateTime_dt": 1764456841750,
+        "IncidentSize": 80,
+        "ModifiedOnDateTime_dt": 1764461239180,
         "IncidentComplexityLevel": "Type 5 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.243162064709,
+          34.6240219774077
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1764453313000,
+        "IncidentName": "LANGLEY- FIRECODE NEEDED",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "San Bernardino",
+        "POOLandownerCategory": "BLM",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.01,
+        "ModifiedOnDateTime_dt": 1764461556070,
+        "IncidentComplexityLevel": null,
         "POOCity": null
       }
     },
@@ -3767,18 +3792,168 @@
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Human",
         "FireDiscoveryDateTime": 1764456180000,
         "IncidentName": "Middle Fork #2 Magoffin",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
+        "PercentContained": 75,
         "POOCounty": "Magoffin",
         "POOLandownerCategory": "Private",
         "POOState": "US-KY",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 4,
-        "ModifiedOnDateTime_dt": 1764457904957,
+        "IncidentSize": 15,
+        "ModifiedOnDateTime_dt": 1764461102900,
         "IncidentComplexityLevel": "Type 5 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9514039851911,
+          37.1787072038119
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1764457560000,
+        "IncidentName": "Carbon Glow 3",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 50,
+        "POOCounty": "Letcher",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-KY",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 5,
+        "ModifiedOnDateTime_dt": 1764465741900,
+        "IncidentComplexityLevel": "Type 5 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6155039001214,
+          37.4047072632909
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1764458880000,
+        "IncidentName": "Left Fork Tinker Fork",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 0,
+        "POOCounty": "Floyd",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-KY",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 5,
+        "ModifiedOnDateTime_dt": 1764465123040,
+        "IncidentComplexityLevel": "Type 5 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7386841993452,
+          36.8940071134865
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1764458940000,
+        "IncidentName": "Brice's Creek #3",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 0,
+        "POOCounty": "Knox",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-KY",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 5,
+        "ModifiedOnDateTime_dt": 1764461646687,
+        "IncidentComplexityLevel": "Type 5 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.166192230336,
+          34.7187649335326
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1764461197000,
+        "IncidentName": "LAC-417250",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1764461445143,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.990946797372,
+          36.1008112842264
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1764462060000,
+        "IncidentName": "HOLLYWOOD BLVD",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Clark",
+        "POOLandownerCategory": "BOR",
+        "POOState": "US-NV",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1764464996430,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.629037069609,
+          33.8840668716867
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1764464824000,
+        "IncidentName": "HY 91  E/ HY 71 S ONRP TO HY 91 E",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Riverside",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1764466102467,
+        "IncidentComplexityLevel": null,
         "POOCity": null
       }
     }
