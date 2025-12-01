@@ -562,6 +562,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -107.055977632092,
+          40.1926733330628
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1754947500000,
+        "IncidentName": "Crosho",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 100,
+        "POOCounty": "Rio Blanco",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-CO",
+        "TotalIncidentPersonnel": 112,
+        "IncidentSize": 2073,
+        "ModifiedOnDateTime_dt": 1764620920237,
+        "IncidentComplexityLevel": "Type 5 Incident",
+        "POOCity": "Yampa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -107.091183598155,
           39.8494692858657
         ]
@@ -1871,13 +1896,13 @@
         "FireDiscoveryDateTime": 1763228400000,
         "IncidentName": "Vallscreek",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 80,
+        "PercentContained": 100,
         "POOCounty": "McDowell",
         "POOLandownerCategory": "Private",
         "POOState": "US-WV",
-        "TotalIncidentPersonnel": null,
+        "TotalIncidentPersonnel": 2,
         "IncidentSize": 166,
-        "ModifiedOnDateTime_dt": 1763498073187,
+        "ModifiedOnDateTime_dt": 1764621085890,
         "IncidentComplexityLevel": "Type 4 Incident",
         "POOCity": "Berwind"
       }
@@ -1930,31 +1955,6 @@
         "ModifiedOnDateTime_dt": 1764596697390,
         "IncidentComplexityLevel": null,
         "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.1253360039499,
-          34.7788401454698
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1763299800000,
-        "IncidentName": "Mt Tabor",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 100,
-        "POOCounty": "Robeson",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-NC",
-        "TotalIncidentPersonnel": 17,
-        "IncidentSize": 100.32,
-        "ModifiedOnDateTime_dt": 1763410764440,
-        "IncidentComplexityLevel": "Type 5 Incident",
-        "POOCity": "Red Springs"
       }
     },
     {
@@ -3237,31 +3237,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -78.5238914044511,
-          34.4061178840689
-        ]
-      },
-      "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1764348300000,
-        "IncidentName": "J&L Drive",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 100,
-        "POOCounty": "Columbus",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-NC",
-        "TotalIncidentPersonnel": 1,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1764362721767,
-        "IncidentComplexityLevel": "Type 5 Incident",
-        "POOCity": "St James"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -109.221397252738,
           47.2046619398856
         ]
@@ -3637,8 +3612,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -81.8377332601881,
-          29.074635458656
+          -81.8069202624647,
+          29.3885055340484
         ]
       },
       "properties": {
@@ -3648,11 +3623,11 @@
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
         "POOCounty": "Marion",
-        "POOLandownerCategory": "Private",
+        "POOLandownerCategory": "USFS",
         "POOState": "US-FL",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 10.16,
-        "ModifiedOnDateTime_dt": 1764525819190,
+        "ModifiedOnDateTime_dt": 1764621812227,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -3828,31 +3803,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1764461445143,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.990811797462,
-          36.1020052843743
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1764462060000,
-        "IncidentName": "HOLLYWOOD BLVD",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Clark",
-        "POOLandownerCategory": "BOR",
-        "POOState": "US-NV",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1764620054760,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -4376,8 +4326,8 @@
         "POOLandownerCategory": "USFS",
         "POOState": "US-MI",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1764603032280,
+        "IncidentSize": 1,
+        "ModifiedOnDateTime_dt": 1764620624450,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -5476,8 +5426,8 @@
         "POOLandownerCategory": "Private",
         "POOState": "US-ID",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1764617838267,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1764620570710,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -5562,6 +5512,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -106.153010050857,
+          36.6649729073562
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1764618960000,
+        "IncidentName": "Willow Pile RX",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": null,
+        "POOCounty": "Rio Arriba",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-NM",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1764622328253,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -113.063245831725,
           45.9585394555063
         ]
@@ -5628,6 +5603,56 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1764620185247,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.20804462052,
+          36.9424836533401
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1764621180000,
+        "IncidentName": "TESTTSYLTEST20251201",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 0,
+        "POOCounty": "Whitley",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-KY",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 1,
+        "ModifiedOnDateTime_dt": 1764621322157,
+        "IncidentComplexityLevel": "Type 5 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.263760045654,
+          36.3410558533408
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1764621888000,
+        "IncidentName": "FR 137 Pile RX",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": null,
+        "POOCounty": "Rio Arriba",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-NM",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1764622302923,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
