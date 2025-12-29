@@ -512,31 +512,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.072845791109,
-          37.2411720651171
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1756860981000,
-        "IncidentName": "1-4",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 100,
-        "POOCounty": "Mariposa",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": 9,
-        "IncidentSize": 4451.1,
-        "ModifiedOnDateTime_dt": 1765815078253,
-        "IncidentComplexityLevel": "Type 3 Incident",
-        "POOCity": "Raymond"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -119.049012652181,
           37.4971721613665
         ]
@@ -887,56 +862,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.2008403304383,
-          30.6308387100594
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1765461293000,
-        "IncidentName": "Rx San Jacinto 5677",
-        "IncidentTypeCategory": "RX",
-        "PercentContained": 0,
-        "POOCounty": "San Jacinto",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-TX",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 125,
-        "ModifiedOnDateTime_dt": 1765815587870,
-        "IncidentComplexityLevel": "Type 5 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -94.9313958862743,
-          31.9008389741257
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1765465200000,
-        "IncidentName": "Rx Rusk 5691",
-        "IncidentTypeCategory": "RX",
-        "PercentContained": 0,
-        "POOCounty": "Rusk",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-TX",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 195,
-        "ModifiedOnDateTime_dt": 1765815658213,
-        "IncidentComplexityLevel": "Type 5 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -94.5360911400956,
           35.7510173956374
         ]
@@ -954,31 +879,6 @@
         "IncidentSize": 420,
         "ModifiedOnDateTime_dt": 1766096399227,
         "IncidentComplexityLevel": "Type 4 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -94.2053468330585,
-          32.3635257647264
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1765470000000,
-        "IncidentName": "Rx Harrison 5713",
-        "IncidentTypeCategory": "RX",
-        "PercentContained": 0,
-        "POOCounty": "Harrison",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-TX",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 150,
-        "ModifiedOnDateTime_dt": 1765815694147,
-        "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": null
       }
     },
@@ -1662,6 +1562,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -105.588314256542,
+          39.8285503894506
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1766369520000,
+        "IncidentName": "Campfire",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Gilpin",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-CO",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1767027127527,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -85.8045554418218,
           44.1637583397392
         ]
@@ -2104,31 +2029,6 @@
         "IncidentSize": 2.5,
         "ModifiedOnDateTime_dt": 1766797868573,
         "IncidentComplexityLevel": "Type 5 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.91038492443,
-          33.6124708799442
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1766765215000,
-        "IncidentName": "COSMO DR  HEM",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Riverside",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1766765300070,
-        "IncidentComplexityLevel": null,
         "POOCity": null
       }
     },
@@ -2896,13 +2796,13 @@
         "FireDiscoveryDateTime": 1766966280000,
         "IncidentName": "Pine Mountain Lumber",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
+        "PercentContained": 50,
         "POOCounty": "Letcher",
         "POOLandownerCategory": "Private",
         "POOState": "US-KY",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 10,
-        "ModifiedOnDateTime_dt": 1767018528470,
+        "ModifiedOnDateTime_dt": 1767027506447,
         "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": null
       }
@@ -3019,7 +2919,7 @@
       "properties": {
         "FireCause": "Undetermined",
         "FireDiscoveryDateTime": 1766974264000,
-        "IncidentName": "RED - Paylake Drive",
+        "IncidentName": "KDF - Paylake Drive",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
         "POOCounty": "Leslie",
@@ -3027,7 +2927,7 @@
         "POOState": "US-KY",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 75,
-        "ModifiedOnDateTime_dt": 1767024990473,
+        "ModifiedOnDateTime_dt": 1767028520827,
         "IncidentComplexityLevel": "Type 4 Incident",
         "POOCity": null
       }
@@ -3137,31 +3037,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -94.2343401086964,
-          31.2031722013774
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1767012582000,
-        "IncidentName": "San Augustine 6019",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 98,
-        "POOCounty": "San Augustine",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-TX",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 6,
-        "ModifiedOnDateTime_dt": 1767023249723,
-        "IncidentComplexityLevel": "Type 5 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -95.8700071519807,
           30.2170052725643
         ]
@@ -3212,23 +3087,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -94.8478069232126,
-          30.9114721196342
+          -94.6555900758899,
+          34.3981451383996
         ]
       },
       "properties": {
         "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1767018310000,
-        "IncidentName": "Polk 6025",
+        "FireDiscoveryDateTime": 1767022179000,
+        "IncidentName": "Ribbon",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
-        "POOCounty": "Polk",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-TX",
+        "PercentContained": null,
+        "POOCounty": "McCurtain",
+        "POOLandownerCategory": "USFS",
+        "POOState": "US-OK",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 1,
-        "ModifiedOnDateTime_dt": 1767019682337,
-        "IncidentComplexityLevel": "Type 5 Incident",
+        "IncidentSize": 50,
+        "ModifiedOnDateTime_dt": 1767027252273,
+        "IncidentComplexityLevel": null,
         "POOCity": null
       }
     },
@@ -3237,23 +3112,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -92.7335063848811,
-          31.2120055888068
+          -103.580043326036,
+          43.8608740666987
         ]
       },
       "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1767022210000,
-        "IncidentName": "Powell",
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1767025680000,
+        "IncidentName": "Sunday",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
-        "POOCounty": "Rapides",
+        "POOCounty": "Pennington",
         "POOLandownerCategory": "USFS",
-        "POOState": "US-LA",
+        "POOState": "US-SD",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1767022798127,
-        "IncidentComplexityLevel": "Type 5 Incident",
+        "ModifiedOnDateTime_dt": 1767026566350,
+        "IncidentComplexityLevel": null,
         "POOCity": null
       }
     }
