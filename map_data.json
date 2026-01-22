@@ -676,8 +676,8 @@
         "POOLandownerCategory": "USFS",
         "POOState": "US-UT",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1768929736890,
+        "IncidentSize": 35,
+        "ModifiedOnDateTime_dt": 1769041363900,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -1328,31 +1328,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1768953690553,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -93.9635069185338,
-          34.7626062391874
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1767801552000,
-        "IncidentName": "RX TC Regens 2",
-        "IncidentTypeCategory": "RX",
-        "PercentContained": null,
-        "POOCounty": "Scott",
-        "POOLandownerCategory": "USFS",
-        "POOState": "US-AR",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 133,
-        "ModifiedOnDateTime_dt": 1767829542350,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -3893,7 +3868,7 @@
       },
       "properties": {
         "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1768423374000,
+        "FireDiscoveryDateTime": 1768423320000,
         "IncidentName": "Pinnacle RX",
         "IncidentTypeCategory": "RX",
         "PercentContained": null,
@@ -3902,9 +3877,34 @@
         "POOState": "US-GA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 246,
-        "ModifiedOnDateTime_dt": 1769029421330,
+        "ModifiedOnDateTime_dt": 1769039553340,
         "IncidentComplexityLevel": null,
         "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0586153377388,
+          30.4219500779025
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1768423500000,
+        "IncidentName": "SE County Road 69- Calhoun (07)",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": 100,
+        "POOCounty": "Calhoun",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-FL",
+        "TotalIncidentPersonnel": 3,
+        "IncidentSize": 2,
+        "ModifiedOnDateTime_dt": 1769039328483,
+        "IncidentComplexityLevel": "Type 5 Incident",
+        "POOCity": "Blountstown"
       }
     },
     {
@@ -5377,7 +5377,7 @@
         "POOState": "US-FL",
         "TotalIncidentPersonnel": 8,
         "IncidentSize": 9,
-        "ModifiedOnDateTime_dt": 1768789191673,
+        "ModifiedOnDateTime_dt": 1769039786137,
         "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": "Youngstown"
       }
@@ -6146,13 +6146,13 @@
         "FireDiscoveryDateTime": 1768748400000,
         "IncidentName": "AGRICOLA",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 90,
+        "PercentContained": 100,
         "POOCounty": "Polk",
         "POOLandownerCategory": "Private",
         "POOState": "US-FL",
-        "TotalIncidentPersonnel": 6,
-        "IncidentSize": 600,
-        "ModifiedOnDateTime_dt": 1768778300470,
+        "TotalIncidentPersonnel": 7,
+        "IncidentSize": 615,
+        "ModifiedOnDateTime_dt": 1769038954450,
         "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": "Agricola"
       }
@@ -9662,24 +9662,24 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -97.423076192517,
-          32.4467324775238
+          -81.4488919901306,
+          27.3302828466437
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1769028246000,
-        "IncidentName": "Mazac Fire",
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1769024700000,
+        "IncidentName": "Durrance (28)",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 20,
-        "POOCounty": "Johnson",
+        "PercentContained": 100,
+        "POOCounty": "Highlands",
         "POOLandownerCategory": "Private",
-        "POOState": "US-TX",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 20,
-        "ModifiedOnDateTime_dt": 1769034083920,
+        "POOState": "US-FL",
+        "TotalIncidentPersonnel": 17,
+        "IncidentSize": 177,
+        "ModifiedOnDateTime_dt": 1769045217253,
         "IncidentComplexityLevel": "Type 5 Incident",
-        "POOCity": null
+        "POOCity": "LAKE PLACID"
       }
     },
     {
@@ -9704,31 +9704,6 @@
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1769029604507,
         "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.953884261286,
-          36.8729271001701
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1769030160000,
-        "IncidentName": "Gross Cemetery Road",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": 0,
-        "POOCounty": "Knox",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-KY",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 5,
-        "ModifiedOnDateTime_dt": 1769034345723,
-        "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": null
       }
     },
@@ -9803,6 +9778,131 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1769030717347,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.168902163173,
+          33.9108448445397
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1769039956000,
+        "IncidentName": "LAC-025690",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1769040164437,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.889592170967,
+          34.5725549338156
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1769040105000,
+        "IncidentName": "LAC-025693",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1769040284137,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.082862204945,
+          34.5874149241179
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1769041139000,
+        "IncidentName": "LAC-025719",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1769041365263,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.326512190782,
+          33.9254548373267
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1769041513000,
+        "IncidentName": "LAC-025728",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1769041724370,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.196732230086,
+          34.6565349249598
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1769041596000,
+        "IncidentName": "LAC-025729",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1769041724747,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
