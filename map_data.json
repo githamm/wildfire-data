@@ -5187,31 +5187,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.223962176493,
-          33.9612848470503
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1780814936000,
-        "IncidentName": "LAC-197729",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1780814954660,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -118.178152166336,
           33.9308048462399
         ]
@@ -7662,31 +7637,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -114.445261418099,
-          32.7412879014093
-        ]
-      },
-      "properties": {
-        "FireCause": "Human",
-        "FireDiscoveryDateTime": 1780986270000,
-        "IncidentName": "Adair",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Yuma",
-        "POOLandownerCategory": "State",
-        "POOState": "US-AZ",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.25,
-        "ModifiedOnDateTime_dt": 1781041744663,
-        "IncidentComplexityLevel": "Type 5 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -118.143222225487,
           34.7074849336657
         ]
@@ -8727,8 +8677,8 @@
         "POOState": "US-ID",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1781068144267,
-        "IncidentComplexityLevel": null,
+        "ModifiedOnDateTime_dt": 1781068623423,
+        "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": null
       }
     },
@@ -8826,8 +8776,8 @@
         "POOLandownerCategory": "State",
         "POOState": "US-AK",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 10,
-        "ModifiedOnDateTime_dt": 1781061919747,
+        "IncidentSize": 52,
+        "ModifiedOnDateTime_dt": 1781079229280,
         "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": null
       }
@@ -8887,56 +8837,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.085196329239,
-          40.2705882505531
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1781060645000,
-        "IncidentName": "SPRING",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Plumas",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.05,
-        "ModifiedOnDateTime_dt": 1781062501997,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -114.157094530065,
-          34.8627551860825
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1781060747000,
-        "IncidentName": "Flattop",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Mohave",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-AZ",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1781066543117,
-        "IncidentComplexityLevel": "Type 5 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -112.799357217989,
           34.2075341796643
         ]
@@ -8951,9 +8851,59 @@
         "POOLandownerCategory": "Private",
         "POOState": "US-AZ",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1781068503767,
+        "IncidentSize": 0.75,
+        "ModifiedOnDateTime_dt": 1781070592560,
         "IncidentComplexityLevel": "Type 5 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.458343689897,
+          33.3458381862849
+        ]
+      },
+      "properties": {
+        "FireCause": "Human",
+        "FireDiscoveryDateTime": 1781069373000,
+        "IncidentName": "Tower",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Gila",
+        "POOLandownerCategory": "BIA",
+        "POOState": "US-AZ",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1781072310647,
+        "IncidentComplexityLevel": "Type 5 Incident",
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.041002204803,
+          34.667854935382
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1781080742000,
+        "IncidentName": "LAC-201755",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1781080787483,
+        "IncidentComplexityLevel": null,
         "POOCity": null
       }
     }
