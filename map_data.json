@@ -5112,31 +5112,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -148.758358133145,
-          63.8650016574952
-        ]
-      },
-      "properties": {
-        "FireCause": "Natural",
-        "FireDiscoveryDateTime": 1781753400000,
-        "IncidentName": "Gagnon Coal Seam",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Denali",
-        "POOLandownerCategory": "State",
-        "POOState": "US-AK",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 3,
-        "ModifiedOnDateTime_dt": 1781759886147,
-        "IncidentComplexityLevel": "Type 5 Incident",
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -112.234294191107,
           35.1977223411957
         ]
@@ -5237,56 +5212,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.209772171033,
-          33.9231948436222
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1781760157000,
-        "IncidentName": "LAC-212117",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1781760177353,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.701124945271,
-          41.08944948995
-        ]
-      },
-      "properties": {
-        "FireCause": null,
-        "FireDiscoveryDateTime": 1781761620000,
-        "IncidentName": "mill creek",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Humboldt",
-        "POOLandownerCategory": "BIA",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1781762365220,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -120.706547421206,
           46.7169557409723
         ]
@@ -5303,81 +5228,6 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": 40,
         "ModifiedOnDateTime_dt": 1781813903607,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.370632197428,
-          33.9163848338507
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1781769319000,
-        "IncidentName": "LAC-212207",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1781769950520,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.368312199387,
-          33.9454348371859
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1781769522000,
-        "IncidentName": "LAC-212211",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1781769538687,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.068842165577,
-          34.1472248764351
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1781770204000,
-        "IncidentName": "LAC-212217",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Los Angeles",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1781770265867,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -7496,13 +7346,13 @@
         "FireDiscoveryDateTime": 1781915400000,
         "IncidentName": "Beluga",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 40,
         "POOCounty": "Matanuska-Susitna",
         "POOLandownerCategory": "State",
         "POOState": "US-AK",
-        "TotalIncidentPersonnel": null,
+        "TotalIncidentPersonnel": 25,
         "IncidentSize": 64.47,
-        "ModifiedOnDateTime_dt": 1782006109763,
+        "ModifiedOnDateTime_dt": 1782029404663,
         "IncidentComplexityLevel": "Type 4 Incident",
         "POOCity": null
       }
@@ -8276,8 +8126,8 @@
         "POOLandownerCategory": "BLM",
         "POOState": "US-ID",
         "TotalIncidentPersonnel": 26,
-        "IncidentSize": 350,
-        "ModifiedOnDateTime_dt": 1782000607850,
+        "IncidentSize": 1200,
+        "ModifiedOnDateTime_dt": 1782021510997,
         "IncidentComplexityLevel": "Type 4 Incident",
         "POOCity": null
       }
@@ -8796,15 +8646,15 @@
         "FireDiscoveryDateTime": 1781995347000,
         "IncidentName": "DRY CREEK",
         "IncidentTypeCategory": "WF",
-        "PercentContained": null,
+        "PercentContained": 90,
         "POOCounty": "Malheur",
         "POOLandownerCategory": "BLM",
         "POOState": "US-OR",
-        "TotalIncidentPersonnel": null,
+        "TotalIncidentPersonnel": 10,
         "IncidentSize": 3205,
-        "ModifiedOnDateTime_dt": 1782021272850,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
+        "ModifiedOnDateTime_dt": 1782022031043,
+        "IncidentComplexityLevel": "Type 4 Incident",
+        "POOCity": "BURNS JUNCTION"
       }
     },
     {
@@ -9201,8 +9051,8 @@
         "POOLandownerCategory": "USFS",
         "POOState": "US-UT",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 120,
-        "ModifiedOnDateTime_dt": 1782005981510,
+        "IncidentSize": 395,
+        "ModifiedOnDateTime_dt": 1782037095967,
         "IncidentComplexityLevel": "Type 4 Incident",
         "POOCity": null
       }
@@ -9267,7 +9117,7 @@
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Natural",
         "FireDiscoveryDateTime": 1782000552000,
         "IncidentName": "Polly",
         "IncidentTypeCategory": "WF",
@@ -9277,7 +9127,7 @@
         "POOState": "US-AK",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 5,
-        "ModifiedOnDateTime_dt": 1782008002320,
+        "ModifiedOnDateTime_dt": 1782027581460,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -9452,33 +9302,8 @@
         "POOState": "US-ID",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.5,
-        "ModifiedOnDateTime_dt": 1782014043290,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.261492648456,
-          64.442601533793
-        ]
-      },
-      "properties": {
-        "FireCause": "Natural",
-        "FireDiscoveryDateTime": 1782005996000,
-        "IncidentName": "Tanana",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Yukon-Koyukuk",
-        "POOLandownerCategory": "State",
-        "POOState": "US-AK",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1782012328420,
-        "IncidentComplexityLevel": null,
+        "ModifiedOnDateTime_dt": 1782026135223,
+        "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": null
       }
     },
@@ -9519,7 +9344,7 @@
       "properties": {
         "FireCause": "Undetermined",
         "FireDiscoveryDateTime": 1782007732000,
-        "IncidentName": "Star",
+        "IncidentName": "Starry",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
         "POOCounty": "Denali",
@@ -9527,7 +9352,7 @@
         "POOState": "US-AK",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 700,
-        "ModifiedOnDateTime_dt": 1782021296570,
+        "ModifiedOnDateTime_dt": 1782026325020,
         "IncidentComplexityLevel": "Type 3 Incident",
         "POOCity": null
       }
@@ -9542,7 +9367,7 @@
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Natural",
         "FireDiscoveryDateTime": 1782008520000,
         "IncidentName": "Kathul",
         "IncidentTypeCategory": "WF",
@@ -9552,7 +9377,7 @@
         "POOState": "US-AK",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 2,
-        "ModifiedOnDateTime_dt": 1782019206067,
+        "ModifiedOnDateTime_dt": 1782023312120,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -9567,7 +9392,7 @@
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Natural",
         "FireDiscoveryDateTime": 1782008559000,
         "IncidentName": "Applegate",
         "IncidentTypeCategory": "WF",
@@ -9577,7 +9402,7 @@
         "POOState": "US-AK",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1782017181487,
+        "ModifiedOnDateTime_dt": 1782023253467,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -9652,7 +9477,7 @@
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
-        "ModifiedOnDateTime_dt": 1782019498270,
+        "ModifiedOnDateTime_dt": 1782023268710,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -9677,7 +9502,7 @@
         "POOState": "US-AK",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 1,
-        "ModifiedOnDateTime_dt": 1782014376670,
+        "ModifiedOnDateTime_dt": 1782021909457,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -9726,8 +9551,8 @@
         "POOLandownerCategory": "State",
         "POOState": "US-AK",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 30,
-        "ModifiedOnDateTime_dt": 1782021079463,
+        "IncidentSize": 15,
+        "ModifiedOnDateTime_dt": 1782026606353,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -9801,8 +9626,8 @@
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 10,
-        "ModifiedOnDateTime_dt": 1782020243690,
+        "IncidentSize": 25,
+        "ModifiedOnDateTime_dt": 1782024485720,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -9837,47 +9662,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -123.108231685417,
-          40.5979821066328
+          -149.690026396034,
+          65.231668407009
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1782018824000,
-        "IncidentName": "BARKER",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Trinity",
-        "POOLandownerCategory": "Private",
-        "POOState": "US-CA",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1782018876407,
-        "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -149.700026364659,
-          65.2000014074147
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Natural",
         "FireDiscoveryDateTime": 1782019042000,
         "IncidentName": "Hutlitakwa",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
         "POOCounty": "Yukon-Koyukuk",
-        "POOLandownerCategory": "State",
+        "POOLandownerCategory": "BLM",
         "POOState": "US-AK",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 2,
-        "ModifiedOnDateTime_dt": 1782019574630,
+        "ModifiedOnDateTime_dt": 1782035697980,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -9892,7 +9692,7 @@
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Natural",
         "FireDiscoveryDateTime": 1782019203000,
         "IncidentName": "Starvation",
         "IncidentTypeCategory": "WF",
@@ -9902,7 +9702,7 @@
         "POOState": "US-AK",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1782019670313,
+        "ModifiedOnDateTime_dt": 1782023295210,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -9927,7 +9727,7 @@
         "POOState": "US-AK",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 25,
-        "ModifiedOnDateTime_dt": 1782020870037,
+        "ModifiedOnDateTime_dt": 1782023314100,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -9937,12 +9737,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -149.433359483686,
-          65.3166684459122
+          -149.408359495602,
+          65.3283344494802
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
+        "FireCause": "Natural",
         "FireDiscoveryDateTime": 1782020130000,
         "IncidentName": "Truce",
         "IncidentTypeCategory": "WF",
@@ -9952,7 +9752,132 @@
         "POOState": "US-AK",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1782021037543,
+        "ModifiedOnDateTime_dt": 1782025790373,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.416693028911,
+          64.8666683060837
+        ]
+      },
+      "properties": {
+        "FireCause": "Natural",
+        "FireDiscoveryDateTime": 1782020494000,
+        "IncidentName": "Zitziana",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Yukon-Koyukuk",
+        "POOLandownerCategory": "State",
+        "POOState": "US-AK",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 5,
+        "ModifiedOnDateTime_dt": 1782036240853,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.351692496222,
+          64.2705017011678
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1782021948000,
+        "IncidentName": "Tatlanika",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Denali",
+        "POOLandownerCategory": "State",
+        "POOState": "US-AK",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 3,
+        "ModifiedOnDateTime_dt": 1782028165590,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.432475906045,
+          64.7376413122806
+        ]
+      },
+      "properties": {
+        "FireCause": "Natural",
+        "FireDiscoveryDateTime": 1782022181000,
+        "IncidentName": "Kindanina",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Yukon-Koyukuk",
+        "POOLandownerCategory": "State",
+        "POOState": "US-AK",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1782036219773,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.347141262532,
+          63.2567002556015
+        ]
+      },
+      "properties": {
+        "FireCause": "Natural",
+        "FireDiscoveryDateTime": 1782023941000,
+        "IncidentName": "Dishna",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Yukon-Koyukuk",
+        "POOLandownerCategory": "State",
+        "POOState": "US-AK",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 20,
+        "ModifiedOnDateTime_dt": 1782030452413,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.165652226829,
+          34.67937492928
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1782032925000,
+        "IncidentName": "LAC-216050",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Los Angeles",
+        "POOLandownerCategory": "Private",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1782032954500,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
