@@ -4150,9 +4150,9 @@
         "POOCounty": "Riverside",
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
-        "TotalIncidentPersonnel": 18,
+        "TotalIncidentPersonnel": 15,
         "IncidentSize": 3085,
-        "ModifiedOnDateTime_dt": 1782002938677,
+        "ModifiedOnDateTime_dt": 1782044450563,
         "IncidentComplexityLevel": "Type 4 Incident",
         "POOCity": "Calimesa"
       }
@@ -7246,13 +7246,13 @@
         "FireDiscoveryDateTime": 1781911920000,
         "IncidentName": "STAR",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 74,
+        "PercentContained": 97,
         "POOCounty": "Kern",
         "POOLandownerCategory": "Private",
         "POOState": "US-CA",
         "TotalIncidentPersonnel": 141,
         "IncidentSize": 577,
-        "ModifiedOnDateTime_dt": 1782002577393,
+        "ModifiedOnDateTime_dt": 1782046132533,
         "IncidentComplexityLevel": "Type 4 Incident",
         "POOCity": null
       }
@@ -8652,7 +8652,7 @@
         "POOState": "US-OR",
         "TotalIncidentPersonnel": 10,
         "IncidentSize": 3205,
-        "ModifiedOnDateTime_dt": 1782022031043,
+        "ModifiedOnDateTime_dt": 1782044900450,
         "IncidentComplexityLevel": "Type 4 Incident",
         "POOCity": "BURNS JUNCTION"
       }
@@ -9162,6 +9162,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -117.689146127146,
+          42.6896557415081
+        ]
+      },
+      "properties": {
+        "FireCause": "Natural",
+        "FireDiscoveryDateTime": 1782002518000,
+        "IncidentName": "BASIN",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Malheur",
+        "POOLandownerCategory": "BLM",
+        "POOState": "US-OR",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 1404,
+        "ModifiedOnDateTime_dt": 1782044025187,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -118.06119214504,
           33.9108048505641
         ]
@@ -9404,31 +9429,6 @@
         "IncidentSize": 0.1,
         "ModifiedOnDateTime_dt": 1782023253467,
         "IncidentComplexityLevel": null,
-        "POOCity": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -109.214478220627,
-          41.0878392829245
-        ]
-      },
-      "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1782009148000,
-        "IncidentName": "hwy Ely",
-        "IncidentTypeCategory": "WF",
-        "PercentContained": null,
-        "POOCounty": "Sweetwater",
-        "POOLandownerCategory": "BLM",
-        "POOState": "US-WY",
-        "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.25,
-        "ModifiedOnDateTime_dt": 1782017330047,
-        "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": null
       }
     },
@@ -9878,6 +9878,31 @@
         "TotalIncidentPersonnel": null,
         "IncidentSize": null,
         "ModifiedOnDateTime_dt": 1782032954500,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.9641727330649,
+          46.2174586561072
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1782045263000,
+        "IncidentName": "Conlon Farm RX",
+        "IncidentTypeCategory": "RX",
+        "PercentContained": null,
+        "POOCounty": "Schoolcraft",
+        "POOLandownerCategory": "USFWS",
+        "POOState": "US-MI",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1782045283830,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
