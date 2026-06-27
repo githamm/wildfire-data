@@ -6377,7 +6377,7 @@
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
         "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1782325713640,
+        "ModifiedOnDateTime_dt": 1782544939027,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -9551,8 +9551,8 @@
         "POOLandownerCategory": "BOR",
         "POOState": "US-AZ",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.5,
-        "ModifiedOnDateTime_dt": 1782464922300,
+        "IncidentSize": 7,
+        "ModifiedOnDateTime_dt": 1782549820757,
         "IncidentComplexityLevel": "Type 5 Incident",
         "POOCity": null
       }
@@ -10501,8 +10501,8 @@
         "POOLandownerCategory": "BLM",
         "POOState": "US-AZ",
         "TotalIncidentPersonnel": 82,
-        "IncidentSize": 400,
-        "ModifiedOnDateTime_dt": 1782530806460,
+        "IncidentSize": 1500,
+        "ModifiedOnDateTime_dt": 1782543862513,
         "IncidentComplexityLevel": "Type 3 Incident",
         "POOCity": null
       }
@@ -10801,8 +10801,8 @@
         "POOLandownerCategory": "ANC",
         "POOState": "US-AK",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.1,
-        "ModifiedOnDateTime_dt": 1782529614713,
+        "IncidentSize": 300,
+        "ModifiedOnDateTime_dt": 1782547311857,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -10926,8 +10926,8 @@
         "POOLandownerCategory": "ANC",
         "POOState": "US-AK",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 3,
-        "ModifiedOnDateTime_dt": 1782517734097,
+        "IncidentSize": 400,
+        "ModifiedOnDateTime_dt": 1782547321717,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -11262,6 +11262,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -108.881060741262,
+          37.6512058730301
+        ]
+      },
+      "properties": {
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1782530152000,
+        "IncidentName": "Alkali",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Dolores",
+        "POOLandownerCategory": "BLM",
+        "POOState": "US-CO",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1782545875240,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -118.18531216535,
           33.9036448428206
         ]
@@ -11337,22 +11362,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -123.71206586218,
-          41.1902200957774
+          -118.07678021911,
+          47.8511660923226
         ]
       },
       "properties": {
-        "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1782535363000,
-        "IncidentName": "GIST",
+        "FireCause": "Natural",
+        "FireDiscoveryDateTime": 1782536711000,
+        "IncidentName": "BULL STRIKE",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
-        "POOCounty": "Humboldt",
+        "POOCounty": "Stevens",
         "POOLandownerCategory": "BIA",
-        "POOState": "US-CA",
+        "POOState": "US-WA",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1782541769343,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1782545419673,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
@@ -11362,22 +11387,72 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.4603830364,
-          33.8292708748217
+          -146.932695700524,
+          64.5001899308977
         ]
       },
       "properties": {
         "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1782542038000,
-        "IncidentName": "LA SIERRA AV / CAJALCO RD",
+        "FireDiscoveryDateTime": 1782540983000,
+        "IncidentName": "Holly",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
-        "POOCounty": "Riverside",
-        "POOLandownerCategory": "Private",
+        "POOCounty": "Fairbanks North Star",
+        "POOLandownerCategory": "County",
+        "POOState": "US-AK",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": 0.1,
+        "ModifiedOnDateTime_dt": 1782543348303,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.663347130506,
+          41.0280606890704
+        ]
+      },
+      "properties": {
+        "FireCause": null,
+        "FireDiscoveryDateTime": 1782541800000,
+        "IncidentName": "Shoemaker",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Humboldt",
+        "POOLandownerCategory": "BIA",
         "POOState": "US-CA",
         "TotalIncidentPersonnel": null,
-        "IncidentSize": 0.01,
-        "ModifiedOnDateTime_dt": 1782542148870,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1782543220077,
+        "IncidentComplexityLevel": null,
+        "POOCity": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.670291632856,
+          41.0369494890721
+        ]
+      },
+      "properties": {
+        "FireCause": null,
+        "FireDiscoveryDateTime": 1782543660000,
+        "IncidentName": "Cherry Flat",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Humboldt",
+        "POOLandownerCategory": "BIA",
+        "POOState": "US-CA",
+        "TotalIncidentPersonnel": null,
+        "IncidentSize": null,
+        "ModifiedOnDateTime_dt": 1782543970147,
         "IncidentComplexityLevel": null,
         "POOCity": null
       }
