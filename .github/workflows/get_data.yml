@@ -1,31 +1,133 @@
 name: Get wildfire API data
-
 on:
   push:
   workflow_dispatch:
   schedule:
     - cron: "0 * * * *"
 
+permissions:
+  contents: write
+
+concurrency:
+  group: wildfire-data-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   scheduled:
     runs-on: ubuntu-latest
     steps:
       - name: Check out this repo
-        uses: actions/checkout@v2
-      - name: Fetch latest data
+        uses: actions/checkout@v4
+
+      - name: Fetch map data
         run: |-
-          # Get map data
-          curl -k -X GET "https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Incident_Locations_Current/FeatureServer/0/query?where=1%3D1&outFields=FireCause,FireDiscoveryDateTime,IncidentName,IncidentTypeCategory,PercentContained,POOCounty,POOLandownerCategory,POOState,TotalIncidentPersonnel,IncidentSize,ModifiedOnDateTime_dt,IncidentComplexityLevel,POOCity&outSR=4326&f=geojson" -H "accept: application/json" | jq '.'  > map_data.json
-      - name: Fetch lastest data
+          set -euo pipefail
+
+          url="https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Incident_Locations_Current/FeatureServer/0/query?where=1%3D1&outFields=FireCause,FireDiscoveryDateTime,IncidentName,IncidentTypeCategory,PercentContained,POOCounty,POOLandownerCategory,POOState,TotalIncidentPersonnel,IncidentSize,ModifiedOnDateTime_dt,IncidentComplexityLevel,POOCity&outSR=4326&f=geojson"
+
+          success=false
+          for attempt in 1 2 3; do
+            if curl -sS -k --fail --retry 2 --retry-delay 5 --max-time 30 \
+                 -X GET "$url" -H "accept: application/json" -o map_data.tmp.json; then
+              success=true
+              break
+            fi
+            echo "Attempt $attempt failed, retrying in 10s..."
+            sleep 10
+          done
+
+          if [ "$success" != "true" ]; then
+            echo "::error::Failed to fetch map data after 3 attempts"
+            exit 1
+          fi
+
+          # Validate it's a real GeoJSON FeatureCollection, not an error payload or empty shell
+          if ! jq -e '.type == "FeatureCollection" and (.features | type == "array")' map_data.tmp.json > /dev/null 2>&1; then
+            echo "::error::Map data response is not a valid GeoJSON FeatureCollection. Response was:"
+            cat map_data.tmp.json
+            exit 1
+          fi
+
+          new_count=$(jq '.features | length' map_data.tmp.json)
+          old_count=$(jq '.features | length' map_data.json 2>/dev/null || echo 0)
+
+          echo "Previous feature count: $old_count, new feature count: $new_count"
+
+          # Guard against a "successful" response that's suspiciously empty
+          # compared to what we already had (catches silent partial failures
+          # that still pass basic JSON validation)
+          if [ "$old_count" -gt 0 ] && [ "$new_count" -eq 0 ]; then
+            echo "::error::New map data has 0 features but previous file had $old_count. Refusing to overwrite — likely an API issue, not a real drop to zero incidents."
+            exit 1
+          fi
+
+          jq '.' map_data.tmp.json > map_data.json
+          rm map_data.tmp.json
+
+      - name: Fetch table data
         run: |-
-          # Get table data
-          # curl -k -X GET "https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/CY_WildlandFire_Locations_ToDate/FeatureServer/0/query?where=IncidentTypeCategory%20%3D%20'WF'%20AND%20POOState%20%3D%20'US-CO'&outFields=FireCause,FireDiscoveryDateTime,IncidentName,IncidentTypeCategory,PercentContained,POOCounty,DailyAcres,&outSR=4326&f=json" -H "accept: application/json" | jq '.'  > table_data.json
-          curl -k -X GET "https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Incident_Locations_YearToDate/FeatureServer/0/query?where=IncidentTypeCategory%20%3D%20%27WF%27%20AND%20POOState%20%3D%20%27US-CO%27&outFields=IncidentSize,FireCause,FireDiscoveryDateTime,IncidentName,IncidentTypeCategory,PercentContained,POOCounty,POOState&outSR=4326&f=geojson" -H "accept: application/json" | jq '.'  > table_data.json
+          set -euo pipefail
+
+          url="https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Incident_Locations_YearToDate/FeatureServer/0/query?where=IncidentTypeCategory%20%3D%20%27WF%27%20AND%20POOState%20%3D%20%27US-CO%27&outFields=IncidentSize,FireCause,FireDiscoveryDateTime,IncidentName,IncidentTypeCategory,PercentContained,POOCounty,POOState&outSR=4326&f=geojson"
+
+          success=false
+          for attempt in 1 2 3; do
+            if curl -sS -k --fail --retry 2 --retry-delay 5 --max-time 30 \
+                 -X GET "$url" -H "accept: application/json" -o table_data.tmp.json; then
+              success=true
+              break
+            fi
+            echo "Attempt $attempt failed, retrying in 10s..."
+            sleep 10
+          done
+
+          if [ "$success" != "true" ]; then
+            echo "::error::Failed to fetch table data after 3 attempts"
+            exit 1
+          fi
+
+          if ! jq -e '.type == "FeatureCollection" and (.features | type == "array")' table_data.tmp.json > /dev/null 2>&1; then
+            echo "::error::Table data response is not a valid GeoJSON FeatureCollection. Response was:"
+            cat table_data.tmp.json
+            exit 1
+          fi
+
+          new_count=$(jq '.features | length' table_data.tmp.json)
+          old_count=$(jq '.features | length' table_data.json 2>/dev/null || echo 0)
+
+          echo "Previous feature count: $old_count, new feature count: $new_count"
+
+          if [ "$old_count" -gt 0 ] && [ "$new_count" -eq 0 ]; then
+            echo "::error::New table data has 0 features but previous file had $old_count. Refusing to overwrite."
+            exit 1
+          fi
+
+          jq '.' table_data.tmp.json > table_data.json
+          rm table_data.tmp.json
+
       - name: Commit and push if changed
         run: |-
+          set -euo pipefail
           git config user.name "Automated"
           git config user.email "actions@users.noreply.github.com"
           git add -A
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
           timestamp=$(date -u)
-          git commit -m "Latest data: ${timestamp}" || exit 0
-          git push
+          git commit -m "Latest data: ${timestamp}"
+
+          for attempt in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejected, pulling and retrying..."
+            git pull --rebase --autostash
+            sleep 2
+          done
+
+          echo "::error::Failed to push after 3 attempts"
+          exit 1
