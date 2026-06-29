@@ -26,7 +26,7 @@ jobs:
           url="https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Incident_Locations_Current/FeatureServer/0/query?where=1%3D1&outFields=FireCause,FireDiscoveryDateTime,IncidentName,IncidentTypeCategory,PercentContained,POOCounty,POOLandownerCategory,POOState,TotalIncidentPersonnel,IncidentSize,ModifiedOnDateTime_dt,IncidentComplexityLevel,POOCity&outSR=4326&f=geojson"
 
           success=false
-          for attempt in 1 2 3 4 5; do
+          for attempt in 1 2 3 4 5 6; do
             # -w writes the HTTP status code after the body so we can inspect it
             # even on a "successful" curl exit (no --fail, so 429/5xx don't hard-fail curl here)
             http_code=$(curl -sS -k --retry 2 --retry-delay 5 --max-time 30 \
@@ -39,8 +39,12 @@ jobs:
             fi
 
             if [ "$http_code" = "429" ]; then
-              echo "Attempt $attempt: rate limited (429). Waiting 65s before retry..."
-              sleep 65
+              # Base wait grows with attempt number, plus random jitter (0-30s) so we
+              # don't land in the same crowded window as other callers retrying on a clean clock
+              jitter=$((RANDOM % 30))
+              wait_time=$((60 + (attempt * 15) + jitter))
+              echo "Attempt $attempt: rate limited (429). Waiting ${wait_time}s before retry..."
+              sleep "$wait_time"
             else
               echo "Attempt $attempt: HTTP $http_code. Retrying in 15s..."
               sleep 15
@@ -48,7 +52,7 @@ jobs:
           done
 
           if [ "$success" != "true" ]; then
-            echo "::error::Failed to fetch map data after 5 attempts (last HTTP code: $http_code)"
+            echo "::error::Failed to fetch map data after 6 attempts (last HTTP code: $http_code)"
             cat map_data.tmp.json || true
             exit 1
           fi
@@ -83,7 +87,7 @@ jobs:
           url="https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Incident_Locations_YearToDate/FeatureServer/0/query?where=IncidentTypeCategory%20%3D%20%27WF%27%20AND%20POOState%20%3D%20%27US-CO%27&outFields=IncidentSize,FireCause,FireDiscoveryDateTime,IncidentName,IncidentTypeCategory,PercentContained,POOCounty,POOState&outSR=4326&f=geojson"
 
           success=false
-          for attempt in 1 2 3 4 5; do
+          for attempt in 1 2 3 4 5 6; do
             http_code=$(curl -sS -k --retry 2 --retry-delay 5 --max-time 30 \
                  -X GET "$url" -H "accept: application/json" \
                  -o table_data.tmp.json -w "%{http_code}")
@@ -94,8 +98,10 @@ jobs:
             fi
 
             if [ "$http_code" = "429" ]; then
-              echo "Attempt $attempt: rate limited (429). Waiting 65s before retry..."
-              sleep 65
+              jitter=$((RANDOM % 30))
+              wait_time=$((60 + (attempt * 15) + jitter))
+              echo "Attempt $attempt: rate limited (429). Waiting ${wait_time}s before retry..."
+              sleep "$wait_time"
             else
               echo "Attempt $attempt: HTTP $http_code. Retrying in 15s..."
               sleep 15
@@ -103,7 +109,7 @@ jobs:
           done
 
           if [ "$success" != "true" ]; then
-            echo "::error::Failed to fetch table data after 5 attempts (last HTTP code: $http_code)"
+            echo "::error::Failed to fetch table data after 6 attempts (last HTTP code: $http_code)"
             cat table_data.tmp.json || true
             exit 1
           fi
