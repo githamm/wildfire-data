@@ -145,7 +145,7 @@ jobs:
           # the same way it's excluded from map data above). Not every fire
           # has a mapped perimeter, so a small/zero feature count here is
           # normal and doesn't necessarily mean the fetch failed.
-          url="https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Interagency_Perimeters_Current/FeatureServer/0/query?where=attr_POOState%3D%27US-CO%27%20AND%20attr_IncidentTypeCategory%3D%27WF%27&outFields=attr_IncidentName,poly_IncidentName,attr_FireCause,attr_IncidentTypeCategory,poly_GISAcres,attr_IncidentSize,attr_PercentContained,attr_TotalIncidentPersonnel,attr_IncidentComplexityLevel,attr_POOCity,attr_POOLandownerCategory,attr_POOCounty,attr_FireDiscoveryDateTime,attr_ModifiedOnDateTime_dt,poly_DateCurrent&outSR=4326&f=geojson"
+          url="https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Interagency_Perimeters_Current/FeatureServer/0/query?where=attr_POOState%3D%27US-CO%27%20AND%20attr_IncidentTypeCategory%3D%27WF%27&outFields=attr_IncidentName,poly_IncidentName,attr_FireCause,attr_IncidentTypeCategory,attr_UniqueFireIdentifier,poly_GISAcres,attr_IncidentSize,attr_PercentContained,attr_TotalIncidentPersonnel,attr_IncidentComplexityLevel,attr_POOCity,attr_POOLandownerCategory,attr_POOCounty,attr_FireDiscoveryDateTime,attr_ModifiedOnDateTime_dt,poly_DateCurrent&outSR=4326&f=geojson"
 
           success=false
           for attempt in 1 2 3 4 5 6; do
@@ -193,6 +193,101 @@ jobs:
 
           jq '.' perimeter_data.tmp.json > perimeter_data.json
           rm perimeter_data.tmp.json
+
+      - name: Archive daily perimeter snapshot
+        run: |-
+          set -euo pipefail
+          cat > /tmp/archive_perimeters.py << 'PYEOF'
+          import json, os, re
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+
+          # "Daily" means a Colorado calendar day to readers, not a UTC one --
+          # use Mountain Time (handles MST/MDT automatically) for the date key.
+          TODAY = datetime.now(ZoneInfo("America/Denver")).strftime("%Y-%m-%d")
+          HISTORY_DIR = "perimeter-history"
+          INDEX_PATH = "fire-index.json"
+
+          def safe_id(raw_id):
+              return re.sub(r"[^A-Za-z0-9_-]", "_", raw_id)
+
+          def acres_from(props):
+              # Prefer the mapped-perimeter acreage; fall back to reported size.
+              return props.get("poly_GISAcres", props.get("attr_IncidentSize"))
+
+          def main():
+              with open("perimeter_data.json", encoding="utf-8") as f:
+                  current = json.load(f)
+
+              os.makedirs(HISTORY_DIR, exist_ok=True)
+
+              if os.path.exists(INDEX_PATH):
+                  with open(INDEX_PATH, encoding="utf-8") as f:
+                      index = json.load(f)
+              else:
+                  index = {}
+
+              seen_today = set()
+              skipped_no_id = 0
+
+              for feature in current.get("features", []):
+                  props = feature.get("properties", {})
+                  fire_id = props.get("attr_UniqueFireIdentifier")
+                  if not fire_id:
+                      # Can't track a growth history without a stable id to key on.
+                      skipped_no_id += 1
+                      continue
+
+                  seen_today.add(fire_id)
+                  history_path = os.path.join(HISTORY_DIR, safe_id(fire_id) + ".json")
+
+                  if os.path.exists(history_path):
+                      with open(history_path, encoding="utf-8") as f:
+                          history = json.load(f)
+                  else:
+                      history = []
+
+                  # Idempotent: only one snapshot per fire per calendar day, no
+                  # matter how many times this runs today (job is hourly).
+                  if not any(entry.get("date") == TODAY for entry in history):
+                      history.append({
+                          "date": TODAY,
+                          "acres": acres_from(props),
+                          "percentContained": props.get("attr_PercentContained"),
+                          "geometry": feature.get("geometry")
+                      })
+                      with open(history_path, "w", encoding="utf-8") as f:
+                          json.dump(history, f, separators=(",", ":"))
+
+                  name = props.get("attr_IncidentName") or props.get("poly_IncidentName") or "Unnamed fire"
+                  acres = acres_from(props)
+
+                  entry = index.get(fire_id, {"firstSeen": TODAY, "peakAcres": 0})
+                  entry["name"] = name
+                  entry["cause"] = props.get("attr_FireCause")
+                  entry["lastSeen"] = TODAY
+                  entry["active"] = True
+                  if acres is not None and acres > entry.get("peakAcres", 0):
+                      entry["peakAcres"] = acres
+                  index[fire_id] = entry
+
+              # Any previously-archived fire absent from today's "current" feed
+              # is no longer active (contained, out, or fallen off NIFC's
+              # rolling window) -- this is what makes past fires browsable.
+              for fire_id, entry in index.items():
+                  if fire_id not in seen_today:
+                      entry["active"] = False
+
+              with open(INDEX_PATH, "w", encoding="utf-8") as f:
+                  json.dump(index, f, separators=(",", ":"), sort_keys=True)
+
+              print(f"Archived {len(seen_today)} fire(s) for {TODAY} ({skipped_no_id} skipped, no id)")
+              print(f"Fire index now has {len(index)} total fire(s)")
+
+          if __name__ == "__main__":
+              main()
+          PYEOF
+          python3 /tmp/archive_perimeters.py
 
       - name: Commit and push if changed
         run: |-
