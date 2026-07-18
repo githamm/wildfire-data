@@ -249,15 +249,23 @@ jobs:
 
                   # Idempotent: only one snapshot per fire per calendar day, no
                   # matter how many times this runs today (job is hourly).
-                  # Personnel/complexity are stored per-day since they change
-                  # as an incident scales up or down over its lifetime.
+                  # Every field is stored on each day's entry (not just
+                  # acres/geometry) so each day is a fully self-contained
+                  # record -- browsing an old day shows what was true that
+                  # day, not today's value for fields like cause or county.
                   if not any(entry.get("date") == TODAY for entry in history):
                       history.append({
                           "date": TODAY,
+                          "name": props.get("attr_IncidentName") or props.get("poly_IncidentName"),
+                          "cause": props.get("attr_FireCause"),
                           "acres": acres_from(props),
                           "percentContained": props.get("attr_PercentContained"),
                           "personnel": props.get("attr_TotalIncidentPersonnel"),
                           "complexity": props.get("attr_IncidentComplexityLevel"),
+                          "city": props.get("attr_POOCity"),
+                          "landownerCategory": props.get("attr_POOLandownerCategory"),
+                          "county": props.get("attr_POOCounty"),
+                          "discoveryDate": props.get("attr_FireDiscoveryDateTime"),
                           "geometry": feature.get("geometry")
                       })
                       with open(history_path, "w", encoding="utf-8") as f:
@@ -269,9 +277,11 @@ jobs:
                   entry = index.get(fire_id, {"firstSeen": TODAY, "peakAcres": 0})
                   entry["name"] = name
                   entry["cause"] = props.get("attr_FireCause")
-                  # These describe the point of origin, so they're effectively
-                  # static for a fire's whole life -- stored once here rather
-                  # than repeated in every daily snapshot.
+                  # The index keeps the latest value of these for fast
+                  # browsing/sorting in the fire picker. The authoritative,
+                  # date-accurate copy of each now lives on every day's own
+                  # entry in perimeter-history/ (see above), so an old day
+                  # doesn't inherit today's value if one of these changes.
                   entry["city"] = props.get("attr_POOCity")
                   entry["landownerCategory"] = props.get("attr_POOLandownerCategory")
                   entry["county"] = props.get("attr_POOCounty")
