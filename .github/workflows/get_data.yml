@@ -249,11 +249,15 @@ jobs:
 
                   # Idempotent: only one snapshot per fire per calendar day, no
                   # matter how many times this runs today (job is hourly).
+                  # Personnel/complexity are stored per-day since they change
+                  # as an incident scales up or down over its lifetime.
                   if not any(entry.get("date") == TODAY for entry in history):
                       history.append({
                           "date": TODAY,
                           "acres": acres_from(props),
                           "percentContained": props.get("attr_PercentContained"),
+                          "personnel": props.get("attr_TotalIncidentPersonnel"),
+                          "complexity": props.get("attr_IncidentComplexityLevel"),
                           "geometry": feature.get("geometry")
                       })
                       with open(history_path, "w", encoding="utf-8") as f:
@@ -265,6 +269,13 @@ jobs:
                   entry = index.get(fire_id, {"firstSeen": TODAY, "peakAcres": 0})
                   entry["name"] = name
                   entry["cause"] = props.get("attr_FireCause")
+                  # These describe the point of origin, so they're effectively
+                  # static for a fire's whole life -- stored once here rather
+                  # than repeated in every daily snapshot.
+                  entry["city"] = props.get("attr_POOCity")
+                  entry["landownerCategory"] = props.get("attr_POOLandownerCategory")
+                  entry["county"] = props.get("attr_POOCounty")
+                  entry["discoveryDate"] = props.get("attr_FireDiscoveryDateTime")
                   entry["lastSeen"] = TODAY
                   entry["active"] = True
                   if acres is not None and acres > entry.get("peakAcres", 0):
