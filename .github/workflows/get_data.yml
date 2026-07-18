@@ -36,26 +36,40 @@ jobs:
                  -X GET "$url" -H "accept: application/json" \
                  -o map_data.tmp.json -w "%{http_code}")
 
+            # Esri's services sometimes return HTTP 200 with an application-
+            # level error embedded in the JSON body instead (e.g. an
+            # organization-wide request-unit quota), so the body has to be
+            # checked even when the transport-level status looks fine.
+            embedded_code=""
             if [ "$http_code" = "200" ]; then
+              embedded_code=$(jq -r '.error.code // empty' map_data.tmp.json 2>/dev/null || echo "")
+            fi
+
+            if [ "$http_code" = "200" ] && [ -z "$embedded_code" ]; then
               success=true
               break
             fi
 
-            if [ "$http_code" = "429" ]; then
+            effective_code="$http_code"
+            if [ -n "$embedded_code" ]; then
+              effective_code="$embedded_code"
+            fi
+
+            if [ "$effective_code" = "429" ]; then
               # Base wait grows with attempt number, plus random jitter (0-30s) so we
               # don't land in the same crowded window as other callers retrying on a clean clock
               jitter=$((RANDOM % 30))
               wait_time=$((60 + (attempt * 15) + jitter))
-              echo "Attempt $attempt: rate limited (429). Waiting ${wait_time}s before retry..."
+              echo "Attempt $attempt: rate limited (429${embedded_code:+, embedded in a 200 response}). Waiting ${wait_time}s before retry..."
               sleep "$wait_time"
             else
-              echo "Attempt $attempt: HTTP $http_code. Retrying in 15s..."
+              echo "Attempt $attempt: HTTP $http_code${embedded_code:+ (embedded error code $embedded_code)}. Retrying in 15s..."
               sleep 15
             fi
           done
 
           if [ "$success" != "true" ]; then
-            echo "::error::Failed to fetch map data after 6 attempts (last HTTP code: $http_code)"
+            echo "::error::Failed to fetch map data after 6 attempts (last HTTP code: $http_code${embedded_code:+, embedded error code: $embedded_code})"
             cat map_data.tmp.json || true
             exit 1
           fi
@@ -95,24 +109,34 @@ jobs:
                  -X GET "$url" -H "accept: application/json" \
                  -o table_data.tmp.json -w "%{http_code}")
 
+            embedded_code=""
             if [ "$http_code" = "200" ]; then
+              embedded_code=$(jq -r '.error.code // empty' table_data.tmp.json 2>/dev/null || echo "")
+            fi
+
+            if [ "$http_code" = "200" ] && [ -z "$embedded_code" ]; then
               success=true
               break
             fi
 
-            if [ "$http_code" = "429" ]; then
+            effective_code="$http_code"
+            if [ -n "$embedded_code" ]; then
+              effective_code="$embedded_code"
+            fi
+
+            if [ "$effective_code" = "429" ]; then
               jitter=$((RANDOM % 30))
               wait_time=$((60 + (attempt * 15) + jitter))
-              echo "Attempt $attempt: rate limited (429). Waiting ${wait_time}s before retry..."
+              echo "Attempt $attempt: rate limited (429${embedded_code:+, embedded in a 200 response}). Waiting ${wait_time}s before retry..."
               sleep "$wait_time"
             else
-              echo "Attempt $attempt: HTTP $http_code. Retrying in 15s..."
+              echo "Attempt $attempt: HTTP $http_code${embedded_code:+ (embedded error code $embedded_code)}. Retrying in 15s..."
               sleep 15
             fi
           done
 
           if [ "$success" != "true" ]; then
-            echo "::error::Failed to fetch table data after 6 attempts (last HTTP code: $http_code)"
+            echo "::error::Failed to fetch table data after 6 attempts (last HTTP code: $http_code${embedded_code:+, embedded error code: $embedded_code})"
             cat table_data.tmp.json || true
             exit 1
           fi
@@ -153,24 +177,34 @@ jobs:
                  -X GET "$url" -H "accept: application/json" \
                  -o perimeter_data.tmp.json -w "%{http_code}")
 
+            embedded_code=""
             if [ "$http_code" = "200" ]; then
+              embedded_code=$(jq -r '.error.code // empty' perimeter_data.tmp.json 2>/dev/null || echo "")
+            fi
+
+            if [ "$http_code" = "200" ] && [ -z "$embedded_code" ]; then
               success=true
               break
             fi
 
-            if [ "$http_code" = "429" ]; then
+            effective_code="$http_code"
+            if [ -n "$embedded_code" ]; then
+              effective_code="$embedded_code"
+            fi
+
+            if [ "$effective_code" = "429" ]; then
               jitter=$((RANDOM % 30))
               wait_time=$((60 + (attempt * 15) + jitter))
-              echo "Attempt $attempt: rate limited (429). Waiting ${wait_time}s before retry..."
+              echo "Attempt $attempt: rate limited (429${embedded_code:+, embedded in a 200 response}). Waiting ${wait_time}s before retry..."
               sleep "$wait_time"
             else
-              echo "Attempt $attempt: HTTP $http_code. Retrying in 15s..."
+              echo "Attempt $attempt: HTTP $http_code${embedded_code:+ (embedded error code $embedded_code)}. Retrying in 15s..."
               sleep 15
             fi
           done
 
           if [ "$success" != "true" ]; then
-            echo "::error::Failed to fetch perimeter data after 6 attempts (last HTTP code: $http_code)"
+            echo "::error::Failed to fetch perimeter data after 6 attempts (last HTTP code: $http_code${embedded_code:+, embedded error code: $embedded_code})"
             cat perimeter_data.tmp.json || true
             exit 1
           fi
@@ -309,6 +343,46 @@ jobs:
               main()
           PYEOF
           python3 /tmp/archive_perimeters.py
+
+      - name: Report perimeter history file sizes
+        run: |-
+          set -euo pipefail
+
+          if [ ! -d perimeter-history ] || [ -z "$(ls -A perimeter-history 2>/dev/null)" ]; then
+            echo "No perimeter-history files yet."
+            exit 0
+          fi
+
+          echo "Perimeter history file sizes (largest first):"
+          du -b perimeter-history/*.json | sort -rn | awk '{
+            kb = $1 / 1024
+            printf "  %8.1f KB  %s\n", kb, $2
+          }'
+
+          # 1 MB is comfortably downloadable on any connection; flag above
+          # that as worth keeping an eye on. 5 MB is where it's worth
+          # actually addressing (geometry simplification, or skipping a
+          # day's snapshot when the shape hasn't meaningfully changed).
+          WATCH_BYTES=1048576
+          ACT_BYTES=5242880
+          watch_count=0
+          act_count=0
+
+          for f in perimeter-history/*.json; do
+            size=$(stat -c%s "$f")
+            if [ "$size" -ge "$ACT_BYTES" ]; then
+              kb=$((size / 1024))
+              echo "::warning::${f} is ${kb} KB (over 5 MB) -- consider geometry simplification or day-skipping for this fire"
+              act_count=$((act_count + 1))
+            elif [ "$size" -ge "$WATCH_BYTES" ]; then
+              kb=$((size / 1024))
+              echo "::notice::${f} is ${kb} KB (over 1 MB) -- worth watching, no action needed yet"
+              watch_count=$((watch_count + 1))
+            fi
+          done
+
+          echo ""
+          echo "${act_count} file(s) over 5 MB, ${watch_count} file(s) over 1 MB."
 
       - name: Commit and push if changed
         run: |-
