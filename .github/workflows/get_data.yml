@@ -414,8 +414,26 @@ jobs:
             if git push; then
               exit 0
             fi
-            echo "Push rejected, pulling and retrying..."
-            git pull --rebase --autostash
+
+            echo "Push rejected (attempt ${attempt}), fetching remote changes..."
+            git fetch origin main
+
+            # Every file this job writes is either a complete snapshot
+            # re-generated fresh each run (map/table/perimeter data,
+            # last-updated.json) or effectively identical between two runs
+            # in the same hourly window (perimeter-history/, fire-index.json
+            # -- both runs fetched from the same NIFC "current" state). There
+            # is nothing meaningful to merge, so a real conflict just means:
+            # keep this run's freshly-computed files, replayed on top of
+            # whatever else landed, rather than trying to reconcile the two.
+            if ! git rebase origin/main; then
+              echo "Rebase hit a conflict (expected for single-line JSON files) -- keeping this run's data instead of merging."
+              git rebase --abort
+              git reset --soft origin/main
+              git add -A
+              git commit -m "Latest data: ${timestamp}"
+            fi
+
             sleep 2
           done
 
