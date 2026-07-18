@@ -23,7 +23,10 @@ jobs:
         run: |-
           set -euo pipefail
 
-          url="https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Incident_Locations_Current/FeatureServer/0/query?where=1%3D1&outFields=FireCause,FireDiscoveryDateTime,IncidentName,IncidentTypeCategory,PercentContained,POOCounty,POOLandownerCategory,POOState,TotalIncidentPersonnel,IncidentSize,ModifiedOnDateTime_dt,IncidentComplexityLevel,POOCity&outSR=4326&f=geojson"
+          # IncidentTypeCategory restricted to WF (wildfire) and CX (incident
+          # complex -- multiple wildfires under one command). RX (prescribed
+          # fire) is deliberately excluded so the map never shows planned burns.
+          url="https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Incident_Locations_Current/FeatureServer/0/query?where=IncidentTypeCategory%20IN%20('WF','CX')&outFields=FireCause,FireDiscoveryDateTime,IncidentName,IncidentTypeCategory,PercentContained,POOCounty,POOLandownerCategory,POOState,TotalIncidentPersonnel,IncidentSize,ModifiedOnDateTime_dt,IncidentComplexityLevel,POOCity&outSR=4326&f=geojson"
 
           success=false
           for attempt in 1 2 3 4 5 6; do
@@ -132,6 +135,64 @@ jobs:
 
           jq '.' table_data.tmp.json > table_data.json
           rm table_data.tmp.json
+
+      - name: Fetch perimeter data
+        run: |-
+          set -euo pipefail
+
+          # Colorado only, WF only (NIFC's perimeter service includes RX
+          # prescribed-burn perimeters by default, so that's excluded here
+          # the same way it's excluded from map data above). Not every fire
+          # has a mapped perimeter, so a small/zero feature count here is
+          # normal and doesn't necessarily mean the fetch failed.
+          url="https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Interagency_Perimeters_Current/FeatureServer/0/query?where=attr_POOState%3D%27US-CO%27%20AND%20attr_IncidentTypeCategory%3D%27WF%27&outFields=attr_IncidentName,poly_IncidentName,attr_FireCause,attr_IncidentTypeCategory,poly_GISAcres,attr_IncidentSize,attr_PercentContained,attr_TotalIncidentPersonnel,attr_IncidentComplexityLevel,attr_POOCity,attr_POOLandownerCategory,attr_POOCounty,attr_FireDiscoveryDateTime,attr_ModifiedOnDateTime_dt,poly_DateCurrent&outSR=4326&f=geojson"
+
+          success=false
+          for attempt in 1 2 3 4 5 6; do
+            http_code=$(curl -sS -k --retry 2 --retry-delay 5 --max-time 30 \
+                 -X GET "$url" -H "accept: application/json" \
+                 -o perimeter_data.tmp.json -w "%{http_code}")
+
+            if [ "$http_code" = "200" ]; then
+              success=true
+              break
+            fi
+
+            if [ "$http_code" = "429" ]; then
+              jitter=$((RANDOM % 30))
+              wait_time=$((60 + (attempt * 15) + jitter))
+              echo "Attempt $attempt: rate limited (429). Waiting ${wait_time}s before retry..."
+              sleep "$wait_time"
+            else
+              echo "Attempt $attempt: HTTP $http_code. Retrying in 15s..."
+              sleep 15
+            fi
+          done
+
+          if [ "$success" != "true" ]; then
+            echo "::error::Failed to fetch perimeter data after 6 attempts (last HTTP code: $http_code)"
+            cat perimeter_data.tmp.json || true
+            exit 1
+          fi
+
+          if ! jq -e '.type == "FeatureCollection" and (.features | type == "array")' perimeter_data.tmp.json > /dev/null 2>&1; then
+            echo "::error::Perimeter data response is not a valid GeoJSON FeatureCollection. Response was:"
+            cat perimeter_data.tmp.json
+            exit 1
+          fi
+
+          new_count=$(jq '.features | length' perimeter_data.tmp.json)
+          old_count=$(jq '.features | length' perimeter_data.json 2>/dev/null || echo 0)
+
+          echo "Previous feature count: $old_count, new feature count: $new_count"
+
+          if [ "$old_count" -gt 0 ] && [ "$new_count" -eq 0 ]; then
+            echo "::error::New perimeter data has 0 features but previous file had $old_count. Refusing to overwrite."
+            exit 1
+          fi
+
+          jq '.' perimeter_data.tmp.json > perimeter_data.json
+          rm perimeter_data.tmp.json
 
       - name: Commit and push if changed
         run: |-
