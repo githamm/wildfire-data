@@ -384,6 +384,17 @@ jobs:
           echo ""
           echo "${act_count} file(s) over 5 MB, ${watch_count} file(s) over 1 MB."
 
+      - name: Record last-updated timestamp
+        run: |-
+          set -euo pipefail
+          # Runs only if every fetch/archive step above succeeded (the job
+          # halts on any earlier failure), so this timestamp genuinely means
+          # "data was last confirmed current as of X" -- if it ever looks
+          # stale on the site, that's a real signal something upstream broke.
+          now=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          echo "{\"generatedAt\":\"${now}\"}" > last-updated.json
+          echo "Recorded last-updated timestamp: ${now}"
+
       - name: Commit and push if changed
         run: |-
           set -euo pipefail
