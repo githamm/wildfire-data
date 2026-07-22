@@ -308,7 +308,7 @@ jobs:
                   name = props.get("attr_IncidentName") or props.get("poly_IncidentName") or "Unnamed fire"
                   acres = acres_from(props)
 
-                  entry = index.get(fire_id, {"firstSeen": TODAY, "peakAcres": 0})
+                  entry = index.get(fire_id, {"firstSeen": TODAY})
                   entry["name"] = name
                   entry["cause"] = props.get("attr_FireCause")
                   # The index keeps the latest value of these for fast
@@ -322,8 +322,17 @@ jobs:
                   entry["discoveryDate"] = props.get("attr_FireDiscoveryDateTime")
                   entry["lastSeen"] = TODAY
                   entry["active"] = True
-                  if acres is not None and acres > entry.get("peakAcres", 0):
-                      entry["peakAcres"] = acres
+                  # Latest known acreage, not an all-time peak: a running max
+                  # here (the old "peakAcres") could only ratchet upward and
+                  # would silently freeze whenever a fire was briefly absent
+                  # from a single hourly run of this feed, drifting out of
+                  # sync with map_data.json/table_data.json (fetched from a
+                  # different, always-fresh WFIGS service) and with the
+                  # perimeter-history entry this same run just wrote. Simply
+                  # overwriting with this run's value keeps it aligned with
+                  # both of those instead.
+                  if acres is not None:
+                      entry["acres"] = acres
                   index[fire_id] = entry
 
               # Any previously-archived fire absent from today's "current" feed
