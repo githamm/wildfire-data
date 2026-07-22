@@ -261,6 +261,17 @@ jobs:
               else:
                   index = {}
 
+              # One-time migration: entries written before "acres" replaced
+              # "peakAcres" never pick up the new field on their own once a
+              # fire goes inactive, since the loop below only updates fires
+              # present in this run's feed -- that's what left past fires
+              # showing "size unknown" in the picker. Backfill from the old
+              # field and retire it now that nothing reads it.
+              for entry in index.values():
+                  if "acres" not in entry and "peakAcres" in entry:
+                      entry["acres"] = entry["peakAcres"]
+                  entry.pop("peakAcres", None)
+
               seen_today = set()
               skipped_no_id = 0
 
@@ -281,29 +292,38 @@ jobs:
                   else:
                       history = []
 
-                  # Idempotent: only one snapshot per fire per calendar day, no
-                  # matter how many times this runs today (job is hourly).
+                  # One entry per fire per calendar day, but today's entry is
+                  # an upsert, not write-once: it's replaced on every run
+                  # until the day rolls over, then it's frozen as history.
+                  # Past days never got a second look, which used to mean
+                  # today's entry -- and thus the card, which always shows
+                  # the latest entry -- reflected whichever run first saw
+                  # this fire today, not the current run. Meanwhile
+                  # fire-index.json's "acres" *does* update every run, so
+                  # the two would drift apart over the course of a single
+                  # day as a fire kept growing (this is what made Aspen
+                  # Acres' perimeter card lag behind the dropdown/map/table).
                   # Every field is stored on each day's entry (not just
                   # acres/geometry) so each day is a fully self-contained
                   # record -- browsing an old day shows what was true that
                   # day, not today's value for fields like cause or county.
-                  if not any(entry.get("date") == TODAY for entry in history):
-                      history.append({
-                          "date": TODAY,
-                          "name": props.get("attr_IncidentName") or props.get("poly_IncidentName"),
-                          "cause": props.get("attr_FireCause"),
-                          "acres": acres_from(props),
-                          "percentContained": props.get("attr_PercentContained"),
-                          "personnel": props.get("attr_TotalIncidentPersonnel"),
-                          "complexity": props.get("attr_IncidentComplexityLevel"),
-                          "city": props.get("attr_POOCity"),
-                          "landownerCategory": props.get("attr_POOLandownerCategory"),
-                          "county": props.get("attr_POOCounty"),
-                          "discoveryDate": props.get("attr_FireDiscoveryDateTime"),
-                          "geometry": feature.get("geometry")
-                      })
-                      with open(history_path, "w", encoding="utf-8") as f:
-                          json.dump(history, f, separators=(",", ":"))
+                  history = [entry for entry in history if entry.get("date") != TODAY]
+                  history.append({
+                      "date": TODAY,
+                      "name": props.get("attr_IncidentName") or props.get("poly_IncidentName"),
+                      "cause": props.get("attr_FireCause"),
+                      "acres": acres_from(props),
+                      "percentContained": props.get("attr_PercentContained"),
+                      "personnel": props.get("attr_TotalIncidentPersonnel"),
+                      "complexity": props.get("attr_IncidentComplexityLevel"),
+                      "city": props.get("attr_POOCity"),
+                      "landownerCategory": props.get("attr_POOLandownerCategory"),
+                      "county": props.get("attr_POOCounty"),
+                      "discoveryDate": props.get("attr_FireDiscoveryDateTime"),
+                      "geometry": feature.get("geometry")
+                  })
+                  with open(history_path, "w", encoding="utf-8") as f:
+                      json.dump(history, f, separators=(",", ":"))
 
                   name = props.get("attr_IncidentName") or props.get("poly_IncidentName") or "Unnamed fire"
                   acres = acres_from(props)
