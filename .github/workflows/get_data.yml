@@ -427,19 +427,39 @@ jobs:
             echo "Push rejected (attempt ${attempt}), fetching remote changes..."
             git fetch origin main
 
-            # Every file this job writes is either a complete snapshot
-            # re-generated fresh each run (map/table/perimeter data,
-            # last-updated.json) or effectively identical between two runs
-            # in the same hourly window (perimeter-history/, fire-index.json
-            # -- both runs fetched from the same NIFC "current" state). There
-            # is nothing meaningful to merge, so a real conflict just means:
-            # keep this run's freshly-computed files, replayed on top of
-            # whatever else landed, rather than trying to reconcile the two.
+            # map_data.json/table_data.json/perimeter_data.json/
+            # last-updated.json are complete snapshots re-generated fresh
+            # every run, so this run's copy always wins for those -- a
+            # rebase conflict on them just means "keep mine," nothing to
+            # merge.
+            #
+            # fire-index.json and perimeter-history/*.json are different:
+            # they're read-modify-write accumulators built on top of
+            # whatever was checked out at job start. Blindly keeping this
+            # run's copy of those on conflict (the old behavior here)
+            # silently erases whatever a concurrent run already appended --
+            # that's exactly what happened to Aspen Acres' perimeter
+            # history, which lost a day's entry this way. So for just those
+            # two paths, reset to origin's latest copy and replay the
+            # archive step (archive_perimeters.py, still on disk from the
+            # earlier step) on top of that fresher baseline instead of this
+            # run's stale one. It reads this run's perimeter_data.json --
+            # already fetched, unchanged on disk, no new network call --
+            # and is idempotent (see the "any date == TODAY" check), so
+            # replaying it here either no-ops (today's entry is already
+            # there from the other run) or adds this run's own findings on
+            # top of the other run's, instead of one run's update
+            # overwriting the other's.
             if ! git rebase origin/main; then
-              echo "Rebase hit a conflict (expected for single-line JSON files) -- keeping this run's data instead of merging."
+              echo "Rebase conflict -- replaying the archive step on origin's latest fire-index.json/perimeter-history/ instead of keeping this run's stale copy."
               git rebase --abort
-              git reset --soft origin/main
+              git checkout origin/main -- fire-index.json perimeter-history/ 2>/dev/null || true
+              python3 /tmp/archive_perimeters.py
               git add -A
+              if git diff --staged --quiet; then
+                echo "No changes remain after merging with origin -- nothing new to commit."
+                exit 0
+              fi
               git commit -m "Latest data: ${timestamp}"
             fi
 
