@@ -30,6 +30,13 @@ field names. Client-side filtered to 10+ acres (List tab) / 1,000+ acres
 
 **Consumed by:** `table.js`, `chart.js`.
 
+> Not to be confused with `data/wildfire_ytd.csv`, a similarly-named but
+> unrelated legacy CSV that used to live in `wildfire-tracker`, populated
+> by that repo's own (now-removed) `fetch-wildfire-data.yml` automation.
+> That file was never part of this repo or this pipeline, is not consumed
+> by the current app, and no longer exists anywhere. `table_data.json`
+> above is the current, actual source for Colorado year-to-date data.
+
 ### `fire-index.json`
 Object keyed by `attr_UniqueFireIdentifier`. One entry per fire ever
 archived — entries for inactive fires are kept, not deleted, so past fires
