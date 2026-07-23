@@ -2,6 +2,11 @@ name: Get wildfire API data
 on:
   push:
   workflow_dispatch:
+    inputs:
+      run_backfill:
+        description: "Re-process ALL existing perimeter-history files with the current simplify/round/dedup settings (one-time; leave unchecked for normal runs)"
+        type: boolean
+        default: false
   schedule:
     - cron: "0 * * * *"
 
@@ -228,13 +233,181 @@ jobs:
           jq '.' perimeter_data.tmp.json > perimeter_data.json
           rm perimeter_data.tmp.json
 
+      - name: Write shared perimeter geometry helpers
+        run: |-
+          set -euo pipefail
+          cat > /tmp/perimeter_geometry.py << 'PYEOF'
+          # Shared by both the daily archive step and the one-time backfill
+          # step, so the two paths can never drift apart on tolerance/
+          # precision -- a fire archived today and a fire reprocessed by the
+          # backfill should end up byte-identical for the same input.
+          import math
+
+          # NIFC's source coordinates commonly carry 10+ decimal places --
+          # far beyond both GPS/IR-derived mapping accuracy and anything
+          # visible at this map's zoom levels (5 decimal places is ~1.1m).
+          # Rounding before archiving is a large, lossless-in-practice cut
+          # to perimeter-history file size with no library/dependency
+          # needed. Recurses on nested coordinate arrays (Polygon,
+          # MultiPolygon, etc.) down to the [lon, lat] leaves.
+          COORD_PRECISION = 5
+
+          def round_coords(coords, precision=COORD_PRECISION):
+              if isinstance(coords[0], (int, float)):
+                  return [round(c, precision) for c in coords]
+              return [round_coords(c, precision) for c in coords]
+
+          def round_geometry(geometry, precision=COORD_PRECISION):
+              if not geometry or "coordinates" not in geometry:
+                  return geometry
+              geometry = dict(geometry)
+              geometry["coordinates"] = round_coords(geometry["coordinates"], precision)
+              return geometry
+
+          # Vertex-count reduction, applied before rounding. Some fire
+          # perimeters carry tens of thousands of points per ring -- almost
+          # all of it redundant, near-collinear detail from the source
+          # mapping, not meaningful shape. Douglas-Peucker drops a point
+          # only if doing so would move the boundary by less than
+          # SIMPLIFY_TOLERANCE_METERS from the original line -- that's a
+          # hard mathematical bound on the whole ring, not an average, so
+          # "is my house inside the perimeter" stays reliable at any zoom
+          # level: 5m is smaller than the mapping data's own real-world
+          # accuracy (perimeters are digitized from infrared flight
+          # imagery, generally uncertain on the order of tens of meters),
+          # so this adds negligible error on top of what's already there.
+          #
+          # Distance is measured in real meters, not raw lon/lat degrees --
+          # Colorado sits around 39N, where a degree of longitude is
+          # ~78% as long as a degree of latitude, so a flat degree
+          # tolerance would let simplification distort shapes more
+          # east-west than north-south. REFERENCE_LAT_DEG fixes that scale
+          # factor for the whole run rather than computing it per fire;
+          # the difference across Colorado's own latitude range is small
+          # enough not to matter at this tolerance.
+          SIMPLIFY_TOLERANCE_METERS = 5
+          REFERENCE_LAT_DEG = 39.0
+          METERS_PER_DEG_LAT = 111320.0
+          METERS_PER_DEG_LON = 111320.0 * math.cos(math.radians(REFERENCE_LAT_DEG))
+
+          def _to_meters(point):
+              return (point[0] * METERS_PER_DEG_LON, point[1] * METERS_PER_DEG_LAT)
+
+          def _point_segment_distance_m(point, start, end):
+              px, py = _to_meters(point)
+              sx, sy = _to_meters(start)
+              ex, ey = _to_meters(end)
+              dx, dy = ex - sx, ey - sy
+              if dx == 0 and dy == 0:
+                  return math.hypot(px - sx, py - sy)
+              t = ((px - sx) * dx + (py - sy) * dy) / (dx * dx + dy * dy)
+              t = max(0.0, min(1.0, t))
+              cx, cy = sx + t * dx, sy + t * dy
+              return math.hypot(px - cx, py - cy)
+
+          def simplify_ring(points, epsilon_m):
+              # Iterative Douglas-Peucker (explicit stack, not recursion) --
+              # a recursive version can exceed Python's default recursion
+              # depth on a ring with tens of thousands of points.
+              if len(points) < 4:
+                  return points
+
+              keep = [False] * len(points)
+              keep[0] = keep[-1] = True
+              stack = [(0, len(points) - 1)]
+
+              while stack:
+                  start_i, end_i = stack.pop()
+                  start, end = points[start_i], points[end_i]
+                  max_dist = -1.0
+                  max_i = -1
+                  for i in range(start_i + 1, end_i):
+                      d = _point_segment_distance_m(points[i], start, end)
+                      if d > max_dist:
+                          max_dist = d
+                          max_i = i
+                  if max_dist > epsilon_m:
+                      keep[max_i] = True
+                      stack.append((start_i, max_i))
+                      stack.append((max_i, end_i))
+
+              simplified = [p for p, k in zip(points, keep) if k]
+              # A closed ring needs at least 4 points (3 distinct vertices
+              # plus the repeated closing point) to stay valid GeoJSON --
+              # if simplification would collapse it below that, keep the
+              # original ring rather than emit something invalid.
+              return simplified if len(simplified) >= 4 else points
+
+          def simplify_geometry(geometry, epsilon_m=SIMPLIFY_TOLERANCE_METERS):
+              if not geometry or "coordinates" not in geometry:
+                  return geometry
+              gtype = geometry.get("type")
+              coords = geometry["coordinates"]
+              geometry = dict(geometry)
+              if gtype == "Polygon":
+                  geometry["coordinates"] = [simplify_ring(ring, epsilon_m) for ring in coords]
+              elif gtype == "MultiPolygon":
+                  geometry["coordinates"] = [
+                      [simplify_ring(ring, epsilon_m) for ring in polygon]
+                      for polygon in coords
+                  ]
+              return geometry
+
+          # A fire's mapped perimeter commonly goes several days without any
+          # new mapping (e.g. once growth stalls but containment is still
+          # being worked), during which every field EXCEPT geometry keeps
+          # changing day to day -- so this still writes a full entry for
+          # every calendar day (matching the Perimeters tab's "day by day"
+          # framing and keeping acres/containment/personnel/etc. correct
+          # for that specific day), it just avoids storing a second literal
+          # copy of an unchanged polygon, which is what actually dominates
+          # file size. Comparison is on the already-simplified/rounded
+          # geometry (the canonical stored form), not raw upstream
+          # coordinates, so two days whose mapping differs by less than the
+          # simplify tolerance -- effectively noise -- also correctly dedupe.
+          #
+          # geometrySameAsDate always points directly at a day with literal
+          # geometry (never at another reference), so consumers only need a
+          # single lookup, never a chain walk. history must be chronological
+          # (oldest first); mutates and returns it in place. Safe to call
+          # repeatedly on the same list -- entries already deduped, or that
+          # never had geometry at all, are left alone.
+          def dedupe_consecutive_geometry(history):
+              resolved = {}
+              last_date = None
+              last_geometry = None
+
+              for entry in history:
+                  date = entry["date"]
+                  geom = entry.get("geometry")
+                  if geom is None and entry.get("geometrySameAsDate"):
+                      geom = resolved.get(entry["geometrySameAsDate"])
+                  resolved[date] = geom
+
+                  if geom is not None and geom == last_geometry:
+                      entry["geometry"] = None
+                      entry["geometrySameAsDate"] = last_date
+                  elif geom is not None:
+                      entry["geometry"] = geom
+                      entry.pop("geometrySameAsDate", None)
+                      last_geometry = geom
+                      last_date = date
+                  else:
+                      entry.pop("geometrySameAsDate", None)
+
+              return history
+          PYEOF
+
       - name: Archive daily perimeter snapshot
         run: |-
           set -euo pipefail
           cat > /tmp/archive_perimeters.py << 'PYEOF'
-          import json, os, re
+          import json, os, re, sys
           from datetime import datetime
           from zoneinfo import ZoneInfo
+
+          sys.path.insert(0, "/tmp")
+          from perimeter_geometry import round_geometry, simplify_geometry, dedupe_consecutive_geometry
 
           # "Daily" means a Colorado calendar day to readers, not a UTC one --
           # use Mountain Time (handles MST/MDT automatically) for the date key.
@@ -320,8 +493,9 @@ jobs:
                       "landownerCategory": props.get("attr_POOLandownerCategory"),
                       "county": props.get("attr_POOCounty"),
                       "discoveryDate": props.get("attr_FireDiscoveryDateTime"),
-                      "geometry": feature.get("geometry")
+                      "geometry": round_geometry(simplify_geometry(feature.get("geometry")))
                   })
+                  dedupe_consecutive_geometry(history)
                   with open(history_path, "w", encoding="utf-8") as f:
                       json.dump(history, f, separators=(",", ":"))
 
@@ -373,6 +547,97 @@ jobs:
           PYEOF
           python3 /tmp/archive_perimeters.py
 
+      - name: Backfill simplify existing perimeter history (one-time)
+        # Manual-only: leave "run_backfill" unchecked and this step is
+        # skipped, so scheduled/push-triggered runs are never affected.
+        # Existing perimeter-history/*.json files were archived before
+        # coordinate rounding/simplification/deduping existed, so they
+        # don't shrink on their own -- this re-processes every file
+        # already on disk with the same round_geometry/simplify_geometry/
+        # dedupe_consecutive_geometry helpers the daily archive step now
+        # uses, so old and new files converge on the same format. Safe to
+        # re-run, but not strictly idempotent on a single extra pass:
+        # rounding runs *after* simplifying, so a second pass sees
+        # slightly-shifted (rounded) input and can trim a couple more
+        # percent -- both from re-simplifying and from previously-distinct
+        # days converging to the same rounded shape and newly deduping --
+        # before settling to a true fixed point after 2-3 runs. Each
+        # pass' added error is bounded by the ~1m rounding grid, tiny next
+        # to the 5m simplify tolerance, so this doesn't erode accuracy, it
+        # just means a second run isn't guaranteed to report 0 bytes
+        # changed.
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.run_backfill == 'true'
+        run: |-
+          set -euo pipefail
+          cat > /tmp/backfill_perimeters.py << 'PYEOF'
+          import json, os, sys
+
+          sys.path.insert(0, "/tmp")
+          from perimeter_geometry import round_geometry, simplify_geometry, dedupe_consecutive_geometry
+
+          HISTORY_DIR = "perimeter-history"
+
+          def count_points(coords):
+              if isinstance(coords[0], (int, float)):
+                  return 1
+              return sum(count_points(c) for c in coords)
+
+          def process_file(path):
+              with open(path, encoding="utf-8") as f:
+                  history = json.load(f)
+
+              # dedupe_consecutive_geometry compares each day against the
+              # immediately preceding one, so it needs true chronological
+              # order -- the archive step always appends in order, but this
+              # is cheap insurance against any older file that isn't.
+              history.sort(key=lambda e: e["date"])
+
+              before_bytes = os.path.getsize(path)
+              before_pts = sum(
+                  count_points(e["geometry"]["coordinates"])
+                  for e in history if e.get("geometry")
+              )
+
+              for entry in history:
+                  if entry.get("geometry"):
+                      entry["geometry"] = round_geometry(simplify_geometry(entry["geometry"]))
+              dedupe_consecutive_geometry(history)
+
+              with open(path, "w", encoding="utf-8") as f:
+                  json.dump(history, f, separators=(",", ":"))
+
+              after_bytes = os.path.getsize(path)
+              after_pts = sum(
+                  count_points(e["geometry"]["coordinates"])
+                  for e in history if e.get("geometry")
+              )
+              return before_bytes, after_bytes, before_pts, after_pts
+
+          def main():
+              if not os.path.isdir(HISTORY_DIR):
+                  print("No perimeter-history directory -- nothing to backfill.")
+                  return
+
+              files = sorted(f for f in os.listdir(HISTORY_DIR) if f.endswith(".json"))
+              total_before = total_after = 0
+
+              for name in files:
+                  path = os.path.join(HISTORY_DIR, name)
+                  before_b, after_b, before_p, after_p = process_file(path)
+                  total_before += before_b
+                  total_after += after_b
+                  pct = (1 - after_b / before_b) * 100 if before_b else 0.0
+                  print(f"{name}: {before_b:,} -> {after_b:,} bytes ({pct:.1f}% smaller), {before_p:,} -> {after_p:,} points")
+
+              overall_pct = (1 - total_after / total_before) * 100 if total_before else 0.0
+              print()
+              print(f"Backfilled {len(files)} file(s): {total_before:,} -> {total_after:,} bytes total ({overall_pct:.1f}% smaller)")
+
+          if __name__ == "__main__":
+              main()
+          PYEOF
+          python3 /tmp/backfill_perimeters.py
+
       - name: Report perimeter history file sizes
         run: |-
           set -euo pipefail
@@ -390,8 +655,13 @@ jobs:
 
           # 1 MB is comfortably downloadable on any connection; flag above
           # that as worth keeping an eye on. 5 MB is where it's worth
-          # actually addressing (geometry simplification, or skipping a
-          # day's snapshot when the shape hasn't meaningfully changed).
+          # actually addressing. Archived geometry is already coordinate-
+          # rounded, Douglas-Peucker simplified, and deduped against
+          # unchanged consecutive days (see archive_perimeters.py above)
+          # before it ever reaches disk, so a file still this large despite
+          # all three means a genuinely long-running, highly complex fire
+          # with real day-over-day growth throughout -- the remaining lever
+          # is pruning old snapshots, not squeezing further on shape.
           WATCH_BYTES=1048576
           ACT_BYTES=5242880
           watch_count=0
@@ -401,7 +671,7 @@ jobs:
             size=$(stat -c%s "$f")
             if [ "$size" -ge "$ACT_BYTES" ]; then
               kb=$((size / 1024))
-              echo "::warning::${f} is ${kb} KB (over 5 MB) -- consider geometry simplification or day-skipping for this fire"
+              echo "::warning::${f} is ${kb} KB (over 5 MB) even after simplification and deduping -- consider pruning old snapshots for this fire"
               act_count=$((act_count + 1))
             elif [ "$size" -ge "$WATCH_BYTES" ]; then
               kb=$((size / 1024))
