@@ -13902,7 +13902,7 @@
         "FireDiscoveryDateTime": 1784654520000,
         "IncidentName": "Keystone",
         "IncidentTypeCategory": "WF",
-        "PercentContained": 95,
+        "PercentContained": 100,
         "POOCounty": "Rio Blanco",
         "POOState": "US-CO"
       }
@@ -15672,8 +15672,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -107.576627489651,
-          37.9308889962695
+          -107.576627489181,
+          37.9263889956556
         ]
       },
       "properties": {
@@ -15758,7 +15758,7 @@
       },
       "properties": {
         "IncidentSize": 0.2,
-        "FireCause": "Undetermined",
+        "FireCause": "Natural",
         "FireDiscoveryDateTime": 1785202809000,
         "IncidentName": "Browns Canyon",
         "IncidentTypeCategory": "WF",
@@ -15812,8 +15812,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -105.728370092222,
-          38.0548161339179
+          -105.714632089581,
+          38.0592841354405
         ]
       },
       "properties": {
@@ -15937,13 +15937,53 @@
         ]
       },
       "properties": {
-        "IncidentSize": 10,
+        "IncidentSize": 20,
         "FireCause": "Undetermined",
         "FireDiscoveryDateTime": 1785260019000,
         "IncidentName": "Stove Canyon",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
         "POOCounty": "Garfield",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.400188668729,
+          37.9391739431179
+        ]
+      },
+      "properties": {
+        "IncidentSize": 0.1,
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1785261345000,
+        "IncidentName": "Tattle Tale",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "San Miguel",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.286312651141,
+          38.0043079593742
+        ]
+      },
+      "properties": {
+        "IncidentSize": 0.1,
+        "FireCause": "Natural",
+        "FireDiscoveryDateTime": 1785262060000,
+        "IncidentName": "Goshorn",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "San Miguel",
         "POOState": "US-CO"
       }
     },
@@ -15972,8 +16012,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -105.918727066687,
-          37.3769730249234
+          -106.007577105127,
+          37.5637730461165
         ]
       },
       "properties": {
@@ -15984,6 +16024,66 @@
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
         "POOCounty": "Alamosa",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.574543619148,
+          39.1179731557191
+        ]
+      },
+      "properties": {
+        "IncidentSize": 0.1,
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1785269608000,
+        "IncidentName": "Dyke Creek",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Delta",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.985217278744,
+          37.1246549221751
+        ]
+      },
+      "properties": {
+        "IncidentSize": 35,
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1785273084000,
+        "IncidentName": "Rio Blanco",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Archuleta",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.806177719952,
+          39.5472231955861
+        ]
+      },
+      "properties": {
+        "IncidentSize": 0.1,
+        "FireCause": "Natural",
+        "FireDiscoveryDateTime": 1785275033000,
+        "IncidentName": "Rocky Point",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Garfield",
         "POOState": "US-CO"
       }
     }
