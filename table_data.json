@@ -10158,7 +10158,7 @@
       },
       "properties": {
         "IncidentSize": 0.1,
-        "FireCause": "Undetermined",
+        "FireCause": "Natural",
         "FireDiscoveryDateTime": 1783603329000,
         "IncidentName": "Walton",
         "IncidentTypeCategory": "WF",
@@ -10678,7 +10678,7 @@
       },
       "properties": {
         "IncidentSize": 309,
-        "FireCause": "Undetermined",
+        "FireCause": "Natural",
         "FireDiscoveryDateTime": 1783877280000,
         "IncidentName": "Fishhook",
         "IncidentTypeCategory": "WF",
@@ -17452,6 +17452,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -108.825693693309,
+          37.2970708292251
+        ]
+      },
+      "properties": {
+        "IncidentSize": 0.1,
+        "FireCause": "Natural",
+        "FireDiscoveryDateTime": 1785439807000,
+        "IncidentName": "Berry Creek 2",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Montezuma",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -108.851757696072,
           37.2695978238521
         ]
@@ -17719,7 +17739,7 @@
       "properties": {
         "IncidentSize": 0.1,
         "FireCause": "Undetermined",
-        "FireDiscoveryDateTime": 1785514992000,
+        "FireDiscoveryDateTime": 1785514980000,
         "IncidentName": "Pine Creek",
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
@@ -17792,13 +17812,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -108.85554369405,
-          37.2414888198244
+          -108.855010693928,
+          37.2413948198459
         ]
       },
       "properties": {
-        "IncidentSize": 0.1,
-        "FireCause": "Undetermined",
+        "IncidentSize": 0.25,
+        "FireCause": "Natural",
         "FireDiscoveryDateTime": 1785518709000,
         "IncidentName": "Hand",
         "IncidentTypeCategory": "WF",
@@ -18024,6 +18044,66 @@
         "IncidentTypeCategory": "WF",
         "PercentContained": null,
         "POOCounty": "Mesa",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.236293544504,
+          37.0652558352616
+        ]
+      },
+      "properties": {
+        "IncidentSize": 0.15,
+        "FireCause": "Natural",
+        "FireDiscoveryDateTime": 1785698160000,
+        "IncidentName": "Johnny Pond",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "La Plata",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.376976994553,
+          37.8783731312969
+        ]
+      },
+      "properties": {
+        "IncidentSize": 0.25,
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1785701966000,
+        "IncidentName": "Muddy Creek",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Huerfano",
+        "POOState": "US-CO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.842843695967,
+          37.2873388268126
+        ]
+      },
+      "properties": {
+        "IncidentSize": 15,
+        "FireCause": "Undetermined",
+        "FireDiscoveryDateTime": 1785705540000,
+        "IncidentName": "Finley Canyon",
+        "IncidentTypeCategory": "WF",
+        "PercentContained": null,
+        "POOCounty": "Montezuma",
         "POOState": "US-CO"
       }
     }
