@@ -42,6 +42,13 @@ Object keyed by `attr_UniqueFireIdentifier`. One entry per fire ever
 archived — entries for inactive fires are kept, not deleted, so past fires
 stay browsable in the Perimeters tab picker.
 
+`active` is `true` only if the fire is both present in that run's NIFC
+current-perimeters feed *and* not reported at 100% containment — NIFC's
+feed keeps a fire listed for a while after full containment (until it's
+formally declared out), so containment is checked separately rather than
+trusting feed presence alone. This is what puts a fire in the "Active
+fires" vs. "Past fires" group in the Perimeters tab picker.
+
 ```json
 {
   "2026-COCUX-001160": {

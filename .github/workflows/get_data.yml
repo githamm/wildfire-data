@@ -515,7 +515,16 @@ jobs:
                   entry["county"] = props.get("attr_POOCounty")
                   entry["discoveryDate"] = props.get("attr_FireDiscoveryDateTime")
                   entry["lastSeen"] = TODAY
-                  entry["active"] = True
+                  # NIFC's "current" perimeters feed keeps a fire listed for
+                  # a while after it reaches 100% containment (until it's
+                  # formally declared out / drops off the feed's rolling
+                  # window), which used to leave fully-contained fires stuck
+                  # in the Perimeters picker's "Active fires" group even
+                  # though the card already showed 100%. Treat 100%
+                  # containment as inactive regardless of the feed still
+                  # reporting the fire, so the picker matches what the
+                  # containment number already says.
+                  entry["active"] = props.get("attr_PercentContained") != 100
                   # Latest known acreage, not an all-time peak: a running max
                   # here (the old "peakAcres") could only ratchet upward and
                   # would silently freeze whenever a fire was briefly absent
